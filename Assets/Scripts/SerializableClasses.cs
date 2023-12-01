@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -11,6 +12,7 @@ public struct BvhData
     public GlobalInfo globalInfo;
     public List<Triangle> triangles;
     public List<Node> nodes;
+    public InfluenceArea influenceArea;
 
 
     public Node findNode(int id)
@@ -27,6 +29,27 @@ public struct BvhData
     {
         return nodes[0];
     }
+}
+
+[Serializable]
+public struct InfluenceArea
+{
+    public string type;
+    public Plane plane;
+    public List<float> size;
+    public float density;
+
+    public Vector2 Size { get { return new Vector2(size[0], size[1]); } }
+}
+
+[Serializable]
+public struct Plane
+{
+    public List<float> point;
+    public List<float> normal;
+
+    public Vector3 Point { get { return new Vector3(point[0], point[1], point[2]); } }
+    public Vector3 Normal { get { return new Vector3(normal[0], normal[1], normal[2]); } }
 }
 
 [Serializable]
