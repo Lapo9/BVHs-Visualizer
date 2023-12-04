@@ -100,6 +100,7 @@ public class Deserializer : MonoBehaviour
         //create the BVH to show
         createTriangles();
         createNode(bvhData.root().core.id);
+        createInfluenceArea();
     }
 
     private void createTriangles()
@@ -109,6 +110,11 @@ public class Deserializer : MonoBehaviour
         {
             ConcreteTriangle.initialize(t, parent, concreteTrianglePrefab);
         }
+    }
+
+    private void createInfluenceArea()
+    {
+        ConcreteInfluenceArea.initialize(bvhData.influenceArea);
     }
 
     private void createNode(int id, ConcreteNode parent = null)
@@ -140,6 +146,13 @@ public class Deserializer : MonoBehaviour
         foreach (Transform t in triangles)
         {
             EditorApplication.delayCall += () => { DestroyImmediate(t.gameObject); };
+        }
+
+        //delete influence area
+        var influenceArea = GameObject.Find("InfluenceArea");
+        if (oldRoot != null)
+        {
+            EditorApplication.delayCall += () => { DestroyImmediate(influenceArea); };
         }
     }
 

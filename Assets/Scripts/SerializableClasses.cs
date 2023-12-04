@@ -1,6 +1,4 @@
-using JetBrains.Annotations;
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -60,6 +58,8 @@ public struct GlobalInfo
     public int numberOfNodes;
     public float pahCost;
     public float sahCost;
+    public float internalNodeCost;
+    public float leafNodeCost;
 }
 
 [Serializable]

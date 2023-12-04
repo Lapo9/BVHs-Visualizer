@@ -1,10 +1,22 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ConcreteTriangle : MonoBehaviour
 {
+    [SerializeField] int id;
+    [SerializeField] Vector3 v1;
+    [SerializeField] Vector3 v2;
+    [SerializeField] Vector3 v3;
+
     public Triangle Triangle { get; private set; }
+
+
+    void OnDrawGizmos()
+    {
+        id = Triangle.id;
+        v1 = Triangle.V1;
+        v2 = Triangle.V2;
+        v3 = Triangle.V3;
+    }
 
     public static ConcreteTriangle initialize(Triangle triangle, Transform parent, ConcreteTriangle prefab)
     {
@@ -24,7 +36,10 @@ public class ConcreteTriangle : MonoBehaviour
 
         //set properties
         concreteTriangle.transform.parent = parent;
-        concreteTriangle.name = "Triangle";
+        concreteTriangle.name = triangle.id.ToString();
+
+        //set data
+        concreteTriangle.Triangle = triangle;
 
         return concreteTriangle;
     }

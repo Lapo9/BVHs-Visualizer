@@ -1,12 +1,27 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 [ExecuteAlways]
 public class ConcreteNode : MonoBehaviour
 {
+    [SerializeField] int id;
+    [SerializeField] int leftChild;
+    [SerializeField] int rightChild;
+    [SerializeField] int[] triangles;
+    [Header("AABB")]
+    [SerializeField] Vector3 max;
+    [SerializeField] Vector3 min;
+
     public Node Node { get; private set; }
+
+    void OnDrawGizmos()
+    {
+        id = Node.core.id;
+        leftChild = Node.core.leftChild;
+        rightChild = Node.core.rightChild;
+        triangles = Node.core.triangles.ToArray();
+        max = Node.core.aabb.Max;
+        min = Node.core.aabb.Min;
+    }
 
     public static ConcreteNode initialize(Node node, ConcreteNode parent, ConcreteNode prefab)
     {
