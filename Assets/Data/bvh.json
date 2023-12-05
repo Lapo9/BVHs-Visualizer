@@ -41,110 +41,110 @@
             1.136528491973877
           ]
         },
-        "id": 705067733152,
-        "leftChild": 2660135176176,
-        "rightChild": 2660135185056,
+        "id": 695003500656,
+        "leftChild": 1824965232560,
+        "rightChild": 1824965240720,
         "triangles": [
-          2660135265408,
-          2660135265444,
-          2660135265480,
-          2660135265516,
-          2660135265552,
-          2660135265588,
-          2660135265624,
-          2660135265660,
-          2660135265696,
-          2660135265732,
-          2660135265768,
-          2660135265804,
-          2660135265840,
-          2660135265876,
-          2660135265912,
-          2660135265948,
-          2660135265984,
-          2660135266020,
-          2660135266056,
-          2660135266092,
-          2660135266128,
-          2660135266164,
-          2660135266200,
-          2660135266236,
-          2660135266272,
-          2660135266308,
-          2660135266344,
-          2660135266380,
-          2660135266416,
-          2660135266452,
-          2660135266488,
-          2660135266524,
-          2660135266560,
-          2660135266596,
-          2660135266632,
-          2660135266668,
-          2660135266704,
-          2660135266740,
-          2660135266776,
-          2660135266812,
-          2660135266848,
-          2660135266884,
-          2660135266920,
-          2660135266956,
-          2660135266992,
-          2660135267028,
-          2660135267064,
-          2660135267100,
-          2660135267136,
-          2660135267172,
-          2660135267208,
-          2660135267244,
-          2660135267280,
-          2660135267316,
-          2660135267352,
-          2660135267388,
-          2660135267424,
-          2660135267460,
-          2660135267496,
-          2660135267532,
-          2660135267568,
-          2660135267604,
-          2660135267640,
-          2660135267676,
-          2660135267712,
-          2660135267748,
-          2660135267784,
-          2660135267820,
-          2660135267856,
-          2660135267892,
-          2660135267928,
-          2660135267964,
-          2660135268000,
-          2660135268036,
-          2660135268072,
-          2660135268108,
-          2660135268144,
-          2660135268180,
-          2660135268216,
-          2660135268252,
-          2660135268288,
-          2660135268324,
-          2660135268360,
-          2660135268396,
-          2660135268432,
-          2660135268468,
-          2660135268504,
-          2660135268540,
-          2660135268576,
-          2660135268612,
-          2660135268648,
-          2660135268684,
-          2660135268720,
-          2660135268756,
-          2660135268792,
-          2660135268828,
-          2660135268864,
-          2660135268900,
-          2660135268936,
-          2660135268972
+          1824965322912,
+          1824965322948,
+          1824965322984,
+          1824965323020,
+          1824965323056,
+          1824965323092,
+          1824965323128,
+          1824965323164,
+          1824965323200,
+          1824965323236,
+          1824965323272,
+          1824965323308,
+          1824965323344,
+          1824965323380,
+          1824965323416,
+          1824965323452,
+          1824965323488,
+          1824965323524,
+          1824965323560,
+          1824965323596,
+          1824965323632,
+          1824965323668,
+          1824965323704,
+          1824965323740,
+          1824965323776,
+          1824965323812,
+          1824965323848,
+          1824965323884,
+          1824965323920,
+          1824965323956,
+          1824965323992,
+          1824965324028,
+          1824965324064,
+          1824965324100,
+          1824965324136,
+          1824965324172,
+          1824965324208,
+          1824965324244,
+          1824965324280,
+          1824965324316,
+          1824965324352,
+          1824965324388,
+          1824965324424,
+          1824965324460,
+          1824965324496,
+          1824965324532,
+          1824965324568,
+          1824965324604,
+          1824965324640,
+          1824965324676,
+          1824965324712,
+          1824965324748,
+          1824965324784,
+          1824965324820,
+          1824965324856,
+          1824965324892,
+          1824965324928,
+          1824965324964,
+          1824965325000,
+          1824965325036,
+          1824965325072,
+          1824965325108,
+          1824965325144,
+          1824965325180,
+          1824965325216,
+          1824965325252,
+          1824965325288,
+          1824965325324,
+          1824965325360,
+          1824965325396,
+          1824965325432,
+          1824965325468,
+          1824965325504,
+          1824965325540,
+          1824965325576,
+          1824965325612,
+          1824965325648,
+          1824965325684,
+          1824965325720,
+          1824965325756,
+          1824965325792,
+          1824965325828,
+          1824965325864,
+          1824965325900,
+          1824965325936,
+          1824965325972,
+          1824965326008,
+          1824965326044,
+          1824965326080,
+          1824965326116,
+          1824965326152,
+          1824965326188,
+          1824965326224,
+          1824965326260,
+          1824965326296,
+          1824965326332,
+          1824965326368,
+          1824965326404,
+          1824965326440,
+          1824965326476
         ]
       },
       "metrics": {
@@ -152,6 +152,25 @@
         "pah": 100.0,
         "sa": 666.01953125,
         "sah": 100.0
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.04520000144839287,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.04520000144839287,
+        "computeCostAverage": 0.01200138870626688,
+        "computeCostCount": 72,
+        "computeCostTot": 0.8640999794006348,
+        "nodesCreationAverage": 0.004525000229477882,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.16290000081062317,
+        "shouldStopAverage": 0.003800000064074993,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.007600000128149986,
+        "splitTrianglesAverage": 0.029044441878795624,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 1.0455999374389648,
+        "splittingTot": 2.281899929046631,
+        "total": 2.3361001014709473
       }
     },
     {
@@ -168,68 +187,68 @@
             1.3104248046875
           ]
         },
-        "id": 2660135176176,
-        "leftChild": 2660135298112,
-        "rightChild": 2660135298256,
+        "id": 1824965232560,
+        "leftChild": 1824965328080,
+        "rightChild": 1824965333392,
         "triangles": [
-          2660135265444,
-          2660135265516,
-          2660135265552,
-          2660135265588,
-          2660135265696,
-          2660135265732,
-          2660135265768,
-          2660135265840,
-          2660135265876,
-          2660135265912,
-          2660135266020,
-          2660135266092,
-          2660135266128,
-          2660135266164,
-          2660135266200,
-          2660135266344,
-          2660135266416,
-          2660135266488,
-          2660135266560,
-          2660135266596,
-          2660135266668,
-          2660135266704,
-          2660135266776,
-          2660135266812,
-          2660135266848,
-          2660135267028,
-          2660135267136,
-          2660135267172,
-          2660135267316,
-          2660135267460,
-          2660135267532,
-          2660135267640,
-          2660135267748,
-          2660135267784,
-          2660135267856,
-          2660135267892,
-          2660135267928,
-          2660135267964,
-          2660135268036,
-          2660135268072,
-          2660135268108,
-          2660135268144,
-          2660135268180,
-          2660135268216,
-          2660135268252,
-          2660135268288,
-          2660135268324,
-          2660135268432,
-          2660135268468,
-          2660135268504,
-          2660135268540,
-          2660135268576,
-          2660135268612,
-          2660135268648,
-          2660135268720,
-          2660135268756,
-          2660135268936,
-          2660135268972
+          1824965322948,
+          1824965323020,
+          1824965323056,
+          1824965323092,
+          1824965323200,
+          1824965323236,
+          1824965323272,
+          1824965323344,
+          1824965323380,
+          1824965323416,
+          1824965323524,
+          1824965323596,
+          1824965323632,
+          1824965323668,
+          1824965323704,
+          1824965323848,
+          1824965323920,
+          1824965323992,
+          1824965324064,
+          1824965324100,
+          1824965324172,
+          1824965324208,
+          1824965324280,
+          1824965324316,
+          1824965324352,
+          1824965324532,
+          1824965324640,
+          1824965324676,
+          1824965324820,
+          1824965324964,
+          1824965325036,
+          1824965325144,
+          1824965325252,
+          1824965325288,
+          1824965325360,
+          1824965325396,
+          1824965325432,
+          1824965325468,
+          1824965325540,
+          1824965325576,
+          1824965325612,
+          1824965325648,
+          1824965325684,
+          1824965325720,
+          1824965325756,
+          1824965325792,
+          1824965325828,
+          1824965325936,
+          1824965325972,
+          1824965326008,
+          1824965326044,
+          1824965326080,
+          1824965326116,
+          1824965326152,
+          1824965326224,
+          1824965326260,
+          1824965326440,
+          1824965326476
         ]
       },
       "metrics": {
@@ -237,6 +256,25 @@
         "pah": 31.201730728149414,
         "sa": 447.6086120605469,
         "sah": 38.97978973388672
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.007400000002235174,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.007400000002235174,
+        "computeCostAverage": 0.011812498793005943,
+        "computeCostCount": 72,
+        "computeCostTot": 0.8504999279975891,
+        "nodesCreationAverage": 0.003750000149011612,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.13500000536441803,
+        "shouldStopAverage": 0.0012499999720603228,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.0024999999441206455,
+        "splitTrianglesAverage": 0.02175278216600418,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.7831001281738281,
+        "splittingTot": 1.9673999547958374,
+        "total": 1.9797999858856201
       }
     },
     {
@@ -253,38 +291,38 @@
             1.6539061069488525
           ]
         },
-        "id": 2660135298112,
-        "leftChild": 2660135298400,
-        "rightChild": 2660135298544,
+        "id": 1824965328080,
+        "leftChild": 1824965332720,
+        "rightChild": 1824965346384,
         "triangles": [
-          2660135265516,
-          2660135265588,
-          2660135265840,
-          2660135265876,
-          2660135266020,
-          2660135266092,
-          2660135266128,
-          2660135266416,
-          2660135266488,
-          2660135266560,
-          2660135266596,
-          2660135266668,
-          2660135266812,
-          2660135267028,
-          2660135267460,
-          2660135267640,
-          2660135267748,
-          2660135267856,
-          2660135267892,
-          2660135267928,
-          2660135267964,
-          2660135268144,
-          2660135268180,
-          2660135268288,
-          2660135268540,
-          2660135268576,
-          2660135268648,
-          2660135268720
+          1824965323020,
+          1824965323092,
+          1824965323344,
+          1824965323380,
+          1824965323524,
+          1824965323596,
+          1824965323632,
+          1824965323920,
+          1824965323992,
+          1824965324064,
+          1824965324100,
+          1824965324172,
+          1824965324316,
+          1824965324532,
+          1824965324964,
+          1824965325144,
+          1824965325252,
+          1824965325360,
+          1824965325396,
+          1824965325432,
+          1824965325468,
+          1824965325648,
+          1824965325684,
+          1824965325792,
+          1824965326044,
+          1824965326080,
+          1824965326152,
+          1824965326224
         ]
       },
       "metrics": {
@@ -292,6 +330,25 @@
         "pah": 8.913419723510742,
         "sa": 288.2000732421875,
         "sah": 12.116164207458496
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.010599999688565731,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.010599999688565731,
+        "computeCostAverage": 0.011701389215886593,
+        "computeCostCount": 72,
+        "computeCostTot": 0.8425000309944153,
+        "nodesCreationAverage": 0.003266666317358613,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.1175999864935875,
+        "shouldStopAverage": 0.0013000000035390258,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.0026000000070780516,
+        "splitTrianglesAverage": 0.015699999406933784,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.5651999711990356,
+        "splittingTot": 1.7171000242233276,
+        "total": 1.7329000234603882
       }
     },
     {
@@ -308,27 +365,27 @@
             2.392984390258789
           ]
         },
-        "id": 2660135298400,
-        "leftChild": 2660135296960,
-        "rightChild": 2660135299120,
+        "id": 1824965332720,
+        "leftChild": 1824965346784,
+        "rightChild": 1824965346976,
         "triangles": [
-          2660135265516,
-          2660135265588,
-          2660135265840,
-          2660135266020,
-          2660135266128,
-          2660135266416,
-          2660135266488,
-          2660135266560,
-          2660135266596,
-          2660135266668,
-          2660135267460,
-          2660135267856,
-          2660135267892,
-          2660135267964,
-          2660135268144,
-          2660135268180,
-          2660135268576
+          1824965323020,
+          1824965323092,
+          1824965323344,
+          1824965323524,
+          1824965323632,
+          1824965323920,
+          1824965323992,
+          1824965324064,
+          1824965324100,
+          1824965324172,
+          1824965324964,
+          1824965325360,
+          1824965325396,
+          1824965325468,
+          1824965325648,
+          1824965325684,
+          1824965326080
         ]
       },
       "metrics": {
@@ -336,6 +393,25 @@
         "pah": 2.310615301132202,
         "sa": 171.4105682373047,
         "sah": 4.375216484069824
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.005100000184029341,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.005100000184029341,
+        "computeCostAverage": 0.013074999675154686,
+        "computeCostCount": 72,
+        "computeCostTot": 0.9413999915122986,
+        "nodesCreationAverage": 0.0030750001315027475,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.11070000380277634,
+        "shouldStopAverage": 0.0013500000350177288,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.0027000000700354576,
+        "splitTrianglesAverage": 0.013008330017328262,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.46829989552497864,
+        "splittingTot": 1.7101000547409058,
+        "total": 1.7201000452041626
       }
     },
     {
@@ -352,20 +428,20 @@
             2.392984390258789
           ]
         },
-        "id": 2660135296960,
-        "leftChild": 2660135300560,
-        "rightChild": 2660135299840,
+        "id": 1824965346784,
+        "leftChild": 1824965347168,
+        "rightChild": 1824965351712,
         "triangles": [
-          2660135265516,
-          2660135266020,
-          2660135266128,
-          2660135266416,
-          2660135266560,
-          2660135266596,
-          2660135267460,
-          2660135267856,
-          2660135267964,
-          2660135268576
+          1824965323020,
+          1824965323524,
+          1824965323632,
+          1824965323920,
+          1824965324064,
+          1824965324100,
+          1824965324964,
+          1824965325360,
+          1824965325468,
+          1824965326080
         ]
       },
       "metrics": {
@@ -373,6 +449,25 @@
         "pah": 0.5734829902648926,
         "sa": 98.28459167480469,
         "sah": 1.4757013320922852
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.005100000184029341,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.005100000184029341,
+        "computeCostAverage": 0.011745830066502094,
+        "computeCostCount": 72,
+        "computeCostTot": 0.8456997871398926,
+        "nodesCreationAverage": 0.0028138896450400352,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.10130002349615097,
+        "shouldStopAverage": 0.0012499999720603228,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.0024999999441206455,
+        "splitTrianglesAverage": 0.010088889859616756,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.36320003867149353,
+        "splittingTot": 1.4931999444961548,
+        "total": 1.503000020980835
       }
     },
     {
@@ -389,16 +484,16 @@
             2.392984390258789
           ]
         },
-        "id": 2660135300560,
-        "leftChild": 2660135300272,
-        "rightChild": 2660135299984,
+        "id": 1824965347168,
+        "leftChild": 1824965352256,
+        "rightChild": 1824965352448,
         "triangles": [
-          2660135266020,
-          2660135266128,
-          2660135266560,
-          2660135267460,
-          2660135267856,
-          2660135268576
+          1824965323524,
+          1824965323632,
+          1824965324064,
+          1824965324964,
+          1824965325360,
+          1824965326080
         ]
       },
       "metrics": {
@@ -406,6 +501,25 @@
         "pah": 0.20334580540657043,
         "sa": 63.921260833740234,
         "sah": 0.5758503675460815
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.00930000003427267,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.00930000003427267,
+        "computeCostAverage": 0.013223604299128056,
+        "computeCostCount": 72,
+        "computeCostTot": 0.9520995020866394,
+        "nodesCreationAverage": 0.00266111153177917,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.0958000123500824,
+        "shouldStopAverage": 0.0012000000569969416,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.002400000113993883,
+        "splitTrianglesAverage": 0.007572221104055643,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.2725999653339386,
+        "splittingTot": 1.50409996509552,
+        "total": 1.5190000534057617
       }
     },
     {
@@ -422,14 +536,14 @@
             2.58417010307312
           ]
         },
-        "id": 2660135300272,
-        "leftChild": 2660135300128,
-        "rightChild": 2660135298832,
+        "id": 1824965352256,
+        "leftChild": 1824965352848,
+        "rightChild": 1824965353040,
         "triangles": [
-          2660135266128,
-          2660135266560,
-          2660135267856,
-          2660135268576
+          1824965323632,
+          1824965324064,
+          1824965325360,
+          1824965326080
         ]
       },
       "metrics": {
@@ -437,6 +551,25 @@
         "pah": 0.10433229804039001,
         "sa": 32.983375549316406,
         "sah": 0.1980925351381302
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.012400000356137753,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.012400000356137753,
+        "computeCostAverage": 0.011740271002054214,
+        "computeCostCount": 72,
+        "computeCostTot": 0.845299482345581,
+        "nodesCreationAverage": 0.002572222612798214,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.092600017786026,
+        "shouldStopAverage": 0.0011500000255182385,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.002300000051036477,
+        "splitTrianglesAverage": 0.006225000135600567,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.2241000086069107,
+        "splittingTot": 1.333299994468689,
+        "total": 1.3507000207901
       }
     },
     {
@@ -453,12 +586,12 @@
             4.0608978271484375
           ]
         },
-        "id": 2660135300128,
+        "id": 1824965352848,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135266560,
-          2660135268576
+          1824965324064,
+          1824965326080
         ]
       },
       "metrics": {
@@ -466,6 +599,25 @@
         "pah": 0.04438624531030655,
         "sa": 17.605642318725586,
         "sah": 0.06344190239906311
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -482,12 +634,12 @@
             2.58417010307312
           ]
         },
-        "id": 2660135298832,
+        "id": 1824965353040,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135266128,
-          2660135267856
+          1824965323632,
+          1824965325360
         ]
       },
       "metrics": {
@@ -495,6 +647,25 @@
         "pah": 0.024230778217315674,
         "sa": 17.589441299438477,
         "sah": 0.06338351964950562
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -511,12 +682,12 @@
             2.392984390258789
           ]
         },
-        "id": 2660135299984,
+        "id": 1824965352448,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135266020,
-          2660135267460
+          1824965323524,
+          1824965324964
         ]
       },
       "metrics": {
@@ -524,6 +695,25 @@
         "pah": 0.015628471970558167,
         "sa": 32.70286560058594,
         "sah": 0.11784471571445465
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -540,14 +730,14 @@
             2.4114956855773926
           ]
         },
-        "id": 2660135299840,
-        "leftChild": 2660135297824,
-        "rightChild": 2660135298688,
+        "id": 1824965351712,
+        "leftChild": 1824965352640,
+        "rightChild": 1824965355616,
         "triangles": [
-          2660135265516,
-          2660135266416,
-          2660135266596,
-          2660135267964
+          1824965323020,
+          1824965323920,
+          1824965324100,
+          1824965325468
         ]
       },
       "metrics": {
@@ -555,6 +745,25 @@
         "pah": 0.08829469233751297,
         "sa": 55.102046966552734,
         "sah": 0.33093351125717163
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.004900000058114529,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.004900000058114529,
+        "computeCostAverage": 0.011819439940154552,
+        "computeCostCount": 72,
+        "computeCostTot": 0.850999653339386,
+        "nodesCreationAverage": 0.002569444477558136,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.0925000011920929,
+        "shouldStopAverage": 0.0012000000569969416,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.002400000113993883,
+        "splitTrianglesAverage": 0.006288888864219189,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.2264000028371811,
+        "splittingTot": 1.339400053024292,
+        "total": 1.3509999513626099
       }
     },
     {
@@ -571,11 +780,11 @@
             9.139710426330566
           ]
         },
-        "id": 2660135297824,
+        "id": 1824965352640,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135267964
+          1824965325468
         ]
       },
       "metrics": {
@@ -583,6 +792,25 @@
         "pah": 0.005398237146437168,
         "sa": 3.335597515106201,
         "sah": 0.00600990979000926
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -599,13 +827,13 @@
             2.4114956855773926
           ]
         },
-        "id": 2660135298688,
+        "id": 1824965355616,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135265516,
-          2660135266416,
-          2660135266596
+          1824965323020,
+          1824965323920,
+          1824965324100
         ]
       },
       "metrics": {
@@ -613,6 +841,25 @@
         "pah": 0.06299854069948196,
         "sa": 33.95458984375,
         "sah": 0.1835329532623291
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -629,17 +876,17 @@
             4.236485958099365
           ]
         },
-        "id": 2660135299120,
-        "leftChild": 2660135299696,
-        "rightChild": 2660135297968,
+        "id": 1824965346976,
+        "leftChild": 1824965355232,
+        "rightChild": 1824965353696,
         "triangles": [
-          2660135265588,
-          2660135265840,
-          2660135266488,
-          2660135266668,
-          2660135267892,
-          2660135268144,
-          2660135268180
+          1824965323092,
+          1824965323344,
+          1824965323992,
+          1824965324172,
+          1824965325396,
+          1824965325648,
+          1824965325684
         ]
       },
       "metrics": {
@@ -647,6 +894,25 @@
         "pah": 0.3954531252384186,
         "sa": 67.53236389160156,
         "sah": 0.7097787857055664
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.004699999932199717,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.004699999932199717,
+        "computeCostAverage": 0.011745830066502094,
+        "computeCostCount": 72,
+        "computeCostTot": 0.8456997871398926,
+        "nodesCreationAverage": 0.0026916670612990856,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.09690001606941223,
+        "shouldStopAverage": 0.0012000000569969416,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.002400000113993883,
+        "splitTrianglesAverage": 0.008200000040233135,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.295199990272522,
+        "splittingTot": 1.4106999635696411,
+        "total": 1.4199999570846558
       }
     },
     {
@@ -663,12 +929,12 @@
             5.358870983123779
           ]
         },
-        "id": 2660135299696,
+        "id": 1824965355232,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135266668,
-          2660135267892
+          1824965324172,
+          1824965325396
         ]
       },
       "metrics": {
@@ -676,6 +942,25 @@
         "pah": 0.039896160364151,
         "sa": 13.177988052368164,
         "sah": 0.04748685285449028
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -692,15 +977,15 @@
             4.236485958099365
           ]
         },
-        "id": 2660135297968,
-        "leftChild": 2660135300416,
-        "rightChild": 2660135297536,
+        "id": 1824965353696,
+        "leftChild": 1824965353504,
+        "rightChild": 1824965354848,
         "triangles": [
-          2660135265588,
-          2660135265840,
-          2660135266488,
-          2660135268144,
-          2660135268180
+          1824965323092,
+          1824965323344,
+          1824965323992,
+          1824965325648,
+          1824965325684
         ]
       },
       "metrics": {
@@ -708,6 +993,25 @@
         "pah": 0.14538823068141937,
         "sa": 45.818206787109375,
         "sah": 0.3439704179763794
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.004999999888241291,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.004999999888241291,
+        "computeCostAverage": 0.011986106634140015,
+        "computeCostCount": 72,
+        "computeCostTot": 0.862999677658081,
+        "nodesCreationAverage": 0.0025861114263534546,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.09310001134872437,
+        "shouldStopAverage": 0.0012000000569969416,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.002400000113993883,
+        "splitTrianglesAverage": 0.007008333224803209,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.2522999942302704,
+        "splittingTot": 1.3809000253677368,
+        "total": 1.3904999494552612
       }
     },
     {
@@ -724,12 +1028,12 @@
             6.733591079711914
           ]
         },
-        "id": 2660135300416,
+        "id": 1824965353504,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135265588,
-          2660135268144
+          1824965323092,
+          1824965325648
         ]
       },
       "metrics": {
@@ -737,6 +1041,25 @@
         "pah": 0.024929756298661232,
         "sa": 14.664397239685059,
         "sah": 0.052843127399683
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -753,13 +1076,13 @@
             4.236485958099365
           ]
         },
-        "id": 2660135297536,
+        "id": 1824965354848,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135265840,
-          2660135266488,
-          2660135268180
+          1824965323344,
+          1824965323992,
+          1824965325684
         ]
       },
       "metrics": {
@@ -767,6 +1090,25 @@
         "pah": 0.04997678101062775,
         "sa": 17.43346405029297,
         "sah": 0.09423218667507172
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -783,21 +1125,21 @@
             1.6539061069488525
           ]
         },
-        "id": 2660135298544,
-        "leftChild": 2660135300704,
-        "rightChild": 2660135297248,
+        "id": 1824965346384,
+        "leftChild": 1824965356576,
+        "rightChild": 1824965355040,
         "triangles": [
-          2660135265876,
-          2660135266092,
-          2660135266812,
-          2660135267028,
-          2660135267640,
-          2660135267748,
-          2660135267928,
-          2660135268288,
-          2660135268540,
-          2660135268648,
-          2660135268720
+          1824965323380,
+          1824965323596,
+          1824965324316,
+          1824965324532,
+          1824965325144,
+          1824965325252,
+          1824965325432,
+          1824965325792,
+          1824965326044,
+          1824965326152,
+          1824965326224
         ]
       },
       "metrics": {
@@ -805,6 +1147,25 @@
         "pah": 2.0608632564544678,
         "sa": 211.5561981201172,
         "sah": 3.4940688610076904
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.005100000184029341,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.005100000184029341,
+        "computeCostAverage": 0.01168471947312355,
+        "computeCostCount": 72,
+        "computeCostTot": 0.841299831867218,
+        "nodesCreationAverage": 0.0028055557049810886,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.10100000351667404,
+        "shouldStopAverage": 0.0012000000569969416,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.002400000113993883,
+        "splitTrianglesAverage": 0.0101500004529953,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.3654000163078308,
+        "splittingTot": 1.4850000143051147,
+        "total": 1.4947999715805054
       }
     },
     {
@@ -821,15 +1182,15 @@
             1.6539061069488525
           ]
         },
-        "id": 2660135300704,
-        "leftChild": 2660135297392,
-        "rightChild": 2660135298976,
+        "id": 1824965356576,
+        "leftChild": 1824965355424,
+        "rightChild": 1824965353312,
         "triangles": [
-          2660135266092,
-          2660135266812,
-          2660135267748,
-          2660135267928,
-          2660135268288
+          1824965323596,
+          1824965324316,
+          1824965325252,
+          1824965325432,
+          1824965325792
         ]
       },
       "metrics": {
@@ -837,6 +1198,25 @@
         "pah": 0.5177780985832214,
         "sa": 151.66001892089844,
         "sah": 1.1385552883148193
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.004600000102072954,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.004600000102072954,
+        "computeCostAverage": 0.011633332818746567,
+        "computeCostCount": 72,
+        "computeCostTot": 0.8375999927520752,
+        "nodesCreationAverage": 0.002613888820633292,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.0940999984741211,
+        "shouldStopAverage": 0.0012000000569969416,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.002400000113993883,
+        "splitTrianglesAverage": 0.006930554285645485,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.24949994683265686,
+        "splittingTot": 1.3517999649047852,
+        "total": 1.360700011253357
       }
     },
     {
@@ -853,13 +1233,13 @@
             1.7727928161621094
           ]
         },
-        "id": 2660135297392,
-        "leftChild": 2660135299408,
-        "rightChild": 2660135299264,
+        "id": 1824965355424,
+        "leftChild": 1824965356960,
+        "rightChild": 1824965355808,
         "triangles": [
-          2660135266092,
-          2660135267928,
-          2660135268288
+          1824965323596,
+          1824965325432,
+          1824965325792
         ]
       },
       "metrics": {
@@ -867,6 +1247,25 @@
         "pah": 0.09828188270330429,
         "sa": 71.85047912597656,
         "sah": 0.323641300201416
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.004600000102072954,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.004600000102072954,
+        "computeCostAverage": 0.011680558323860168,
+        "computeCostCount": 72,
+        "computeCostTot": 0.8410001993179321,
+        "nodesCreationAverage": 0.0025888888631016016,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.09319999814033508,
+        "shouldStopAverage": 0.0011500000255182385,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.002300000051036477,
+        "splitTrianglesAverage": 0.005583334248512983,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.20100003480911255,
+        "splittingTot": 1.307800054550171,
+        "total": 1.3167999982833862
       }
     },
     {
@@ -883,12 +1282,12 @@
             5.495777606964111
           ]
         },
-        "id": 2660135299408,
+        "id": 1824965356960,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135266092,
-          2660135268288
+          1824965323596,
+          1824965325792
         ]
       },
       "metrics": {
@@ -896,6 +1295,25 @@
         "pah": 0.03751862794160843,
         "sa": 28.074907302856445,
         "sah": 0.10116787999868393
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -912,11 +1330,11 @@
             1.7727928161621094
           ]
         },
-        "id": 2660135299264,
+        "id": 1824965355808,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135267928
+          1824965325432
         ]
       },
       "metrics": {
@@ -924,6 +1342,25 @@
         "pah": 0.002624494954943657,
         "sa": 3.8813962936401367,
         "sah": 0.006993302144110203
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -940,12 +1377,12 @@
             1.6539061069488525
           ]
         },
-        "id": 2660135298976,
+        "id": 1824965353312,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135266812,
-          2660135267748
+          1824965324316,
+          1824965325252
         ]
       },
       "metrics": {
@@ -953,6 +1390,25 @@
         "pah": 0.08664249628782272,
         "sa": 28.59416961669922,
         "sah": 0.10303904116153717
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -969,16 +1425,16 @@
             2.8417437076568604
           ]
         },
-        "id": 2660135297248,
-        "leftChild": 2660135299552,
-        "rightChild": 2660135297680,
+        "id": 1824965355040,
+        "leftChild": 1824965356192,
+        "rightChild": 1824965356000,
         "triangles": [
-          2660135265876,
-          2660135267028,
-          2660135267640,
-          2660135268540,
-          2660135268648,
-          2660135268720
+          1824965323380,
+          1824965324532,
+          1824965325144,
+          1824965326044,
+          1824965326152,
+          1824965326224
         ]
       },
       "metrics": {
@@ -986,6 +1442,25 @@
         "pah": 0.32263654470443726,
         "sa": 101.7989501953125,
         "sah": 0.9170807600021362
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.0044999998062849045,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.0044999998062849045,
+        "computeCostAverage": 0.01219305582344532,
+        "computeCostCount": 72,
+        "computeCostTot": 0.8779000043869019,
+        "nodesCreationAverage": 0.002647222252562642,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.09530000388622284,
+        "shouldStopAverage": 0.0011500000255182385,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.002300000051036477,
+        "splitTrianglesAverage": 0.00776111101731658,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.2793999910354614,
+        "splittingTot": 1.426200032234192,
+        "total": 1.4352999925613403
       }
     },
     {
@@ -1002,13 +1477,13 @@
             2.8417437076568604
           ]
         },
-        "id": 2660135299552,
+        "id": 1824965356192,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135265876,
-          2660135267028,
-          2660135268720
+          1824965323380,
+          1824965324532,
+          1824965326224
         ]
       },
       "metrics": {
@@ -1016,6 +1491,25 @@
         "pah": 0.0696013793349266,
         "sa": 38.798553466796875,
         "sah": 0.20971576869487762
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -1032,13 +1526,13 @@
             3.696094036102295
           ]
         },
-        "id": 2660135297680,
+        "id": 1824965356000,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135267640,
-          2660135268540,
-          2660135268648
+          1824965325144,
+          1824965326044,
+          1824965326152
         ]
       },
       "metrics": {
@@ -1046,6 +1540,25 @@
         "pah": 0.08091596513986588,
         "sa": 47.94164276123047,
         "sah": 0.259136438369751
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -1062,40 +1575,40 @@
             1.3104248046875
           ]
         },
-        "id": 2660135298256,
-        "leftChild": 2660135310800,
-        "rightChild": 2660135311088,
+        "id": 1824965333392,
+        "leftChild": 1824965356384,
+        "rightChild": 1824965353888,
         "triangles": [
-          2660135265444,
-          2660135265552,
-          2660135265696,
-          2660135265732,
-          2660135265768,
-          2660135265912,
-          2660135266164,
-          2660135266200,
-          2660135266344,
-          2660135266704,
-          2660135266776,
-          2660135266848,
-          2660135267136,
-          2660135267172,
-          2660135267316,
-          2660135267532,
-          2660135267784,
-          2660135268036,
-          2660135268072,
-          2660135268108,
-          2660135268216,
-          2660135268252,
-          2660135268324,
-          2660135268432,
-          2660135268468,
-          2660135268504,
-          2660135268612,
-          2660135268756,
-          2660135268936,
-          2660135268972
+          1824965322948,
+          1824965323056,
+          1824965323200,
+          1824965323236,
+          1824965323272,
+          1824965323416,
+          1824965323668,
+          1824965323704,
+          1824965323848,
+          1824965324208,
+          1824965324280,
+          1824965324352,
+          1824965324640,
+          1824965324676,
+          1824965324820,
+          1824965325036,
+          1824965325288,
+          1824965325540,
+          1824965325576,
+          1824965325612,
+          1824965325720,
+          1824965325756,
+          1824965325828,
+          1824965325936,
+          1824965325972,
+          1824965326008,
+          1824965326116,
+          1824965326260,
+          1824965326440,
+          1824965326476
         ]
       },
       "metrics": {
@@ -1103,6 +1616,25 @@
         "pah": 6.678414821624756,
         "sa": 247.6464385986328,
         "sah": 11.15491771697998
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.004699999932199717,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.004699999932199717,
+        "computeCostAverage": 0.011995832435786724,
+        "computeCostCount": 72,
+        "computeCostTot": 0.8636999130249023,
+        "nodesCreationAverage": 0.0033916663378477097,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.12209998816251755,
+        "shouldStopAverage": 0.0011500000255182385,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.002300000051036477,
+        "splitTrianglesAverage": 0.016233336180448532,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.5844001173973083,
+        "splittingTot": 1.7590999603271484,
+        "total": 1.7683000564575195
       }
     },
     {
@@ -1119,21 +1651,21 @@
             1.3104248046875
           ]
         },
-        "id": 2660135310800,
-        "leftChild": 2660135307632,
-        "rightChild": 2660135306624,
+        "id": 1824965356384,
+        "leftChild": 1824965354656,
+        "rightChild": 1824965354080,
         "triangles": [
-          2660135265732,
-          2660135266164,
-          2660135266200,
-          2660135266776,
-          2660135267136,
-          2660135267172,
-          2660135267316,
-          2660135267784,
-          2660135268432,
-          2660135268468,
-          2660135268504
+          1824965323236,
+          1824965323668,
+          1824965323704,
+          1824965324280,
+          1824965324640,
+          1824965324676,
+          1824965324820,
+          1824965325288,
+          1824965325936,
+          1824965325972,
+          1824965326008
         ]
       },
       "metrics": {
@@ -1141,6 +1673,25 @@
         "pah": 0.7183527946472168,
         "sa": 124.02877044677734,
         "sah": 2.0484631061553955
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.005499999970197678,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.005499999970197678,
+        "computeCostAverage": 0.012194442562758923,
+        "computeCostCount": 72,
+        "computeCostTot": 0.8779998421669006,
+        "nodesCreationAverage": 0.002858333755284548,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.10290001332759857,
+        "shouldStopAverage": 0.0011500000255182385,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.002300000051036477,
+        "splitTrianglesAverage": 0.010144445113837719,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.365200012922287,
+        "splittingTot": 1.5267000198364258,
+        "total": 1.5367000102996826
       }
     },
     {
@@ -1157,16 +1708,16 @@
             1.3104248046875
           ]
         },
-        "id": 2660135307632,
-        "leftChild": 2660135311232,
-        "rightChild": 2660135308064,
+        "id": 1824965354656,
+        "leftChild": 1824965356768,
+        "rightChild": 1824965354272,
         "triangles": [
-          2660135267136,
-          2660135267172,
-          2660135267316,
-          2660135268432,
-          2660135268468,
-          2660135268504
+          1824965324640,
+          1824965324676,
+          1824965324820,
+          1824965325936,
+          1824965325972,
+          1824965326008
         ]
       },
       "metrics": {
@@ -1174,6 +1725,25 @@
         "pah": 0.1859278678894043,
         "sa": 78.98738098144531,
         "sah": 0.7115771770477295
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.005100000184029341,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.005100000184029341,
+        "computeCostAverage": 0.012340276502072811,
+        "computeCostCount": 72,
+        "computeCostTot": 0.888499915599823,
+        "nodesCreationAverage": 0.002611111383885145,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.09400001168251038,
+        "shouldStopAverage": 0.0011500000255182385,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.002300000051036477,
+        "splitTrianglesAverage": 0.007730556186288595,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.278300017118454,
+        "splittingTot": 1.4393999576568604,
+        "total": 1.4490000009536743
       }
     },
     {
@@ -1190,12 +1760,12 @@
             4.24547815322876
           ]
         },
-        "id": 2660135311232,
+        "id": 1824965356768,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135267172,
-          2660135268432
+          1824965324676,
+          1824965325936
         ]
       },
       "metrics": {
@@ -1203,6 +1773,25 @@
         "pah": 0.03454646095633507,
         "sa": 13.091073036193848,
         "sah": 0.04717365652322769
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -1219,14 +1808,14 @@
             1.3104248046875
           ]
         },
-        "id": 2660135308064,
-        "leftChild": 2660135309504,
-        "rightChild": 2660135311376,
+        "id": 1824965354272,
+        "leftChild": 1824965354464,
+        "rightChild": 1824965367232,
         "triangles": [
-          2660135267136,
-          2660135267316,
-          2660135268468,
-          2660135268504
+          1824965324640,
+          1824965324820,
+          1824965325972,
+          1824965326008
         ]
       },
       "metrics": {
@@ -1234,6 +1823,25 @@
         "pah": 0.08548395335674286,
         "sa": 64.45116424560547,
         "sah": 0.3870827257633209
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.006000000052154064,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.006000000052154064,
+        "computeCostAverage": 0.012747221626341343,
+        "computeCostCount": 72,
+        "computeCostTot": 0.9177999496459961,
+        "nodesCreationAverage": 0.002463889541104436,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.08870002627372742,
+        "shouldStopAverage": 0.0011500000255182385,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.002300000051036477,
+        "splitTrianglesAverage": 0.006305556278675795,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.22700002789497375,
+        "splittingTot": 1.4072999954223633,
+        "total": 1.4190000295639038
       }
     },
     {
@@ -1250,12 +1858,12 @@
             1.3104248046875
           ]
         },
-        "id": 2660135309504,
+        "id": 1824965354464,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135267136,
-          2660135268468
+          1824965324640,
+          1824965325972
         ]
       },
       "metrics": {
@@ -1263,6 +1871,25 @@
         "pah": 0.027944279834628105,
         "sa": 47.43376922607422,
         "sah": 0.170927494764328
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -1279,12 +1906,12 @@
             3.780390977859497
           ]
         },
-        "id": 2660135311376,
+        "id": 1824965367232,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135267316,
-          2660135268504
+          1824965324820,
+          1824965326008
         ]
       },
       "metrics": {
@@ -1292,6 +1919,25 @@
         "pah": 0.04345899075269699,
         "sa": 13.080155372619629,
         "sah": 0.047134313732385635
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -1308,15 +1954,15 @@
             2.1911544799804688
           ]
         },
-        "id": 2660135306624,
-        "leftChild": 2660135307920,
-        "rightChild": 2660135308496,
+        "id": 1824965354080,
+        "leftChild": 1824965367040,
+        "rightChild": 1824965368000,
         "triangles": [
-          2660135265732,
-          2660135266164,
-          2660135266200,
-          2660135266776,
-          2660135267784
+          1824965323236,
+          1824965323668,
+          1824965323704,
+          1824965324280,
+          1824965325288
         ]
       },
       "metrics": {
@@ -1324,6 +1970,25 @@
         "pah": 0.16623260080814362,
         "sa": 74.48008728027344,
         "sah": 0.5591434240341187
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.0044999998062849045,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.0044999998062849045,
+        "computeCostAverage": 0.01284861657768488,
+        "computeCostCount": 72,
+        "computeCostTot": 0.9251003861427307,
+        "nodesCreationAverage": 0.002605556510388851,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.09380003064870834,
+        "shouldStopAverage": 0.0012000000569969416,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.002400000113993883,
+        "splitTrianglesAverage": 0.007094444707036018,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.25540000200271606,
+        "splittingTot": 1.4494999647140503,
+        "total": 1.458400011062622
       }
     },
     {
@@ -1340,12 +2005,12 @@
             5.282318592071533
           ]
         },
-        "id": 2660135307920,
+        "id": 1824965367040,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135265732,
-          2660135267784
+          1824965323236,
+          1824965325288
         ]
       },
       "metrics": {
@@ -1353,6 +2018,25 @@
         "pah": 0.03950081020593643,
         "sa": 25.75943374633789,
         "sah": 0.0928240716457367
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -1369,13 +2053,13 @@
             2.1911544799804688
           ]
         },
-        "id": 2660135308496,
+        "id": 1824965368000,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135266164,
-          2660135266200,
-          2660135266776
+          1824965323668,
+          1824965323704,
+          1824965324280
         ]
       },
       "metrics": {
@@ -1383,6 +2067,25 @@
         "pah": 0.03739522397518158,
         "sa": 39.9414176940918,
         "sah": 0.2158932238817215
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -1399,29 +2102,29 @@
             1.4200987815856934
           ]
         },
-        "id": 2660135311088,
-        "leftChild": 2660135310368,
-        "rightChild": 2660135306192,
+        "id": 1824965353888,
+        "leftChild": 1824965369536,
+        "rightChild": 1824965367616,
         "triangles": [
-          2660135265444,
-          2660135265552,
-          2660135265696,
-          2660135265768,
-          2660135265912,
-          2660135266344,
-          2660135266704,
-          2660135266848,
-          2660135267532,
-          2660135268036,
-          2660135268072,
-          2660135268108,
-          2660135268216,
-          2660135268252,
-          2660135268324,
-          2660135268612,
-          2660135268756,
-          2660135268936,
-          2660135268972
+          1824965322948,
+          1824965323056,
+          1824965323200,
+          1824965323272,
+          1824965323416,
+          1824965323848,
+          1824965324208,
+          1824965324352,
+          1824965325036,
+          1824965325540,
+          1824965325576,
+          1824965325612,
+          1824965325720,
+          1824965325756,
+          1824965325828,
+          1824965326116,
+          1824965326260,
+          1824965326440,
+          1824965326476
         ]
       },
       "metrics": {
@@ -1429,6 +2132,25 @@
         "pah": 2.367619037628174,
         "sa": 179.318603515625,
         "sah": 5.115545749664307
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.004600000102072954,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.004600000102072954,
+        "computeCostAverage": 0.011866665445268154,
+        "computeCostCount": 72,
+        "computeCostTot": 0.8543999195098877,
+        "nodesCreationAverage": 0.0030305548571050167,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.10909997671842575,
+        "shouldStopAverage": 0.0011500000255182385,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.002300000051036477,
+        "splitTrianglesAverage": 0.012622220441699028,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.4543999433517456,
+        "splittingTot": 1.6009999513626099,
+        "total": 1.6100000143051147
       }
     },
     {
@@ -1445,19 +2167,19 @@
             2.6982719898223877
           ]
         },
-        "id": 2660135310368,
-        "leftChild": 2660135307200,
-        "rightChild": 2660135310944,
+        "id": 1824965369536,
+        "leftChild": 1824965366272,
+        "rightChild": 1824965367424,
         "triangles": [
-          2660135265768,
-          2660135266704,
-          2660135268036,
-          2660135268072,
-          2660135268216,
-          2660135268324,
-          2660135268612,
-          2660135268936,
-          2660135268972
+          1824965323272,
+          1824965324208,
+          1824965325540,
+          1824965325576,
+          1824965325720,
+          1824965325828,
+          1824965326116,
+          1824965326440,
+          1824965326476
         ]
       },
       "metrics": {
@@ -1465,6 +2187,25 @@
         "pah": 0.5452844500541687,
         "sa": 99.82402038574219,
         "sah": 1.3489336967468262
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.005200000014156103,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.005200000014156103,
+        "computeCostAverage": 0.011887497268617153,
+        "computeCostCount": 72,
+        "computeCostTot": 0.8558998107910156,
+        "nodesCreationAverage": 0.00269444496370852,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.09700001776218414,
+        "shouldStopAverage": 0.0011500000255182385,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.002300000051036477,
+        "splitTrianglesAverage": 0.00909444596618414,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.3274000585079193,
+        "splittingTot": 1.4574999809265137,
+        "total": 1.4672000408172607
       }
     },
     {
@@ -1481,14 +2222,14 @@
             4.842483043670654
           ]
         },
-        "id": 2660135307200,
+        "id": 1824965366272,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135265768,
-          2660135268036,
-          2660135268216,
-          2660135268936
+          1824965323272,
+          1824965325540,
+          1824965325720,
+          1824965326440
         ]
       },
       "metrics": {
@@ -1496,6 +2237,25 @@
         "pah": 0.06919844448566437,
         "sa": 22.03563117980957,
         "sah": 0.15881070494651794
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -1512,15 +2272,15 @@
             2.6982719898223877
           ]
         },
-        "id": 2660135310944,
-        "leftChild": 2660135311520,
-        "rightChild": 2660135311808,
+        "id": 1824965367424,
+        "leftChild": 1824965366464,
+        "rightChild": 1824965369344,
         "triangles": [
-          2660135266704,
-          2660135268072,
-          2660135268324,
-          2660135268612,
-          2660135268972
+          1824965324208,
+          1824965325576,
+          1824965325828,
+          1824965326116,
+          1824965326476
         ]
       },
       "metrics": {
@@ -1528,6 +2288,25 @@
         "pah": 0.18315114080905914,
         "sa": 76.454833984375,
         "sah": 0.5739684104919434
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.004600000102072954,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.004600000102072954,
+        "computeCostAverage": 0.011762496083974838,
+        "computeCostCount": 72,
+        "computeCostTot": 0.8468997478485107,
+        "nodesCreationAverage": 0.0025305557064712048,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.09110000729560852,
+        "shouldStopAverage": 0.0011500000255182385,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.002300000051036477,
+        "splitTrianglesAverage": 0.006952776573598385,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.25029996037483215,
+        "splittingTot": 1.36080002784729,
+        "total": 1.3697999715805054
       }
     },
     {
@@ -1544,12 +2323,12 @@
             2.6982719898223877
           ]
         },
-        "id": 2660135311520,
+        "id": 1824965366464,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135266704,
-          2660135268072
+          1824965324208,
+          1824965325576
         ]
       },
       "metrics": {
@@ -1557,6 +2336,25 @@
         "pah": 0.02427922561764717,
         "sa": 37.09344482421875,
         "sah": 0.13366615772247314
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -1573,13 +2371,13 @@
             3.0281074047088623
           ]
         },
-        "id": 2660135311808,
+        "id": 1824965369344,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135268324,
-          2660135268612,
-          2660135268972
+          1824965325828,
+          1824965326116,
+          1824965326476
         ]
       },
       "metrics": {
@@ -1587,6 +2385,25 @@
         "pah": 0.06292398273944855,
         "sa": 28.465747833251953,
         "sah": 0.15386441349983215
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -1603,20 +2420,20 @@
             1.4200987815856934
           ]
         },
-        "id": 2660135306192,
-        "leftChild": 2660135308352,
-        "rightChild": 2660135310080,
+        "id": 1824965367616,
+        "leftChild": 1824965369728,
+        "rightChild": 1824965366656,
         "triangles": [
-          2660135265444,
-          2660135265552,
-          2660135265696,
-          2660135265912,
-          2660135266344,
-          2660135266848,
-          2660135267532,
-          2660135268108,
-          2660135268252,
-          2660135268756
+          1824965322948,
+          1824965323056,
+          1824965323200,
+          1824965323416,
+          1824965323848,
+          1824965324352,
+          1824965325036,
+          1824965325612,
+          1824965325756,
+          1824965326260
         ]
       },
       "metrics": {
@@ -1624,6 +2441,25 @@
         "pah": 0.5895352959632874,
         "sa": 112.50603485107422,
         "sah": 1.68923020362854
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.00430000014603138,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.00430000014603138,
+        "computeCostAverage": 0.011745828203856945,
+        "computeCostCount": 72,
+        "computeCostTot": 0.8456996083259583,
+        "nodesCreationAverage": 0.002702777972444892,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.09730000793933868,
+        "shouldStopAverage": 0.0012000000569969416,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.002400000113993883,
+        "splitTrianglesAverage": 0.009283331222832203,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.3341999351978302,
+        "splittingTot": 1.450600028038025,
+        "total": 1.4593000411987305
       }
     },
     {
@@ -1640,16 +2476,16 @@
             2.732465982437134
           ]
         },
-        "id": 2660135308352,
-        "leftChild": 2660135309216,
-        "rightChild": 2660135310224,
+        "id": 1824965369728,
+        "leftChild": 1824965369152,
+        "rightChild": 1824965366848,
         "triangles": [
-          2660135265444,
-          2660135265696,
-          2660135265912,
-          2660135266344,
-          2660135268108,
-          2660135268756
+          1824965322948,
+          1824965323200,
+          1824965323416,
+          1824965323848,
+          1824965325612,
+          1824965326260
         ]
       },
       "metrics": {
@@ -1657,6 +2493,25 @@
         "pah": 0.11026862263679504,
         "sa": 51.02381896972656,
         "sah": 0.4596605896949768
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.0044999998062849045,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.0044999998062849045,
+        "computeCostAverage": 0.011716661043465137,
+        "computeCostCount": 72,
+        "computeCostTot": 0.8435996174812317,
+        "nodesCreationAverage": 0.002558334032073617,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.09210002422332764,
+        "shouldStopAverage": 0.0012000000569969416,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.002400000113993883,
+        "splitTrianglesAverage": 0.00746944360435009,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.26889997720718384,
+        "splittingTot": 1.3765000104904175,
+        "total": 1.3854000568389893
       }
     },
     {
@@ -1673,14 +2528,14 @@
             3.448500156402588
           ]
         },
-        "id": 2660135309216,
+        "id": 1824965369152,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135265444,
-          2660135265696,
-          2660135265912,
-          2660135266344
+          1824965322948,
+          1824965323200,
+          1824965323416,
+          1824965323848
         ]
       },
       "metrics": {
@@ -1688,6 +2543,25 @@
         "pah": 0.059822551906108856,
         "sa": 37.79674530029297,
         "sah": 0.27240100502967834
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -1704,12 +2578,12 @@
             2.732465982437134
           ]
         },
-        "id": 2660135310224,
+        "id": 1824965366848,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135268108,
-          2660135268756
+          1824965325612,
+          1824965326260
         ]
       },
       "metrics": {
@@ -1717,6 +2591,25 @@
         "pah": 0.009451175108551979,
         "sa": 17.1298770904541,
         "sah": 0.061727479100227356
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -1733,14 +2626,14 @@
             1.4200987815856934
           ]
         },
-        "id": 2660135310080,
-        "leftChild": 2660135307488,
-        "rightChild": 2660135308640,
+        "id": 1824965366656,
+        "leftChild": 1824965367808,
+        "rightChild": 1824965368576,
         "triangles": [
-          2660135265552,
-          2660135266848,
-          2660135267532,
-          2660135268252
+          1824965323056,
+          1824965324352,
+          1824965325036,
+          1824965325756
         ]
       },
       "metrics": {
@@ -1748,6 +2641,25 @@
         "pah": 0.1445675790309906,
         "sa": 65.05628967285156,
         "sah": 0.3907169997692108
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.005499999970197678,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.005499999970197678,
+        "computeCostAverage": 0.011951387859880924,
+        "computeCostCount": 72,
+        "computeCostTot": 0.860499918460846,
+        "nodesCreationAverage": 0.0025555554311722517,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.09199999272823334,
+        "shouldStopAverage": 0.0012000000569969416,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.002400000113993883,
+        "splitTrianglesAverage": 0.006286110728979111,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.22629998624324799,
+        "splittingTot": 1.3518999814987183,
+        "total": 1.361899971961975
       }
     },
     {
@@ -1764,12 +2676,12 @@
             1.4200987815856934
           ]
         },
-        "id": 2660135307488,
+        "id": 1824965367808,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135265552,
-          2660135266848
+          1824965323056,
+          1824965324352
         ]
       },
       "metrics": {
@@ -1777,6 +2689,25 @@
         "pah": 0.05364542827010155,
         "sa": 49.53279113769531,
         "sah": 0.17849132418632507
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -1793,12 +2724,12 @@
             2.679719924926758
           ]
         },
-        "id": 2660135308640,
+        "id": 1824965368576,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135267532,
-          2660135268252
+          1824965325036,
+          1824965325756
         ]
       },
       "metrics": {
@@ -1806,6 +2737,25 @@
         "pah": 0.02884966880083084,
         "sa": 27.537954330444336,
         "sah": 0.09923296421766281
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -1822,52 +2772,52 @@
             1.136528491973877
           ]
         },
-        "id": 2660135185056,
-        "leftChild": 2660135309648,
-        "rightChild": 2660135306768,
+        "id": 1824965240720,
+        "leftChild": 1824965368192,
+        "rightChild": 1824965368384,
         "triangles": [
-          2660135265408,
-          2660135265480,
-          2660135265624,
-          2660135265660,
-          2660135265804,
-          2660135265948,
-          2660135265984,
-          2660135266056,
-          2660135266236,
-          2660135266272,
-          2660135266308,
-          2660135266380,
-          2660135266452,
-          2660135266524,
-          2660135266632,
-          2660135266740,
-          2660135266884,
-          2660135266920,
-          2660135266956,
-          2660135266992,
-          2660135267064,
-          2660135267100,
-          2660135267208,
-          2660135267244,
-          2660135267280,
-          2660135267352,
-          2660135267388,
-          2660135267424,
-          2660135267496,
-          2660135267568,
-          2660135267604,
-          2660135267676,
-          2660135267712,
-          2660135267820,
-          2660135268000,
-          2660135268360,
-          2660135268396,
-          2660135268684,
-          2660135268792,
-          2660135268828,
-          2660135268864,
-          2660135268900
+          1824965322912,
+          1824965322984,
+          1824965323128,
+          1824965323164,
+          1824965323308,
+          1824965323452,
+          1824965323488,
+          1824965323560,
+          1824965323740,
+          1824965323776,
+          1824965323812,
+          1824965323884,
+          1824965323956,
+          1824965324028,
+          1824965324136,
+          1824965324244,
+          1824965324388,
+          1824965324424,
+          1824965324460,
+          1824965324496,
+          1824965324568,
+          1824965324604,
+          1824965324712,
+          1824965324748,
+          1824965324784,
+          1824965324856,
+          1824965324892,
+          1824965324928,
+          1824965325000,
+          1824965325072,
+          1824965325108,
+          1824965325180,
+          1824965325216,
+          1824965325324,
+          1824965325504,
+          1824965325864,
+          1824965325900,
+          1824965326188,
+          1824965326296,
+          1824965326332,
+          1824965326368,
+          1824965326404
         ]
       },
       "metrics": {
@@ -1875,6 +2825,25 @@
         "pah": 19.997285842895508,
         "sa": 409.5975036621094,
         "sah": 25.829715728759766
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.005100000184029341,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.005100000184029341,
+        "computeCostAverage": 0.014713888056576252,
+        "computeCostCount": 72,
+        "computeCostTot": 1.059399962425232,
+        "nodesCreationAverage": 0.004552778322249651,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.16390001773834229,
+        "shouldStopAverage": 0.0017999999690800905,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.003599999938160181,
+        "splitTrianglesAverage": 0.02293333411216736,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.8256000280380249,
+        "splittingTot": 2.286099910736084,
+        "total": 2.296999931335449
       }
     },
     {
@@ -1891,31 +2860,31 @@
             1.5759663581848145
           ]
         },
-        "id": 2660135309648,
-        "leftChild": 2660135305904,
-        "rightChild": 2660135307344,
+        "id": 1824965368192,
+        "leftChild": 1824965368768,
+        "rightChild": 1824965368960,
         "triangles": [
-          2660135265804,
-          2660135266236,
-          2660135266308,
-          2660135266380,
-          2660135266452,
-          2660135266524,
-          2660135266632,
-          2660135266920,
-          2660135266956,
-          2660135267352,
-          2660135267424,
-          2660135267496,
-          2660135267568,
-          2660135267604,
-          2660135267676,
-          2660135267712,
-          2660135268360,
-          2660135268684,
-          2660135268792,
-          2660135268864,
-          2660135268900
+          1824965323308,
+          1824965323740,
+          1824965323812,
+          1824965323884,
+          1824965323956,
+          1824965324028,
+          1824965324136,
+          1824965324424,
+          1824965324460,
+          1824965324856,
+          1824965324928,
+          1824965325000,
+          1824965325072,
+          1824965325108,
+          1824965325180,
+          1824965325216,
+          1824965325864,
+          1824965326188,
+          1824965326296,
+          1824965326368,
+          1824965326404
         ]
       },
       "metrics": {
@@ -1923,6 +2892,25 @@
         "pah": 4.743893623352051,
         "sa": 221.02239990234375,
         "sah": 6.968970775604248
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.009200000204145908,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.009200000204145908,
+        "computeCostAverage": 0.013924996368587017,
+        "computeCostCount": 72,
+        "computeCostTot": 1.0025997161865234,
+        "nodesCreationAverage": 0.00380277750082314,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.13689999282360077,
+        "shouldStopAverage": 0.001500000013038516,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.003000000026077032,
+        "splitTrianglesAverage": 0.017605556175112724,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.6338000297546387,
+        "splittingTot": 1.9975999593734741,
+        "total": 2.013200044631958
       }
     },
     {
@@ -1939,22 +2927,22 @@
             2.07206392288208
           ]
         },
-        "id": 2660135305904,
-        "leftChild": 2660135309792,
-        "rightChild": 2660135305616,
+        "id": 1824965368768,
+        "leftChild": 1824965366080,
+        "rightChild": 1824965390496,
         "triangles": [
-          2660135265804,
-          2660135266380,
-          2660135266452,
-          2660135266524,
-          2660135266956,
-          2660135267424,
-          2660135267568,
-          2660135267676,
-          2660135268360,
-          2660135268792,
-          2660135268864,
-          2660135268900
+          1824965323308,
+          1824965323884,
+          1824965323956,
+          1824965324028,
+          1824965324460,
+          1824965324928,
+          1824965325072,
+          1824965325180,
+          1824965325864,
+          1824965326296,
+          1824965326368,
+          1824965326404
         ]
       },
       "metrics": {
@@ -1962,6 +2950,25 @@
         "pah": 1.8113484382629395,
         "sa": 165.29258728027344,
         "sah": 2.9781575202941895
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.012799999676644802,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.012799999676644802,
+        "computeCostAverage": 0.011963887140154839,
+        "computeCostCount": 72,
+        "computeCostTot": 0.8613998889923096,
+        "nodesCreationAverage": 0.0027916666585952044,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.10050000250339508,
+        "shouldStopAverage": 0.0011500000255182385,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.002300000051036477,
+        "splitTrianglesAverage": 0.010238888673484325,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.3685999810695648,
+        "splittingTot": 1.506100058555603,
+        "total": 1.5250999927520752
       }
     },
     {
@@ -1978,16 +2985,16 @@
             2.07206392288208
           ]
         },
-        "id": 2660135309792,
-        "leftChild": 2660135310656,
-        "rightChild": 2660135311664,
+        "id": 1824965366080,
+        "leftChild": 1824965388576,
+        "rightChild": 1824965390304,
         "triangles": [
-          2660135265804,
-          2660135266380,
-          2660135267568,
-          2660135268360,
-          2660135268864,
-          2660135268900
+          1824965323308,
+          1824965323884,
+          1824965325072,
+          1824965325864,
+          1824965326368,
+          1824965326404
         ]
       },
       "metrics": {
@@ -1995,6 +3002,25 @@
         "pah": 0.266327828168869,
         "sa": 80.48635864257813,
         "sah": 0.7250810861587524
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.004900000058114529,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.004900000058114529,
+        "computeCostAverage": 0.011715274304151535,
+        "computeCostCount": 72,
+        "computeCostTot": 0.8434997797012329,
+        "nodesCreationAverage": 0.002594444900751114,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.0934000164270401,
+        "shouldStopAverage": 0.0011500000255182385,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.002300000051036477,
+        "splitTrianglesAverage": 0.007380553521215916,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.26569992303848267,
+        "splittingTot": 1.3740999698638916,
+        "total": 1.3834999799728394
       }
     },
     {
@@ -2011,14 +3037,14 @@
             2.07206392288208
           ]
         },
-        "id": 2660135310656,
-        "leftChild": 2660135312096,
-        "rightChild": 2660135312240,
+        "id": 1824965388576,
+        "leftChild": 1824965390688,
+        "rightChild": 1824965390880,
         "triangles": [
-          2660135265804,
-          2660135266380,
-          2660135268360,
-          2660135268900
+          1824965323308,
+          1824965323884,
+          1824965325864,
+          1824965326404
         ]
       },
       "metrics": {
@@ -2026,6 +3052,25 @@
         "pah": 0.09808529913425446,
         "sa": 56.85855484008789,
         "sah": 0.34148281812667847
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.004699999932199717,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.004699999932199717,
+        "computeCostAverage": 0.011715276166796684,
+        "computeCostCount": 72,
+        "computeCostTot": 0.8434998989105225,
+        "nodesCreationAverage": 0.0024194447323679924,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.08710000663995743,
+        "shouldStopAverage": 0.0011500000255182385,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.002300000051036477,
+        "splitTrianglesAverage": 0.006069444585591555,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.21850000321865082,
+        "splittingTot": 1.3171000480651855,
+        "total": 1.3260999917984009
       }
     },
     {
@@ -2042,11 +3087,11 @@
             8.26795482635498
           ]
         },
-        "id": 2660135312096,
+        "id": 1824965390688,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135268900
+          1824965326404
         ]
       },
       "metrics": {
@@ -2054,6 +3099,25 @@
         "pah": 0.012273312546312809,
         "sa": 7.084689140319824,
         "sah": 0.012764832004904747
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -2070,13 +3134,13 @@
             2.07206392288208
           ]
         },
-        "id": 2660135312240,
+        "id": 1824965390880,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135265804,
-          2660135266380,
-          2660135268360
+          1824965323308,
+          1824965323884,
+          1824965325864
         ]
       },
       "metrics": {
@@ -2084,6 +3148,25 @@
         "pah": 0.058120306581258774,
         "sa": 33.513275146484375,
         "sah": 0.1811475306749344
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -2100,12 +3183,12 @@
             4.417807579040527
           ]
         },
-        "id": 2660135311664,
+        "id": 1824965390304,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135267568,
-          2660135268864
+          1824965325072,
+          1824965326368
         ]
       },
       "metrics": {
@@ -2113,6 +3196,25 @@
         "pah": 0.04934503510594368,
         "sa": 14.218463897705078,
         "sah": 0.05123620852828026
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -2129,16 +3231,16 @@
             2.333871364593506
           ]
         },
-        "id": 2660135305616,
-        "leftChild": 2660135308208,
-        "rightChild": 2660135313104,
+        "id": 1824965390496,
+        "leftChild": 1824965387808,
+        "rightChild": 1824965389536,
         "triangles": [
-          2660135266452,
-          2660135266524,
-          2660135266956,
-          2660135267424,
-          2660135267676,
-          2660135268792
+          1824965323956,
+          1824965324028,
+          1824965324460,
+          1824965324928,
+          1824965325180,
+          1824965326296
         ]
       },
       "metrics": {
@@ -2146,6 +3248,25 @@
         "pah": 0.5613119602203369,
         "sa": 118.49947357177734,
         "sah": 1.0675315856933594
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.00430000014603138,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.00430000014603138,
+        "computeCostAverage": 0.011688887141644955,
+        "computeCostCount": 72,
+        "computeCostTot": 0.8415998816490173,
+        "nodesCreationAverage": 0.002555555896833539,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.09200001507997513,
+        "shouldStopAverage": 0.0013000000035390258,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.0026000000070780516,
+        "splitTrianglesAverage": 0.007433331571519375,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.2675999402999878,
+        "splittingTot": 1.3717999458312988,
+        "total": 1.3803999423980713
       }
     },
     {
@@ -2162,13 +3283,13 @@
             5.089166641235352
           ]
         },
-        "id": 2660135308208,
-        "leftChild": 2660135306336,
-        "rightChild": 2660135308784,
+        "id": 1824965387808,
+        "leftChild": 1824965389728,
+        "rightChild": 1824965388000,
         "triangles": [
-          2660135266452,
-          2660135266524,
-          2660135268792
+          1824965323956,
+          1824965324028,
+          1824965326296
         ]
       },
       "metrics": {
@@ -2176,6 +3297,25 @@
         "pah": 0.10460354387760162,
         "sa": 49.73670959472656,
         "sah": 0.2240326702594757
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.0044999998062849045,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.0044999998062849045,
+        "computeCostAverage": 0.011911108158528805,
+        "computeCostCount": 72,
+        "computeCostTot": 0.8575997948646545,
+        "nodesCreationAverage": 0.0030444443691521883,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.1096000000834465,
+        "shouldStopAverage": 0.0015499999281018972,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.0030999998562037945,
+        "splitTrianglesAverage": 0.0055361115373671055,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.19930002093315125,
+        "splittingTot": 1.3378000259399414,
+        "total": 1.3478000164031982
       }
     },
     {
@@ -2192,12 +3332,12 @@
             5.089166641235352
           ]
         },
-        "id": 2660135306336,
+        "id": 1824965389728,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135266452,
-          2660135268792
+          1824965323956,
+          1824965326296
         ]
       },
       "metrics": {
@@ -2205,6 +3345,25 @@
         "pah": 0.03613660857081413,
         "sa": 26.846858978271484,
         "sah": 0.09674260765314102
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -2221,11 +3380,11 @@
             7.626964569091797
           ]
         },
-        "id": 2660135308784,
+        "id": 1824965388000,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135266524
+          1824965324028
         ]
       },
       "metrics": {
@@ -2233,6 +3392,25 @@
         "pah": 0.0013080249773338437,
         "sa": 2.501973867416382,
         "sah": 0.004507929086685181
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -2249,13 +3427,13 @@
             2.333871364593506
           ]
         },
-        "id": 2660135313104,
+        "id": 1824965389536,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135266956,
-          2660135267424,
-          2660135267676
+          1824965324460,
+          1824965324928,
+          1824965325180
         ]
       },
       "metrics": {
@@ -2263,6 +3441,25 @@
         "pah": 0.0691266655921936,
         "sa": 25.950517654418945,
         "sah": 0.1402689516544342
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -2279,19 +3476,19 @@
             1.5759663581848145
           ]
         },
-        "id": 2660135307344,
-        "leftChild": 2660135306048,
-        "rightChild": 2660135312384,
+        "id": 1824965368960,
+        "leftChild": 1824965391072,
+        "rightChild": 1824965388768,
         "triangles": [
-          2660135266236,
-          2660135266308,
-          2660135266632,
-          2660135266920,
-          2660135267352,
-          2660135267496,
-          2660135267604,
-          2660135267712,
-          2660135268684
+          1824965323740,
+          1824965323812,
+          1824965324136,
+          1824965324424,
+          1824965324856,
+          1824965325000,
+          1824965325108,
+          1824965325216,
+          1824965326188
         ]
       },
       "metrics": {
@@ -2299,6 +3496,25 @@
         "pah": 0.5767684578895569,
         "sa": 99.2135009765625,
         "sah": 1.3406836986541748
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.012000000104308128,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.012000000104308128,
+        "computeCostAverage": 0.012170829810202122,
+        "computeCostCount": 72,
+        "computeCostTot": 0.8762997388839722,
+        "nodesCreationAverage": 0.002841667039319873,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.1023000106215477,
+        "shouldStopAverage": 0.0011500000255182385,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.002300000051036477,
+        "splitTrianglesAverage": 0.00938333198428154,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.33779996633529663,
+        "splittingTot": 1.5015000104904175,
+        "total": 1.5189000368118286
       }
     },
     {
@@ -2315,13 +3531,13 @@
             2.7547624111175537
           ]
         },
-        "id": 2660135306048,
-        "leftChild": 2660135307776,
-        "rightChild": 2660135308928,
+        "id": 1824965391072,
+        "leftChild": 1824965388960,
+        "rightChild": 1824965391264,
         "triangles": [
-          2660135266308,
-          2660135267352,
-          2660135267496
+          1824965323812,
+          1824965324856,
+          1824965325000
         ]
       },
       "metrics": {
@@ -2329,6 +3545,25 @@
         "pah": 0.09414882212877274,
         "sa": 45.86669921875,
         "sah": 0.20660069584846497
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.004699999932199717,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.004699999932199717,
+        "computeCostAverage": 0.0117513881996274,
+        "computeCostCount": 72,
+        "computeCostTot": 0.8460999727249146,
+        "nodesCreationAverage": 0.0024833334609866142,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.08940000087022781,
+        "shouldStopAverage": 0.0011500000255182385,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.002300000051036477,
+        "splitTrianglesAverage": 0.005561112891882658,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.20020006597042084,
+        "splittingTot": 1.3073999881744385,
+        "total": 1.3166999816894531
       }
     },
     {
@@ -2345,12 +3580,12 @@
             2.7547624111175537
           ]
         },
-        "id": 2660135307776,
+        "id": 1824965388960,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135266308,
-          2660135267352
+          1824965323812,
+          1824965324856
         ]
       },
       "metrics": {
@@ -2358,6 +3593,25 @@
         "pah": 0.024894138798117638,
         "sa": 8.093606948852539,
         "sah": 0.029165295884013176
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -2374,11 +3628,11 @@
             6.152237892150879
           ]
         },
-        "id": 2660135308928,
+        "id": 1824965391264,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135267496
+          1824965325000
         ]
       },
       "metrics": {
@@ -2386,6 +3640,25 @@
         "pah": 0.004432469606399536,
         "sa": 3.8737101554870605,
         "sah": 0.006979453377425671
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -2402,16 +3675,16 @@
             1.5759663581848145
           ]
         },
-        "id": 2660135312384,
-        "leftChild": 2660135309072,
-        "rightChild": 2660135312528,
+        "id": 1824965388768,
+        "leftChild": 1824965389920,
+        "rightChild": 1824965390112,
         "triangles": [
-          2660135266236,
-          2660135266632,
-          2660135266920,
-          2660135267604,
-          2660135267712,
-          2660135268684
+          1824965323740,
+          1824965324136,
+          1824965324424,
+          1824965325108,
+          1824965325216,
+          1824965326188
         ]
       },
       "metrics": {
@@ -2419,6 +3692,25 @@
         "pah": 0.14477959275245667,
         "sa": 58.093467712402344,
         "sah": 0.5233492255210876
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.00430000014603138,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.00430000014603138,
+        "computeCostAverage": 0.012024995870888233,
+        "computeCostCount": 72,
+        "computeCostTot": 0.8657997250556946,
+        "nodesCreationAverage": 0.0026000002399086952,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.09360000491142273,
+        "shouldStopAverage": 0.0011500000255182385,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.002300000051036477,
+        "splitTrianglesAverage": 0.00755833275616169,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.27209997177124023,
+        "splittingTot": 1.410099983215332,
+        "total": 1.4189000129699707
       }
     },
     {
@@ -2435,14 +3727,14 @@
             1.5759663581848145
           ]
         },
-        "id": 2660135309072,
+        "id": 1824965389920,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135266236,
-          2660135267604,
-          2660135267712,
-          2660135268684
+          1824965323740,
+          1824965325108,
+          1824965325216,
+          1824965326188
         ]
       },
       "metrics": {
@@ -2450,6 +3742,25 @@
         "pah": 0.0930541381239891,
         "sa": 36.337554931640625,
         "sah": 0.2618846297264099
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -2466,12 +3777,12 @@
             5.995912075042725
           ]
         },
-        "id": 2660135312528,
+        "id": 1824965390112,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135266632,
-          2660135266920
+          1824965324136,
+          1824965324424
         ]
       },
       "metrics": {
@@ -2479,6 +3790,25 @@
         "pah": 0.005728652700781822,
         "sa": 7.123546600341797,
         "sah": 0.025669686496257782
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -2495,31 +3825,31 @@
             1.136528491973877
           ]
         },
-        "id": 2660135306768,
-        "leftChild": 2660135309360,
-        "rightChild": 2660135305760,
+        "id": 1824965368384,
+        "leftChild": 1824965388192,
+        "rightChild": 1824965389152,
         "triangles": [
-          2660135265408,
-          2660135265480,
-          2660135265624,
-          2660135265660,
-          2660135265948,
-          2660135265984,
-          2660135266056,
-          2660135266272,
-          2660135266740,
-          2660135266884,
-          2660135266992,
-          2660135267064,
-          2660135267100,
-          2660135267208,
-          2660135267244,
-          2660135267280,
-          2660135267388,
-          2660135267820,
-          2660135268000,
-          2660135268396,
-          2660135268828
+          1824965322912,
+          1824965322984,
+          1824965323128,
+          1824965323164,
+          1824965323452,
+          1824965323488,
+          1824965323560,
+          1824965323776,
+          1824965324244,
+          1824965324388,
+          1824965324496,
+          1824965324568,
+          1824965324604,
+          1824965324712,
+          1824965324748,
+          1824965324784,
+          1824965324892,
+          1824965325324,
+          1824965325504,
+          1824965325900,
+          1824965326332
         ]
       },
       "metrics": {
@@ -2527,6 +3857,25 @@
         "pah": 5.291203498840332,
         "sa": 260.1465148925781,
         "sah": 8.202577590942383
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.004800000227987766,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.004800000227987766,
+        "computeCostAverage": 0.011648611165583134,
+        "computeCostCount": 72,
+        "computeCostTot": 0.838699996471405,
+        "nodesCreationAverage": 0.003052777610719204,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.10989999026060104,
+        "shouldStopAverage": 0.0013000000035390258,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.0026000000070780516,
+        "splitTrianglesAverage": 0.013716667890548706,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.4938000440597534,
+        "splittingTot": 1.6231000423431396,
+        "total": 1.6324000358581543
       }
     },
     {
@@ -2543,21 +3892,21 @@
             1.4223685264587402
           ]
         },
-        "id": 2660135309360,
-        "leftChild": 2660135306912,
-        "rightChild": 2660135312816,
+        "id": 1824965388192,
+        "leftChild": 1824965389344,
+        "rightChild": 1824965388384,
         "triangles": [
-          2660135265624,
-          2660135265660,
-          2660135266272,
-          2660135266884,
-          2660135266992,
-          2660135267100,
-          2660135267244,
-          2660135267280,
-          2660135267820,
-          2660135268000,
-          2660135268396
+          1824965323128,
+          1824965323164,
+          1824965323776,
+          1824965324388,
+          1824965324496,
+          1824965324604,
+          1824965324748,
+          1824965324784,
+          1824965325324,
+          1824965325504,
+          1824965325900
         ]
       },
       "metrics": {
@@ -2565,6 +3914,25 @@
         "pah": 1.0022273063659668,
         "sa": 142.38677978515625,
         "sah": 2.3516645431518555
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.004699999932199717,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.004699999932199717,
+        "computeCostAverage": 0.011629167012870312,
+        "computeCostCount": 72,
+        "computeCostTot": 0.8373000025749207,
+        "nodesCreationAverage": 0.0027750004082918167,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.0999000146985054,
+        "shouldStopAverage": 0.0011500000255182385,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.002300000051036477,
+        "splitTrianglesAverage": 0.010105554945766926,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.3637999892234802,
+        "splittingTot": 1.4775999784469604,
+        "total": 1.4865000247955322
       }
     },
     {
@@ -2581,17 +3949,17 @@
             1.4223685264587402
           ]
         },
-        "id": 2660135306912,
-        "leftChild": 2660135312960,
-        "rightChild": 2660135305184,
+        "id": 1824965389344,
+        "leftChild": 1824965391456,
+        "rightChild": 1824965394800,
         "triangles": [
-          2660135265660,
-          2660135266272,
-          2660135266884,
-          2660135266992,
-          2660135267244,
-          2660135267280,
-          2660135268396
+          1824965323164,
+          1824965323776,
+          1824965324388,
+          1824965324496,
+          1824965324748,
+          1824965324784,
+          1824965325900
         ]
       },
       "metrics": {
@@ -2599,6 +3967,25 @@
         "pah": 0.29139018058776855,
         "sa": 88.5666275024414,
         "sah": 0.9308531284332275
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.004699999932199717,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.004699999932199717,
+        "computeCostAverage": 0.013784720562398434,
+        "computeCostCount": 72,
+        "computeCostTot": 0.9924998879432678,
+        "nodesCreationAverage": 0.002913889242336154,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.10490000993013382,
+        "shouldStopAverage": 0.0012000000569969416,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.002400000113993883,
+        "splitTrianglesAverage": 0.00858610961586237,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.309099942445755,
+        "splittingTot": 1.6138999462127686,
+        "total": 1.6246999502182007
       }
     },
     {
@@ -2615,13 +4002,13 @@
             1.4223685264587402
           ]
         },
-        "id": 2660135312960,
+        "id": 1824965391456,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135265660,
-          2660135266992,
-          2660135267280
+          1824965323164,
+          1824965324496,
+          1824965324784
         ]
       },
       "metrics": {
@@ -2629,6 +4016,25 @@
         "pah": 0.0748884528875351,
         "sa": 55.86803436279297,
         "sah": 0.30198055505752563
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -2645,14 +4051,14 @@
             4.236435413360596
           ]
         },
-        "id": 2660135305184,
-        "leftChild": 2660135305328,
-        "rightChild": 2660135306480,
+        "id": 1824965394800,
+        "leftChild": 1824965395376,
+        "rightChild": 1824965395184,
         "triangles": [
-          2660135266272,
-          2660135266884,
-          2660135267244,
-          2660135268396
+          1824965323776,
+          1824965324388,
+          1824965324748,
+          1824965325900
         ]
       },
       "metrics": {
@@ -2660,6 +4066,25 @@
         "pah": 0.08414458483457565,
         "sa": 40.3658332824707,
         "sah": 0.24243032932281494
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.007499999832361937,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.007499999832361937,
+        "computeCostAverage": 0.01182638667523861,
+        "computeCostCount": 72,
+        "computeCostTot": 0.8514998555183411,
+        "nodesCreationAverage": 0.0025138892233371735,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.09050001204013824,
+        "shouldStopAverage": 0.0011500000255182385,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.002300000051036477,
+        "splitTrianglesAverage": 0.006733333691954613,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.24240000545978546,
+        "splittingTot": 1.3603999614715576,
+        "total": 1.3725999593734741
       }
     },
     {
@@ -2676,13 +4101,13 @@
             4.236435413360596
           ]
         },
-        "id": 2660135305328,
+        "id": 1824965395376,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135266272,
-          2660135266884,
-          2660135267244
+          1824965323776,
+          1824965324388,
+          1824965324748
         ]
       },
       "metrics": {
@@ -2690,6 +4115,25 @@
         "pah": 0.03406478837132454,
         "sa": 25.809307098388672,
         "sah": 0.13950568437576294
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -2706,11 +4150,11 @@
             6.916741847991943
           ]
         },
-        "id": 2660135306480,
+        "id": 1824965395184,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135268396
+          1824965325900
         ]
       },
       "metrics": {
@@ -2718,6 +4162,25 @@
         "pah": 0.004610144533216953,
         "sa": 2.523139476776123,
         "sah": 0.004546064417809248
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -2734,14 +4197,14 @@
             4.662410736083984
           ]
         },
-        "id": 2660135312816,
+        "id": 1824965388384,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135265624,
-          2660135267100,
-          2660135267820,
-          2660135268000
+          1824965323128,
+          1824965324604,
+          1824965325324,
+          1824965325504
         ]
       },
       "metrics": {
@@ -2749,6 +4212,25 @@
         "pah": 0.08594193309545517,
         "sa": 35.93943786621094,
         "sah": 0.25901538133621216
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -2765,20 +4247,20 @@
             1.136528491973877
           ]
         },
-        "id": 2660135305760,
-        "leftChild": 2660135305472,
-        "rightChild": 2660135307056,
+        "id": 1824965389152,
+        "leftChild": 1824965393456,
+        "rightChild": 1824965393648,
         "triangles": [
-          2660135265408,
-          2660135265480,
-          2660135265948,
-          2660135265984,
-          2660135266056,
-          2660135266740,
-          2660135267064,
-          2660135267208,
-          2660135267388,
-          2660135268828
+          1824965322912,
+          1824965322984,
+          1824965323452,
+          1824965323488,
+          1824965323560,
+          1824965324244,
+          1824965324568,
+          1824965324712,
+          1824965324892,
+          1824965326332
         ]
       },
       "metrics": {
@@ -2786,6 +4268,25 @@
         "pah": 1.5076589584350586,
         "sa": 170.22877502441406,
         "sah": 2.555912733078003
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.004600000102072954,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.004600000102072954,
+        "computeCostAverage": 0.011822224594652653,
+        "computeCostCount": 72,
+        "computeCostTot": 0.8512001633644104,
+        "nodesCreationAverage": 0.002722222590819001,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.09800001233816147,
+        "shouldStopAverage": 0.0011500000255182385,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.002300000051036477,
+        "splitTrianglesAverage": 0.00976110901683569,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.3513999283313751,
+        "splittingTot": 1.4783999919891357,
+        "total": 1.4874999523162842
       }
     },
     {
@@ -2802,16 +4303,16 @@
             3.2418041229248047
           ]
         },
-        "id": 2660135305472,
-        "leftChild": 2660135328608,
-        "rightChild": 2660135329760,
+        "id": 1824965393456,
+        "leftChild": 1824965392880,
+        "rightChild": 1824965392112,
         "triangles": [
-          2660135265948,
-          2660135265984,
-          2660135266740,
-          2660135267064,
-          2660135267208,
-          2660135267388
+          1824965323452,
+          1824965323488,
+          1824965324244,
+          1824965324568,
+          1824965324712,
+          1824965324892
         ]
       },
       "metrics": {
@@ -2819,6 +4320,25 @@
         "pah": 0.5206406116485596,
         "sa": 72.70256042480469,
         "sah": 0.6549588441848755
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.004699999932199717,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.004699999932199717,
+        "computeCostAverage": 0.012112503871321678,
+        "computeCostCount": 72,
+        "computeCostTot": 0.872100293636322,
+        "nodesCreationAverage": 0.00269444496370852,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.09700001776218414,
+        "shouldStopAverage": 0.0011500000255182385,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.002300000051036477,
+        "splitTrianglesAverage": 0.00764999957755208,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.27539998292922974,
+        "splittingTot": 1.4200999736785889,
+        "total": 1.4292000532150269
       }
     },
     {
@@ -2835,12 +4355,12 @@
             3.2418041229248047
           ]
         },
-        "id": 2660135328608,
+        "id": 1824965392880,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135265948,
-          2660135267064
+          1824965323452,
+          1824965324568
         ]
       },
       "metrics": {
@@ -2848,6 +4368,25 @@
         "pah": 0.08285284787416458,
         "sa": 39.5944938659668,
         "sah": 0.14267867803573608
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -2864,14 +4403,14 @@
             3.8831653594970703
           ]
         },
-        "id": 2660135329760,
-        "leftChild": 2660135329040,
-        "rightChild": 2660135331056,
+        "id": 1824965392112,
+        "leftChild": 1824965395568,
+        "rightChild": 1824965394032,
         "triangles": [
-          2660135265984,
-          2660135266740,
-          2660135267208,
-          2660135267388
+          1824965323488,
+          1824965324244,
+          1824965324712,
+          1824965324892
         ]
       },
       "metrics": {
@@ -2879,6 +4418,25 @@
         "pah": 0.13754335045814514,
         "sa": 36.1803092956543,
         "sah": 0.21729278564453125
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.004800000227987766,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.004800000227987766,
+        "computeCostAverage": 0.011688892729580402,
+        "computeCostCount": 72,
+        "computeCostTot": 0.8416002988815308,
+        "nodesCreationAverage": 0.002497222740203142,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.08990001678466797,
+        "shouldStopAverage": 0.0010999999940395355,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.002199999988079071,
+        "splitTrianglesAverage": 0.006141665857285261,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.22109997272491455,
+        "splittingTot": 1.3220000267028809,
+        "total": 1.3310999870300293
       }
     },
     {
@@ -2895,11 +4453,11 @@
             4.844181060791016
           ]
         },
-        "id": 2660135329040,
+        "id": 1824965395568,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135267388
+          1824965324892
         ]
       },
       "metrics": {
@@ -2907,6 +4465,25 @@
         "pah": 0.004032851662486792,
         "sa": 3.209965705871582,
         "sah": 0.005783552303910255
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -2923,13 +4500,13 @@
             3.8831653594970703
           ]
         },
-        "id": 2660135331056,
+        "id": 1824965394032,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135265984,
-          2660135266740,
-          2660135267208
+          1824965323488,
+          1824965324244,
+          1824965324712
         ]
       },
       "metrics": {
@@ -2937,6 +4514,25 @@
         "pah": 0.07173619419336319,
         "sa": 24.51600456237793,
         "sah": 0.1325150579214096
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -2953,14 +4549,14 @@
             1.136528491973877
           ]
         },
-        "id": 2660135307056,
-        "leftChild": 2660135328896,
-        "rightChild": 2660135333360,
+        "id": 1824965393648,
+        "leftChild": 1824965392304,
+        "rightChild": 1824965393840,
         "triangles": [
-          2660135265408,
-          2660135265480,
-          2660135266056,
-          2660135268828
+          1824965322912,
+          1824965322984,
+          1824965323560,
+          1824965326332
         ]
       },
       "metrics": {
@@ -2968,6 +4564,25 @@
         "pah": 0.17947174608707428,
         "sa": 89.4000244140625,
         "sah": 0.5369213223457336
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": 0.004999999888241291,
+        "chooseSplittingPlanesCount": 1,
+        "chooseSplittingPlanesTot": 0.004999999888241291,
+        "computeCostAverage": 0.011661111377179623,
+        "computeCostCount": 72,
+        "computeCostTot": 0.8396000266075134,
+        "nodesCreationAverage": 0.0025194447953253984,
+        "nodesCreationCount": 36,
+        "nodesCreationTot": 0.09070001542568207,
+        "shouldStopAverage": 0.0010500000789761543,
+        "shouldStopCount": 2,
+        "shouldStopTot": 0.0021000001579523087,
+        "splitTrianglesAverage": 0.0061583323404192924,
+        "splitTrianglesCount": 36,
+        "splitTrianglesTot": 0.22169996798038483,
+        "splittingTot": 1.3210999965667725,
+        "total": 1.330399990081787
       }
     },
     {
@@ -2984,12 +4599,12 @@
             1.136528491973877
           ]
         },
-        "id": 2660135328896,
+        "id": 1824965392304,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135265480,
-          2660135268828
+          1824965322984,
+          1824965326332
         ]
       },
       "metrics": {
@@ -2997,6 +4612,25 @@
         "pah": 0.05754398554563522,
         "sa": 58.8266487121582,
         "sah": 0.21198171377182007
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     },
     {
@@ -3013,12 +4647,12 @@
             2.8181569576263428
           ]
         },
-        "id": 2660135333360,
+        "id": 1824965393840,
         "leftChild": 0,
         "rightChild": 0,
         "triangles": [
-          2660135265408,
-          2660135266056
+          1824965322912,
+          1824965323560
         ]
       },
       "metrics": {
@@ -3026,12 +4660,51 @@
         "pah": 0.03853260725736618,
         "sa": 37.914405822753906,
         "sah": 0.13662448525428772
+      },
+      "timing": {
+        "chooseSplittingPlanesAverage": null,
+        "chooseSplittingPlanesCount": 0,
+        "chooseSplittingPlanesTot": 0.0,
+        "computeCostAverage": null,
+        "computeCostCount": 0,
+        "computeCostTot": 0.0,
+        "nodesCreationAverage": null,
+        "nodesCreationCount": 0,
+        "nodesCreationTot": 0.0,
+        "shouldStopAverage": null,
+        "shouldStopCount": 0,
+        "shouldStopTot": 0.0,
+        "splitTrianglesAverage": null,
+        "splitTrianglesCount": 0,
+        "splitTrianglesTot": 0.0,
+        "splittingTot": 0.0,
+        "total": 0.0
       }
     }
   ],
+  "totalTiming": {
+    "chooseSplittingPlanesAverage": 0.006751162465661764,
+    "chooseSplittingPlanesCount": 43,
+    "chooseSplittingPlanesTot": 0.2902999818325043,
+    "computeCostAverage": 0.01211288571357727,
+    "computeCostCount": 3096,
+    "computeCostTot": 37.501495361328125,
+    "fullTotal": 71.35409545898438,
+    "nodesCreationAverage": 0.0028498712927103043,
+    "nodesCreationCount": 1548,
+    "nodesCreationTot": 4.411600589752197,
+    "shouldStopAverage": 0.0012732562609016895,
+    "shouldStopCount": 86,
+    "shouldStopTot": 0.10950003564357758,
+    "splitTrianglesAverage": 0.009839148260653019,
+    "splitTrianglesCount": 1548,
+    "splitTrianglesTot": 15.231000900268555,
+    "splittingTot": 64.91539764404297,
+    "total": 65.4177017211914
+  },
   "triangles": [
     {
-      "id": 2660135266560,
+      "id": 1824965324064,
       "v1": [
         -4.164536476135254,
         -4.557277202606201,
@@ -3049,7 +4722,7 @@
       ]
     },
     {
-      "id": 2660135268576,
+      "id": 1824965326080,
       "v1": [
         -4.6880340576171875,
         -4.372898101806641,
@@ -3067,7 +4740,7 @@
       ]
     },
     {
-      "id": 2660135266128,
+      "id": 1824965323632,
       "v1": [
         -4.257415771484375,
         -4.045807361602783,
@@ -3085,7 +4758,7 @@
       ]
     },
     {
-      "id": 2660135267856,
+      "id": 1824965325360,
       "v1": [
         -4.7173051834106445,
         -4.320313453674316,
@@ -3103,7 +4776,7 @@
       ]
     },
     {
-      "id": 2660135266020,
+      "id": 1824965323524,
       "v1": [
         -4.260310173034668,
         -3.478628396987915,
@@ -3121,7 +4794,7 @@
       ]
     },
     {
-      "id": 2660135267460,
+      "id": 1824965324964,
       "v1": [
         -4.483587741851807,
         -3.612853765487671,
@@ -3139,7 +4812,7 @@
       ]
     },
     {
-      "id": 2660135267964,
+      "id": 1824965325468,
       "v1": [
         -3.000349998474121,
         -4.238307952880859,
@@ -3157,7 +4830,7 @@
       ]
     },
     {
-      "id": 2660135265516,
+      "id": 1824965323020,
       "v1": [
         -2.269500255584717,
         -4.407567977905273,
@@ -3175,7 +4848,7 @@
       ]
     },
     {
-      "id": 2660135266416,
+      "id": 1824965323920,
       "v1": [
         -2.452972412109375,
         -4.177451133728027,
@@ -3193,7 +4866,7 @@
       ]
     },
     {
-      "id": 2660135266596,
+      "id": 1824965324100,
       "v1": [
         -2.6178908348083496,
         -4.555820465087891,
@@ -3211,7 +4884,7 @@
       ]
     },
     {
-      "id": 2660135266668,
+      "id": 1824965324172,
       "v1": [
         -1.6671569347381592,
         -4.9108734130859375,
@@ -3229,7 +4902,7 @@
       ]
     },
     {
-      "id": 2660135267892,
+      "id": 1824965325396,
       "v1": [
         -1.5593481063842773,
         -4.525360584259033,
@@ -3247,7 +4920,7 @@
       ]
     },
     {
-      "id": 2660135265588,
+      "id": 1824965323092,
       "v1": [
         -0.3076147437095642,
         -4.038277626037598,
@@ -3265,7 +4938,7 @@
       ]
     },
     {
-      "id": 2660135268144,
+      "id": 1824965325648,
       "v1": [
         -0.7662644386291504,
         -3.2299063205718994,
@@ -3283,7 +4956,7 @@
       ]
     },
     {
-      "id": 2660135265840,
+      "id": 1824965323344,
       "v1": [
         0.513249397277832,
         -4.299185276031494,
@@ -3301,7 +4974,7 @@
       ]
     },
     {
-      "id": 2660135266488,
+      "id": 1824965323992,
       "v1": [
         0.31668105721473694,
         -3.6980528831481934,
@@ -3319,7 +4992,7 @@
       ]
     },
     {
-      "id": 2660135268180,
+      "id": 1824965325684,
       "v1": [
         0.2697458863258362,
         -4.05057954788208,
@@ -3337,7 +5010,7 @@
       ]
     },
     {
-      "id": 2660135266092,
+      "id": 1824965323596,
       "v1": [
         -3.906639337539673,
         -3.539672613143921,
@@ -3355,7 +5028,7 @@
       ]
     },
     {
-      "id": 2660135268288,
+      "id": 1824965325792,
       "v1": [
         -3.6878609657287598,
         -3.395726203918457,
@@ -3373,7 +5046,7 @@
       ]
     },
     {
-      "id": 2660135267928,
+      "id": 1824965325432,
       "v1": [
         -4.550721645355225,
         -1.398673415184021,
@@ -3391,7 +5064,7 @@
       ]
     },
     {
-      "id": 2660135266812,
+      "id": 1824965324316,
       "v1": [
         -1.9612157344818115,
         -1.8624461889266968,
@@ -3409,7 +5082,7 @@
       ]
     },
     {
-      "id": 2660135267748,
+      "id": 1824965325252,
       "v1": [
         0.24275903403759003,
         -1.197447419166565,
@@ -3427,7 +5100,7 @@
       ]
     },
     {
-      "id": 2660135265876,
+      "id": 1824965323380,
       "v1": [
         -4.506957530975342,
         0.1886187493801117,
@@ -3445,7 +5118,7 @@
       ]
     },
     {
-      "id": 2660135267028,
+      "id": 1824965324532,
       "v1": [
         -4.171445369720459,
         0.05726220831274986,
@@ -3463,7 +5136,7 @@
       ]
     },
     {
-      "id": 2660135268720,
+      "id": 1824965326224,
       "v1": [
         -3.4318981170654297,
         -1.1138356924057007,
@@ -3481,7 +5154,7 @@
       ]
     },
     {
-      "id": 2660135267640,
+      "id": 1824965325144,
       "v1": [
         -1.4449172019958496,
         -1.0320088863372803,
@@ -3499,7 +5172,7 @@
       ]
     },
     {
-      "id": 2660135268540,
+      "id": 1824965326044,
       "v1": [
         -0.8489652276039124,
         0.24872168898582458,
@@ -3517,7 +5190,7 @@
       ]
     },
     {
-      "id": 2660135268648,
+      "id": 1824965326152,
       "v1": [
         -2.442917823791504,
         -0.6744767427444458,
@@ -3535,7 +5208,7 @@
       ]
     },
     {
-      "id": 2660135267172,
+      "id": 1824965324676,
       "v1": [
         1.0881308317184448,
         -3.937887191772461,
@@ -3553,7 +5226,7 @@
       ]
     },
     {
-      "id": 2660135268432,
+      "id": 1824965325936,
       "v1": [
         1.0878278017044067,
         -4.319322109222412,
@@ -3571,7 +5244,7 @@
       ]
     },
     {
-      "id": 2660135267136,
+      "id": 1824965324640,
       "v1": [
         1.709320068359375,
         -4.137434482574463,
@@ -3589,7 +5262,7 @@
       ]
     },
     {
-      "id": 2660135268468,
+      "id": 1824965325972,
       "v1": [
         2.0881729125976563,
         -3.4678659439086914,
@@ -3607,7 +5280,7 @@
       ]
     },
     {
-      "id": 2660135267316,
+      "id": 1824965324820,
       "v1": [
         1.5005358457565308,
         -3.5605714321136475,
@@ -3625,7 +5298,7 @@
       ]
     },
     {
-      "id": 2660135268504,
+      "id": 1824965326008,
       "v1": [
         1.5154513120651245,
         -3.5629332065582275,
@@ -3643,7 +5316,7 @@
       ]
     },
     {
-      "id": 2660135265732,
+      "id": 1824965323236,
       "v1": [
         1.4774940013885498,
         -1.4606090784072876,
@@ -3661,7 +5334,7 @@
       ]
     },
     {
-      "id": 2660135267784,
+      "id": 1824965325288,
       "v1": [
         0.4129257798194885,
         -2.2730112075805664,
@@ -3679,7 +5352,7 @@
       ]
     },
     {
-      "id": 2660135266164,
+      "id": 1824965323668,
       "v1": [
         1.2329211235046387,
         -1.7548249959945679,
@@ -3697,7 +5370,7 @@
       ]
     },
     {
-      "id": 2660135266200,
+      "id": 1824965323704,
       "v1": [
         2.563354015350342,
         -1.023887276649475,
@@ -3715,7 +5388,7 @@
       ]
     },
     {
-      "id": 2660135266776,
+      "id": 1824965324280,
       "v1": [
         1.2511159181594849,
         -1.7854816913604736,
@@ -3733,7 +5406,7 @@
       ]
     },
     {
-      "id": 2660135265768,
+      "id": 1824965323272,
       "v1": [
         2.8695147037506104,
         -4.3593268394470215,
@@ -3751,7 +5424,7 @@
       ]
     },
     {
-      "id": 2660135268036,
+      "id": 1824965325540,
       "v1": [
         4.199472427368164,
         -4.306040287017822,
@@ -3769,7 +5442,7 @@
       ]
     },
     {
-      "id": 2660135268216,
+      "id": 1824965325720,
       "v1": [
         4.4995503425598145,
         -4.599046230316162,
@@ -3787,7 +5460,7 @@
       ]
     },
     {
-      "id": 2660135268936,
+      "id": 1824965326440,
       "v1": [
         4.574276924133301,
         -4.352076053619385,
@@ -3805,7 +5478,7 @@
       ]
     },
     {
-      "id": 2660135266704,
+      "id": 1824965324208,
       "v1": [
         2.9037351608276367,
         -2.825007915496826,
@@ -3823,7 +5496,7 @@
       ]
     },
     {
-      "id": 2660135268072,
+      "id": 1824965325576,
       "v1": [
         3.1579525470733643,
         -2.3873579502105713,
@@ -3841,7 +5514,7 @@
       ]
     },
     {
-      "id": 2660135268324,
+      "id": 1824965325828,
       "v1": [
         4.18039083480835,
         -4.123404026031494,
@@ -3859,7 +5532,7 @@
       ]
     },
     {
-      "id": 2660135268612,
+      "id": 1824965326116,
       "v1": [
         4.331486225128174,
         -2.53006649017334,
@@ -3877,7 +5550,7 @@
       ]
     },
     {
-      "id": 2660135268972,
+      "id": 1824965326476,
       "v1": [
         4.721036911010742,
         -3.511603593826294,
@@ -3895,7 +5568,7 @@
       ]
     },
     {
-      "id": 2660135265444,
+      "id": 1824965322948,
       "v1": [
         3.463109254837036,
         -1.8672648668289185,
@@ -3913,7 +5586,7 @@
       ]
     },
     {
-      "id": 2660135265696,
+      "id": 1824965323200,
       "v1": [
         3.921358585357666,
         -1.2241564989089966,
@@ -3931,7 +5604,7 @@
       ]
     },
     {
-      "id": 2660135265912,
+      "id": 1824965323416,
       "v1": [
         4.6766791343688965,
         -2.2168116569519043,
@@ -3949,7 +5622,7 @@
       ]
     },
     {
-      "id": 2660135266344,
+      "id": 1824965323848,
       "v1": [
         4.500432968139648,
         -1.8638917207717896,
@@ -3967,7 +5640,7 @@
       ]
     },
     {
-      "id": 2660135268108,
+      "id": 1824965325612,
       "v1": [
         4.777178764343262,
         -0.8439589738845825,
@@ -3985,7 +5658,7 @@
       ]
     },
     {
-      "id": 2660135268756,
+      "id": 1824965326260,
       "v1": [
         4.425449371337891,
         -1.6076933145523071,
@@ -4003,7 +5676,7 @@
       ]
     },
     {
-      "id": 2660135265552,
+      "id": 1824965323056,
       "v1": [
         2.8331446647644043,
         -0.8746115565299988,
@@ -4021,7 +5694,7 @@
       ]
     },
     {
-      "id": 2660135266848,
+      "id": 1824965324352,
       "v1": [
         4.680126667022705,
         -1.4043970108032227,
@@ -4039,7 +5712,7 @@
       ]
     },
     {
-      "id": 2660135267532,
+      "id": 1824965325036,
       "v1": [
         4.5521016120910645,
         -0.8420788645744324,
@@ -4057,7 +5730,7 @@
       ]
     },
     {
-      "id": 2660135268252,
+      "id": 1824965325756,
       "v1": [
         4.049100875854492,
         -0.9501209855079651,
@@ -4075,7 +5748,7 @@
       ]
     },
     {
-      "id": 2660135268900,
+      "id": 1824965326404,
       "v1": [
         -3.9859347343444824,
         0.8493775725364685,
@@ -4093,7 +5766,7 @@
       ]
     },
     {
-      "id": 2660135265804,
+      "id": 1824965323308,
       "v1": [
         -3.4707016944885254,
         0.7863393425941467,
@@ -4111,7 +5784,7 @@
       ]
     },
     {
-      "id": 2660135266380,
+      "id": 1824965323884,
       "v1": [
         -3.087397336959839,
         0.8883993625640869,
@@ -4129,7 +5802,7 @@
       ]
     },
     {
-      "id": 2660135268360,
+      "id": 1824965325864,
       "v1": [
         -3.1988353729248047,
         1.193341851234436,
@@ -4147,7 +5820,7 @@
       ]
     },
     {
-      "id": 2660135267568,
+      "id": 1824965325072,
       "v1": [
         -2.9066755771636963,
         0.8528220653533936,
@@ -4165,7 +5838,7 @@
       ]
     },
     {
-      "id": 2660135268864,
+      "id": 1824965326368,
       "v1": [
         -1.9497381448745728,
         -0.08282280713319778,
@@ -4183,7 +5856,7 @@
       ]
     },
     {
-      "id": 2660135266452,
+      "id": 1824965323956,
       "v1": [
         -4.635303020477295,
         2.893998384475708,
@@ -4201,7 +5874,7 @@
       ]
     },
     {
-      "id": 2660135268792,
+      "id": 1824965326296,
       "v1": [
         -4.920221328735352,
         2.1206552982330322,
@@ -4219,7 +5892,7 @@
       ]
     },
     {
-      "id": 2660135266524,
+      "id": 1824965324028,
       "v1": [
         -4.680438041687012,
         4.348721981048584,
@@ -4237,7 +5910,7 @@
       ]
     },
     {
-      "id": 2660135266956,
+      "id": 1824965324460,
       "v1": [
         -2.9952523708343506,
         3.7985310554504395,
@@ -4255,7 +5928,7 @@
       ]
     },
     {
-      "id": 2660135267424,
+      "id": 1824965324928,
       "v1": [
         -3.9799234867095947,
         4.531209945678711,
@@ -4273,7 +5946,7 @@
       ]
     },
     {
-      "id": 2660135267676,
+      "id": 1824965325180,
       "v1": [
         -3.6539385318756104,
         3.0769903659820557,
@@ -4291,7 +5964,7 @@
       ]
     },
     {
-      "id": 2660135266308,
+      "id": 1824965323812,
       "v1": [
         -1.4541531801223755,
         3.9628024101257324,
@@ -4309,7 +5982,7 @@
       ]
     },
     {
-      "id": 2660135267352,
+      "id": 1824965324856,
       "v1": [
         -1.6656073331832886,
         3.9469661712646484,
@@ -4327,7 +6000,7 @@
       ]
     },
     {
-      "id": 2660135267496,
+      "id": 1824965325000,
       "v1": [
         -1.9578917026519775,
         2.6412394046783447,
@@ -4345,7 +6018,7 @@
       ]
     },
     {
-      "id": 2660135266236,
+      "id": 1824965323740,
       "v1": [
         -0.479983925819397,
         3.0833873748779297,
@@ -4363,7 +6036,7 @@
       ]
     },
     {
-      "id": 2660135267604,
+      "id": 1824965325108,
       "v1": [
         -0.37079915404319763,
         1.35517156124115,
@@ -4381,7 +6054,7 @@
       ]
     },
     {
-      "id": 2660135267712,
+      "id": 1824965325216,
       "v1": [
         -0.7723426818847656,
         3.0561132431030273,
@@ -4399,7 +6072,7 @@
       ]
     },
     {
-      "id": 2660135268684,
+      "id": 1824965326188,
       "v1": [
         -0.7433463335037231,
         2.4919750690460205,
@@ -4417,7 +6090,7 @@
       ]
     },
     {
-      "id": 2660135266632,
+      "id": 1824965324136,
       "v1": [
         -0.24847263097763062,
         3.4702227115631104,
@@ -4435,7 +6108,7 @@
       ]
     },
     {
-      "id": 2660135266920,
+      "id": 1824965324424,
       "v1": [
         -0.12425626814365387,
         3.4141006469726563,
@@ -4453,7 +6126,7 @@
       ]
     },
     {
-      "id": 2660135265660,
+      "id": 1824965323164,
       "v1": [
         0.4060050845146179,
         2.654850959777832,
@@ -4471,7 +6144,7 @@
       ]
     },
     {
-      "id": 2660135266992,
+      "id": 1824965324496,
       "v1": [
         0.029965326189994812,
         2.875810146331787,
@@ -4489,7 +6162,7 @@
       ]
     },
     {
-      "id": 2660135267280,
+      "id": 1824965324784,
       "v1": [
         0.016362296417355537,
         2.7231533527374268,
@@ -4507,7 +6180,7 @@
       ]
     },
     {
-      "id": 2660135266272,
+      "id": 1824965323776,
       "v1": [
         -0.40454718470573425,
         4.61317253112793,
@@ -4525,7 +6198,7 @@
       ]
     },
     {
-      "id": 2660135266884,
+      "id": 1824965324388,
       "v1": [
         -0.4184912145137787,
         3.8730804920196533,
@@ -4543,7 +6216,7 @@
       ]
     },
     {
-      "id": 2660135267244,
+      "id": 1824965324748,
       "v1": [
         -0.10300390422344208,
         3.893747568130493,
@@ -4561,7 +6234,7 @@
       ]
     },
     {
-      "id": 2660135268396,
+      "id": 1824965325900,
       "v1": [
         0.874647319316864,
         3.595517635345459,
@@ -4579,7 +6252,7 @@
       ]
     },
     {
-      "id": 2660135265624,
+      "id": 1824965323128,
       "v1": [
         0.8438912630081177,
         0.6591202616691589,
@@ -4597,7 +6270,7 @@
       ]
     },
     {
-      "id": 2660135267100,
+      "id": 1824965324604,
       "v1": [
         0.8395978808403015,
         0.7352097630500793,
@@ -4615,7 +6288,7 @@
       ]
     },
     {
-      "id": 2660135267820,
+      "id": 1824965325324,
       "v1": [
         1.8575358390808105,
         1.0180436372756958,
@@ -4633,7 +6306,7 @@
       ]
     },
     {
-      "id": 2660135268000,
+      "id": 1824965325504,
       "v1": [
         0.6855421662330627,
         1.0644177198410034,
@@ -4651,7 +6324,7 @@
       ]
     },
     {
-      "id": 2660135265948,
+      "id": 1824965323452,
       "v1": [
         2.1739161014556885,
         1.1294809579849243,
@@ -4669,7 +6342,7 @@
       ]
     },
     {
-      "id": 2660135267064,
+      "id": 1824965324568,
       "v1": [
         2.357321262359619,
         4.09636926651001,
@@ -4687,7 +6360,7 @@
       ]
     },
     {
-      "id": 2660135267388,
+      "id": 1824965324892,
       "v1": [
         3.864994764328003,
         0.7434422373771667,
@@ -4705,7 +6378,7 @@
       ]
     },
     {
-      "id": 2660135265984,
+      "id": 1824965323488,
       "v1": [
         4.164098739624023,
         2.819584608078003,
@@ -4723,7 +6396,7 @@
       ]
     },
     {
-      "id": 2660135266740,
+      "id": 1824965324244,
       "v1": [
         3.9906399250030518,
         2.1532957553863525,
@@ -4741,7 +6414,7 @@
       ]
     },
     {
-      "id": 2660135267208,
+      "id": 1824965324712,
       "v1": [
         3.3780386447906494,
         1.9600539207458496,
@@ -4759,7 +6432,7 @@
       ]
     },
     {
-      "id": 2660135265480,
+      "id": 1824965322984,
       "v1": [
         4.39127779006958,
         2.7838923931121826,
@@ -4777,7 +6450,7 @@
       ]
     },
     {
-      "id": 2660135268828,
+      "id": 1824965326332,
       "v1": [
         4.82796049118042,
         1.0830962657928467,
@@ -4795,7 +6468,7 @@
       ]
     },
     {
-      "id": 2660135265408,
+      "id": 1824965322912,
       "v1": [
         4.971848011016846,
         4.325573444366455,
@@ -4813,7 +6486,7 @@
       ]
     },
     {
-      "id": 2660135266056,
+      "id": 1824965323560,
       "v1": [
         4.817566394805908,
         3.9302120208740234,
