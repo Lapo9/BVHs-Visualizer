@@ -1,8 +1,15 @@
+using JetBrains.Annotations;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
+[Serializable]
+public struct TopLevel
+{
+    public List<BvhData> bvhs;
+    public List<Triangle> triangles;
+}
 
 [Serializable]
 public struct BvhData
@@ -36,8 +43,22 @@ public struct InfluenceArea
     public Plane plane;
     public List<float> size;
     public float density;
+    public BvhRegion bvhRegion;
 
     public Vector2 Size { get { return new Vector2(size[0], size[1]); } }
+}
+
+[Serializable]
+public struct BvhRegion
+{
+    public string type;
+    public List<float> center;
+    public List<float> halfSize;
+    public List<float> forward;
+
+    public Vector3 Center { get { return new Vector3(center[0], center[1], center[2]); } }
+    public Vector3 HalfSize { get { return new Vector3(halfSize[0], halfSize[1], halfSize[2]); } }
+    public Vector3 Forward { get { return new Vector3(forward[0], forward[1], forward[2]); } }
 }
 
 [Serializable]
