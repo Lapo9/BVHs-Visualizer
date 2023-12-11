@@ -37,6 +37,28 @@ public class Utilities
         Gizmos.DrawLine(points[2], points[6]);
     }
 
+    public static void drawObbGizmo(Obb obb, Color color = new Color())
+    {
+        var points = obbToPoints(obb);
+
+        if (color != new Color()) Gizmos.color = color;
+
+        Gizmos.DrawLine(points[0], points[1]);
+        Gizmos.DrawLine(points[1], points[3]);
+        Gizmos.DrawLine(points[3], points[2]);
+        Gizmos.DrawLine(points[2], points[0]);
+
+        Gizmos.DrawLine(points[4], points[5]);
+        Gizmos.DrawLine(points[5], points[7]);
+        Gizmos.DrawLine(points[7], points[6]);
+        Gizmos.DrawLine(points[6], points[4]);
+
+        Gizmos.DrawLine(points[0], points[4]);
+        Gizmos.DrawLine(points[1], points[5]);
+        Gizmos.DrawLine(points[3], points[7]);
+        Gizmos.DrawLine(points[2], points[6]);
+    }
+
     /// <summary>
     /// Given an AABB (min-max form) returns the array of it 8 vertices with this layout:
     ///  2_______________6  
@@ -57,6 +79,21 @@ public class Utilities
                 {
                     Vector3 vertex = new Vector3(i, j, k); //selects which vertex we are considering (e.g. top-left-back)
                     points[i * 4 + j * 2 + k] = aabb.Min + Vector3.Scale(vertex, dimensions);
+                }
+        return points;
+    }
+
+    public static Vector3[] obbToPoints(Obb obb) 
+    {
+        Vector3[] points = new Vector3[8];
+        //loop through each vertex of the OBB
+        for (int i = -1; i <= 1; i += 2)
+            for (int j = -1; j <= 1; j += 2)
+                for (int k = -1; k <= 1; k += 2)
+                {
+                    Vector3 obbVertex = new Vector3(obb.HalfSize.x * i, obb.HalfSize.y * j, obb.HalfSize.z * k); //point in the reference system of the OBB
+                    Vector3 worldVertex = new Vector3(Vector3.Dot(obbVertex, obb.Right), Vector3.Dot(obbVertex, obb.Up), Vector3.Dot(obbVertex, obb.Forward)) + obb.Center; //point in world space
+                    points[((i + 1) / 2) * 4 + ((j + 1) / 2) * 2 + ((k + 1) / 2) * 1] = worldVertex;
                 }
         return points;
     }

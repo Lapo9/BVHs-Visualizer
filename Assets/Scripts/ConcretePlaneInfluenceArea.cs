@@ -17,6 +17,10 @@ public class ConcretePlaneInfluenceArea : ConcreteInfluenceArea
         cam.orthographicSize = 20f;
         cam.targetDisplay = 0;
 
+        //create region
+        var region = ConcreteBvhRegion.initialize(influenceArea.bvhRegion);
+        region.transform.parent = gameObject.transform;
+
         return area;
     }
 
@@ -39,6 +43,8 @@ public class ConcretePlaneInfluenceArea : ConcreteInfluenceArea
         Gizmos.DrawLine(topLeft, bottomLeft);
         Gizmos.DrawLine(bottomLeft, bottomRight);
         Gizmos.DrawLine(bottomRight, topRight);
+        Gizmos.DrawLine(bottomRight, topLeft);
+        Gizmos.DrawLine(bottomLeft, topRight);
     }
 
     /// <summary>

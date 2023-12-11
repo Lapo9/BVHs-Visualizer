@@ -9,6 +9,11 @@ public struct TopLevel
 {
     public List<BvhData> bvhs;
     public List<Triangle> triangles;
+
+    public Triangle findTriangle(int id)
+    {
+        return triangles.First(t => t.id == id);
+    }
 }
 
 [Serializable]
@@ -23,11 +28,6 @@ public struct BvhData
     public Node findNode(int id)
     {
         return nodes.First(n => n.core.id == id);
-    }
-
-    public Triangle findTriangle(int id)
-    {
-        return triangles.First(t => t.id == id);
     }
 
     public Node root()
@@ -52,6 +52,12 @@ public struct InfluenceArea
 public struct BvhRegion
 {
     public string type;
+    public Obb obb;
+}
+
+[Serializable]
+public struct Obb
+{
     public List<float> center;
     public List<float> halfSize;
     public List<float> forward;
@@ -59,6 +65,8 @@ public struct BvhRegion
     public Vector3 Center { get { return new Vector3(center[0], center[1], center[2]); } }
     public Vector3 HalfSize { get { return new Vector3(halfSize[0], halfSize[1], halfSize[2]); } }
     public Vector3 Forward { get { return new Vector3(forward[0], forward[1], forward[2]); } }
+    public Vector3 Right { get { return Vector3.Cross(Vector3.up, Forward); } }
+    public Vector3 Up { get { return Vector3.Cross(Forward, Right); } }
 }
 
 [Serializable]
@@ -94,6 +102,16 @@ public struct Triangle
     public Vector3 V1 { get { return new Vector3(v1[0], v1[1], v1[2]); } }
     public Vector3 V2 { get { return new Vector3(v2[0], v2[1], v2[2]); } }
     public Vector3 V3 { get { return new Vector3(v3[0], v3[1], v3[2]); } }
+
+    public static bool operator==(Triangle a, Triangle b)
+    {
+        return a.id == b.id;
+    }
+
+    public static bool operator!=(Triangle a, Triangle b)
+    {
+        return !(a == b);
+    }
 }
 
 [Serializable]

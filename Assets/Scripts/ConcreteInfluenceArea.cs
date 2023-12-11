@@ -61,7 +61,7 @@ public abstract class ConcreteInfluenceArea : MonoBehaviour
     [Range(1, 500)] [SerializeField] protected int raysAmount = 10; //how many rays to cast
     [Range(1f, 100f)] [SerializeField] protected float length = 100f; //length of each ray
     [Range(0, 20)][SerializeField] protected int seed = 0; //randomness
-    [SerializeField] private Color rayColor = Color.white; //color of the rays (and gizmo)
+    [SerializeField] private Color color = Color.white; //color of the rays (and gizmo)
 
     [Header("Buttons")]
     [SerializeField] private bool generateRaysButton = false;
@@ -74,9 +74,21 @@ public abstract class ConcreteInfluenceArea : MonoBehaviour
     [SerializeField] protected float intersectionsCostDisplay;
     [SerializeField] protected float intersectionsCostPerRayDisplay;
 
-    protected (float internalNode, float leafNode) costs;
-    protected ConcreteNode root;
+    protected (float internalNode, float leafNode) costs = (1f, 1.2f);
     protected Ray[] rays; //where to store the rays
+    
+    /// <summary>
+    /// Assumes the BVH is always the parent.
+    /// </summary>
+    public ConcreteBvh Bvh
+    {
+        get
+        {
+            ConcreteBvh bvh = transform.parent.GetComponent<ConcreteBvh>();
+            Debug.Assert(bvh != null, "The position in the hierarchy of this ConcreteInfluenceArea is wrong. It should be a child of its ConcreteBvh.");
+            return bvh;
+        }
+    }
 
     public InfluenceArea InfluenceArea { get; protected set; }
 
@@ -93,7 +105,7 @@ public abstract class ConcreteInfluenceArea : MonoBehaviour
         }
         else
         {
-            throw new InvalidDataException(influenceArea.type + " is not a known type of inflluence area");
+            throw new InvalidDataException(influenceArea.type + " is not a known type of influence area");
         }
 
         //set fields
@@ -131,13 +143,14 @@ public abstract class ConcreteInfluenceArea : MonoBehaviour
             intersectionsCostDisplay = intersectionInfo.Cost;
             intersectionsCostPerRayDisplay = intersectionInfo.CostPerRay;
         }
+        
+        if (Bvh.Visibility == ConcreteBvh.WhatToShow.NOTHING) return; //if the BVH is hidden, don't show the gizmo
 
-        Random.InitState(0); //used to make the color of the gizmos for the projected AABBs stable
-        drawGizmo(rayColor); //draw the gizmo for this object
+        drawGizmo(color); //draw the gizmo for this object
 
         //draw the gizmos for the rays
         if (rays == null) return;
-        Gizmos.color = rayColor;
+        Gizmos.color = color;
         foreach (Ray r in rays) Gizmos.DrawLine(r.Origin, r.Origin + r.Direction * length);
     }
 
@@ -168,7 +181,6 @@ public abstract class ConcreteInfluenceArea : MonoBehaviour
     protected IntersectionInfo collectStats()
     {
         IntersectionInfo info = new IntersectionInfo();
-        float cost = 0f;
         foreach (var ray in rays)
         {
             info += countIntersections(ray);
@@ -183,7 +195,7 @@ public abstract class ConcreteInfluenceArea : MonoBehaviour
     {
         IntersectionInfo info = new IntersectionInfo();
         Queue<ConcreteNode> nodes = new Queue<ConcreteNode>(); //intersected nodes still to evaluate
-        nodes.Enqueue(root);
+        nodes.Enqueue(Bvh.Root);
 
         while (nodes.Count > 0)
         {

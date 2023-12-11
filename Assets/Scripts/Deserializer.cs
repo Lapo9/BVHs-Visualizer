@@ -4,27 +4,44 @@ using UnityEditor;
 using static Utilities;
 using System.Linq;
 using System.Collections.Generic;
+using Unity.VisualScripting;
+using System;
 
 [ExecuteAlways]
 public class Deserializer : MonoBehaviour
 {
     [SerializeField] private string file;
-    [SerializeField] private ConcreteNode concreteNodePrefab;
+    [SerializeField] private ConcreteBvh concreteBvhPrefab;
     [SerializeField] private ConcreteTriangle concreteTrianglePrefab;
 
     [Header("Buttons")]
     [SerializeField] private bool deserializeButton;
-    [SerializeField] private bool showOnlyLeavesButton;
 
-    [Header("Global info")]
-    [SerializeField] private int maxLevel;
-    [SerializeField] private int numberOfLeaves;
-    [SerializeField] private int numberOfNodes;
-    [SerializeField] private float pah;
-    [SerializeField] private float sah;
-
-    private BvhData bvhData;
-    private ConcreteNode root;
+    private TopLevel topLevel;
+    private List<ConcreteBvh> Bvhs
+    {
+        get
+        {
+            List<ConcreteBvh> res = new List<ConcreteBvh>();
+            foreach (Transform bvh in transform)
+            {
+                if (bvh.GetComponent<ConcreteBvh>() != null) res.Add(bvh.GetComponent<ConcreteBvh>());
+            }
+            return res;
+        }
+    }
+    private List<ConcreteTriangle> Triangles
+    {
+        get
+        {
+            List<ConcreteTriangle> triangles = new List<ConcreteTriangle>();
+            foreach (Transform t in GameObject.Find("Triangles").transform)
+            {
+                triangles.Add(t.GetComponent<ConcreteTriangle>());
+            }
+            return triangles;
+        }
+    }
     private Transform lastSelected;
     private (float opaque, float light) transparency = (0.7f, 0.15f);
 
@@ -35,58 +52,37 @@ public class Deserializer : MonoBehaviour
             deserializeButton = false;
             deserialize();
         }
-        if(root != null) showWhatUserWantsToSee();
     }
 
     void OnDrawGizmos()
     {
-        if(root == null) return;
-
-        updateGlobalInfo();
-
         Transform selected = Selection.activeTransform; //object selected in the editor
+
+        //returns true if the selected object is part of a BVH (e.g. ConcreteBvh, ConcreteInfluenceArea, ...)
+        Func<Transform, (bool isPart, ConcreteBvh bvh)> partOfBvh = o =>
+        {
+            if (o == null) return (false, null);
+            if (o.GetComponent<ConcreteBvh>() != null) return (true, o.GetComponent<ConcreteBvh>());
+            if (o.GetComponent<ConcreteNode>() != null) return (true, o.GetComponent<ConcreteNode>().Bvh);
+            if (o.GetComponent<ConcreteInfluenceArea>() != null) return (true, o.GetComponent<ConcreteInfluenceArea>().Bvh);
+            if (o.GetComponent<ConcreteBvhRegion>() != null) return (true, o.GetComponent<ConcreteBvhRegion>().Bvh);
+            return (false, null);
+        };
 
         //if the selected object is a BVH node...
         if (selected?.gameObject.GetComponent<ConcreteNode>() != null)
         {
-            ConcreteNode selectedNode = selected.GetComponent<ConcreteNode>(); //retrieve the corresponding BVH node
-
-            //if it is not a leaf, retrieve children and draw them too
-            if (!selectedNode.Node.isLeaf())
-            {
-                ConcreteNode leftChild = selected.GetChild(0).GetComponent<ConcreteNode>();
-                ConcreteNode rightChild = selected.GetChild(1).GetComponent<ConcreteNode>();
-
-                drawAabbGizmo(leftChild.Node.core.aabb, Color.red);
-                drawAabbGizmo(rightChild.Node.core.aabb, Color.blue);
-
-                //highlight the internal triangles too
-                foreach (int i in leftChild.Node.core.triangles) drawTriangleGizmo(bvhData.findTriangle(i), Color.magenta);
-                foreach (int i in rightChild.Node.core.triangles) drawTriangleGizmo(bvhData.findTriangle(i), Color.cyan);
-
-                //this way we print info about the selected node and children only once
-                if (selected != lastSelected)
-                {
-                    lastSelected = selected;
-                    Debug.Log(logNodeInfo(selectedNode.Node, "Parent", "lime"));
-                    Debug.Log(logNodeInfo(leftChild.Node, "Left child", "red"));
-                    Debug.Log(logNodeInfo(rightChild.Node, "Right child", "blue"));
-                }
-            }
-
-            drawAabbGizmo(selectedNode.Node.core.aabb, Color.green); //highlight selected node
-            ConcreteNode[] selectedAndChildren = selectedNode.Node.isLeaf() ?
-                new ConcreteNode[] { selectedNode } :
-                new ConcreteNode[] { selectedNode, selected.GetChild(0).GetComponent<ConcreteNode>(), selected.GetChild(1).GetComponent<ConcreteNode>() };
-            
-            showOnlySelected(root, selectedAndChildren); //hide everything BUT the selected node (and its children)
+            bvhSelected(selected.gameObject.GetComponent<ConcreteNode>().Bvh);
+            nodeSelected(selected.GetComponent<ConcreteNode>());
         }
 
-        //if the selected object is not a node
-        else
-        {
-            showWhatUserWantsToSee();
-        }
+        //if the selected object is a BVH...
+        else if (partOfBvh(selected) is (true, _) result) bvhSelected(result.bvh);
+
+        //if the selected object is not a node or a bvh, but the last one was
+        else if (partOfBvh(lastSelected).isPart) showRestore();
+
+        lastSelected = selected;
     }
 
     private void deserialize()
@@ -94,39 +90,24 @@ public class Deserializer : MonoBehaviour
         delete(); //delete old BVH
 
         string json = File.ReadAllText("Assets/Data/" + file);
-        bvhData = JsonUtility.FromJson<BvhData>(json);
+        topLevel = JsonUtility.FromJson<TopLevel>(json);
         Debug.Log("Deserialized");
 
         //create the BVH to show
         createTriangles();
-        createNode(bvhData.root().core.id);
-        createInfluenceArea();
+        foreach (var bvh in topLevel.bvhs)
+        {
+            var concreteBvh = ConcreteBvh.initialize(bvh, concreteBvhPrefab);
+            concreteBvh.transform.parent = transform;
+        }
     }
 
     private void createTriangles()
     {
         var parent = GameObject.Find("Triangles").transform;
-        foreach(Triangle t in bvhData.triangles)
+        foreach (Triangle t in topLevel.triangles)
         {
             ConcreteTriangle.initialize(t, parent, concreteTrianglePrefab);
-        }
-    }
-
-    private void createInfluenceArea()
-    {
-        ConcreteInfluenceArea.initialize(bvhData.influenceArea);
-    }
-
-    private void createNode(int id, ConcreteNode parent = null)
-    {
-        ConcreteNode node = ConcreteNode.initialize(bvhData.findNode(id), parent, concreteNodePrefab);
-        if (parent == null) root = node;
-
-        //create children
-        if (!node.Node.isLeaf())
-        {
-            createNode(node.Node.core.leftChild, node);
-            createNode(node.Node.core.rightChild, node);
         }
     }
 
@@ -135,12 +116,6 @@ public class Deserializer : MonoBehaviour
     /// </summary>
     private void delete()
     {
-        //delete BVH
-        var oldRoot = GameObject.Find("Root");
-        if (oldRoot!= null) { 
-            EditorApplication.delayCall += () => { DestroyImmediate(oldRoot); };
-        }
-
         //delete triangles
         var triangles = GameObject.Find("Triangles").transform;
         foreach (Transform t in triangles)
@@ -148,11 +123,11 @@ public class Deserializer : MonoBehaviour
             EditorApplication.delayCall += () => { DestroyImmediate(t.gameObject); };
         }
 
-        //delete influence area
-        var influenceArea = GameObject.Find("InfluenceArea");
-        if (oldRoot != null)
+        //delete BVHs
+        var bvhs = Bvhs;
+        foreach (var bvh in bvhs)
         {
-            EditorApplication.delayCall += () => { DestroyImmediate(influenceArea); };
+            bvh.delete();
         }
     }
 
@@ -163,7 +138,7 @@ public class Deserializer : MonoBehaviour
     private ConcreteTriangle findConcreteTriangle(int id)
     {
         var triangles = GameObject.Find("Triangles").transform;
-        foreach(Transform t in triangles)
+        foreach (Transform t in triangles)
         {
             var triangle = t.GetComponent<ConcreteTriangle>();
             if (triangle.Triangle.id == id) return triangle;
@@ -178,34 +153,13 @@ public class Deserializer : MonoBehaviour
     /// </summary>
     private ConcreteNode findConcreteNode(int id)
     {
-        var found = findConcreteNodeRecursive(root, id);
-        if (found != null) return found;
+        foreach (var bvh in Bvhs)
+        {
+            var found = bvh.findConcreteNode(id);
+            if (found != null) return found;
+        }
 
         throw new KeyNotFoundException("No node with id = " + id + " found");
-    }
-
-    /// <summary>
-    /// Recursively looks for a node with the required id.
-    /// The lookup is performed depth first, left to right.
-    /// </summary>
-    private ConcreteNode findConcreteNodeRecursive(ConcreteNode node, int id)
-    {
-        //is this the node?
-        if(node.Node.core.id == id) return node;
-
-        //if it is a leaf, return null
-        if (node.Node.isLeaf()) return null;
-        
-        //look for it in the left subtree
-        var foundInLeftChildren = findConcreteNodeRecursive(node.transform.GetChild(0).GetComponent<ConcreteNode>(), id);
-        if (foundInLeftChildren != null) return foundInLeftChildren;
-        
-        //look for it in the right subtree
-        var foundInRightChildren = findConcreteNodeRecursive(node.transform.GetChild(1).GetComponent<ConcreteNode>(), id);
-        if (foundInRightChildren != null) return foundInRightChildren;
-
-        //we found nothing
-        return null;
     }
 
     /// <summary>
@@ -230,88 +184,98 @@ public class Deserializer : MonoBehaviour
         return log.Color(cssColor);
     }
 
-    public void updateGlobalInfo()
-    {
-        maxLevel = bvhData.globalInfo.maxLevel;
-        numberOfLeaves = bvhData.globalInfo.numberOfLeaves;
-        numberOfNodes = bvhData.globalInfo.numberOfNodes;
-        pah = bvhData.globalInfo.pahCost;
-        sah = bvhData.globalInfo.sahCost;
-    }
-
-    /// <summary>
-    /// Calls the right functions to show only what the user decided he wants to see.
-    /// </summary>
-    private void showWhatUserWantsToSee()
-    {
-        if (showOnlyLeavesButton) showOnlyLeaves(root); 
-        else showAllNodes(root);
-    }
-    
     /// <summary>
     /// Hides all the nodes not in the selected array.
     /// </summary>
-    private void showOnlySelected(ConcreteNode parent, ConcreteNode[] selected)
+    private void showOnlySelected(ConcreteNode[] selected)
     {
-        foreach (Transform c in parent.transform)
+        //hide all
+        foreach (var bvh in Bvhs)
         {
-            ConcreteNode child = c.GetComponent<ConcreteNode>();
-
-            var meshRenderer = child.gameObject.GetComponent<MeshRenderer>();
-            //make it more opaque (if selected)
-            if (selected.Contains(child))
-            {
-                meshRenderer.enabled = true;
-                meshRenderer.sharedMaterial.color = new Color(meshRenderer.sharedMaterial.color.r, meshRenderer.sharedMaterial.color.g, meshRenderer.sharedMaterial.color.b, selected[0] == child ? 0f : transparency.opaque);
-            }
-            //hide it (if NOT selecetd)
-            else
-            {
-                meshRenderer.enabled = false;
-            }
-
-            if (!child.GetComponent<ConcreteNode>().Node.isLeaf()) showOnlySelected(child, selected); //recurse
+            bvh.Visibility = ConcreteBvh.WhatToShow.NOTHING;
         }
-    }
 
-    /// <summary>
-    /// Hides all the non-leaf nodesMeshes of the BVH.
-    /// </summary>
-    private void showOnlyLeaves(ConcreteNode parent)
-    {
-        foreach (Transform c in parent.transform)
+        //make visible only selected nodes
+        foreach (var node in selected)
         {
-            ConcreteNode child = c.GetComponent<ConcreteNode>();
-
-            var meshRenderer = child.gameObject.GetComponent<MeshRenderer>();
-            //if not leaf, hide it
-            if (!child.Node.isLeaf())
-            {
-                meshRenderer.enabled = false;
-                showOnlyLeaves(child);
-            }
-            //make leaves more opaque
-            else
-            {
-                meshRenderer.enabled = true;
-                meshRenderer.sharedMaterial.color = new Color(meshRenderer.sharedMaterial.color.r, meshRenderer.sharedMaterial.color.g, meshRenderer.sharedMaterial.color.b, transparency.opaque);
-            }
-        }
-    }
-
-    /// <summary>
-    /// Shows all the nodesMeshes of the BVH.
-    /// </summary>
-    private void showAllNodes(ConcreteNode parent)
-    {
-        //make all nodes visible and lower opacity
-        foreach (Transform c in parent.transform)
-        {
-            ConcreteNode child = c.GetComponent<ConcreteNode>();
-            var meshRenderer = child.gameObject.GetComponent<MeshRenderer>();
-            meshRenderer.sharedMaterial.color = new Color(meshRenderer.sharedMaterial.color.r, meshRenderer.sharedMaterial.color.g, meshRenderer.sharedMaterial.color.b, transparency.light);
+            var meshRenderer = node.gameObject.GetComponent<MeshRenderer>();
             meshRenderer.enabled = true;
-            if (!child.Node.isLeaf()) showAllNodes(child);
+            meshRenderer.sharedMaterial.color = new Color(meshRenderer.sharedMaterial.color.r, meshRenderer.sharedMaterial.color.g, meshRenderer.sharedMaterial.color.b, selected[0] == node ? 0f : transparency.opaque);
+        }
+    }
+
+    /// <summary>
+    /// Restore the default, basically shows everything.
+    /// </summary>
+    private void showRestore()
+    {
+        //show all
+        foreach (var bvh in Bvhs)
+        {
+            bvh.Visibility = ConcreteBvh.WhatToShow.ALL;
+        }
+
+        foreach (var t in Triangles)
+        {
+            t.GetComponent<MeshRenderer>().enabled = true;
+        }
+    }
+
+    /// <summary>
+    /// Routine to execute when the selected transform is a ConcreteNode.
+    /// </summary>
+    private void nodeSelected(ConcreteNode selectedNode)
+    {
+        Transform selected = selectedNode.transform;
+
+        //if it is not a leaf, retrieve children and draw them too
+        if (!selectedNode.Node.isLeaf())
+        {
+            ConcreteNode leftChild = selected.GetChild(0).GetComponent<ConcreteNode>();
+            ConcreteNode rightChild = selected.GetChild(1).GetComponent<ConcreteNode>();
+
+            drawAabbGizmo(leftChild.Node.core.aabb, Color.red);
+            drawAabbGizmo(rightChild.Node.core.aabb, Color.blue);
+
+            //highlight the internal triangles too
+            foreach (int i in leftChild.Node.core.triangles) drawTriangleGizmo(topLevel.findTriangle(i), Color.magenta);
+            foreach (int i in rightChild.Node.core.triangles) drawTriangleGizmo(topLevel.findTriangle(i), Color.cyan);
+
+            //this way we print info about the selected node and children only once
+            if (selected != lastSelected)
+            {
+                Debug.Log(logNodeInfo(selectedNode.Node, "Parent", "lime"));
+                Debug.Log(logNodeInfo(leftChild.Node, "Left child", "red"));
+                Debug.Log(logNodeInfo(rightChild.Node, "Right child", "blue"));
+            }
+        }
+
+        drawAabbGizmo(selectedNode.Node.core.aabb, Color.green); //highlight selected node
+        ConcreteNode[] selectedAndChildren = selectedNode.Node.isLeaf() ?
+            new ConcreteNode[] { selectedNode } :
+            new ConcreteNode[] { selectedNode, selected.GetChild(0).GetComponent<ConcreteNode>(), selected.GetChild(1).GetComponent<ConcreteNode>() };
+
+        showOnlySelected(selectedAndChildren); //hide everything BUT the selected node (and its children)
+    }
+
+    /// <summary>
+    /// Routine to execute when the selected transform is a ConcreteBvh.
+    /// </summary>
+    private void bvhSelected(ConcreteBvh selectedBvh)
+    {
+        foreach (var bvh in Bvhs)
+        {
+            if (bvh != selectedBvh) bvh.Visibility = ConcreteBvh.WhatToShow.NOTHING;
+            else bvh.Visibility = ConcreteBvh.WhatToShow.ALL;
+        }
+
+        //show only the triangles of the selected BVH
+        foreach (var t in Triangles)
+        {
+            if (selectedBvh.BvhData.triangles.Where(t1 => t1.id == t.Triangle.id).Count() == 0)
+            {
+                t.GetComponent<MeshRenderer>().enabled = false;
+            }
         }
     }
 }

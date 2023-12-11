@@ -11,7 +11,21 @@ public class ConcreteNode : MonoBehaviour
     [SerializeField] Vector3 max;
     [SerializeField] Vector3 min;
 
+    public ConcreteBvh Bvh
+    {
+        get
+        {
+            Transform current = transform;
+            do
+            {
+                current = current.parent;
+            } while (current.gameObject.GetComponent<ConcreteBvh>() == null);
+            return current.GetComponent<ConcreteBvh>();
+        }
+    }
+
     public Node Node { get; private set; }
+
 
     void OnDrawGizmos()
     {
