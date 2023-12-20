@@ -10,6 +10,18 @@
       },
       "influenceArea": {
         "bvhRegion": {
+          "aabb": {
+            "max": [
+              2.0,
+              10.0,
+              20.0
+            ],
+            "min": [
+              -2.0,
+              -10.0,
+              0.0
+            ]
+          },
           "obb": {
             "center": [
               0.0,
@@ -63,56 +75,56 @@
                 1.3104248046875
               ]
             },
-            "id": 1924046007136,
-            "leftChild": 1924045906464,
-            "rightChild": 1924046032640,
+            "id": 2786085477472,
+            "leftChild": 2786085414816,
+            "rightChild": 2786085468352,
             "triangles": [
-              1924046002132,
-              1924046002168,
-              1924046002204,
-              1924046002276,
-              1924046002384,
-              1924046002492,
-              1924046002708,
-              1924046002744,
-              1924046002780,
-              1924046002816,
-              1924046002852,
-              1924046003032,
-              1924046003140,
-              1924046003176,
-              1924046003212,
-              1924046003320,
-              1924046003356,
-              1924046003428,
-              1924046003464,
-              1924046003536,
-              1924046003644,
-              1924046003680,
-              1924046003716,
-              1924046003788,
-              1924046003824,
-              1924046003860,
-              1924046003896,
-              1924046004040,
-              1924046004148,
-              1924046004184,
-              1924046004256,
-              1924046004292,
-              1924046004328,
-              1924046004364,
-              1924046004436,
-              1924046004544,
-              1924046004688,
-              1924046004724,
-              1924046004940,
-              1924046004976,
-              1924046005012,
-              1924046005048,
-              1924046005084,
-              1924046005192,
-              1924046005228,
-              1924046005408
+              2786085472468,
+              2786085472504,
+              2786085472540,
+              2786085472612,
+              2786085472720,
+              2786085472828,
+              2786085473044,
+              2786085473080,
+              2786085473116,
+              2786085473152,
+              2786085473188,
+              2786085473368,
+              2786085473476,
+              2786085473512,
+              2786085473548,
+              2786085473656,
+              2786085473692,
+              2786085473764,
+              2786085473800,
+              2786085473872,
+              2786085473980,
+              2786085474016,
+              2786085474052,
+              2786085474124,
+              2786085474160,
+              2786085474196,
+              2786085474232,
+              2786085474376,
+              2786085474484,
+              2786085474520,
+              2786085474592,
+              2786085474628,
+              2786085474664,
+              2786085474700,
+              2786085474772,
+              2786085474880,
+              2786085475024,
+              2786085475060,
+              2786085475276,
+              2786085475312,
+              2786085475348,
+              2786085475384,
+              2786085475420,
+              2786085475528,
+              2786085475564,
+              2786085475744
             ]
           },
           "metrics": {
@@ -122,23 +134,23 @@
             "sah": 46.0
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.04699999839067459,
+            "chooseSplittingPlanesAverage": 0.030400000512599945,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.04699999839067459,
-            "computeCostAverage": 0.026848606765270233,
+            "chooseSplittingPlanesTot": 0.030400000512599945,
+            "computeCostAverage": 0.012372221797704697,
             "computeCostCount": 72,
-            "computeCostTot": 1.933099627494812,
-            "nodesCreationAverage": 0.007094443775713444,
+            "computeCostTot": 0.8907999396324158,
+            "nodesCreationAverage": 0.003919444512575865,
             "nodesCreationCount": 36,
-            "nodesCreationTot": 0.2553999722003937,
-            "shouldStopAverage": 0.004399999976158142,
+            "nodesCreationTot": 0.14110000431537628,
+            "shouldStopAverage": 0.004600000102072954,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.008799999952316284,
-            "splitTrianglesAverage": 0.03561388701200485,
+            "shouldStopTot": 0.009200000204145908,
+            "splitTrianglesAverage": 0.01996944658458233,
             "splitTrianglesCount": 36,
-            "splitTrianglesTot": 1.282099962234497,
-            "splittingTot": 3.8134000301361084,
-            "total": 3.8757998943328857
+            "splitTrianglesTot": 0.7189000844955444,
+            "splittingTot": 1.9473999738693237,
+            "total": 1.9864000082015991
           }
         },
         {
@@ -155,31 +167,31 @@
                 1.3104248046875
               ]
             },
-            "id": 1924045906464,
-            "leftChild": 1924045997584,
-            "rightChild": 1924045997776,
+            "id": 2786085414816,
+            "leftChild": 2786085469776,
+            "rightChild": 2786085469968,
             "triangles": [
-              1924046002132,
-              1924046002276,
-              1924046002384,
-              1924046002708,
-              1924046002744,
-              1924046003032,
-              1924046003140,
-              1924046003212,
-              1924046003320,
-              1924046003356,
-              1924046003680,
-              1924046003716,
-              1924046003860,
-              1924046004292,
-              1924046004328,
-              1924046004436,
-              1924046004688,
-              1924046004724,
-              1924046004976,
-              1924046005012,
-              1924046005048
+              2786085472468,
+              2786085472612,
+              2786085472720,
+              2786085473044,
+              2786085473080,
+              2786085473368,
+              2786085473476,
+              2786085473548,
+              2786085473656,
+              2786085473692,
+              2786085474016,
+              2786085474052,
+              2786085474196,
+              2786085474628,
+              2786085474664,
+              2786085474772,
+              2786085475024,
+              2786085475060,
+              2786085475312,
+              2786085475348,
+              2786085475384
             ]
           },
           "metrics": {
@@ -189,23 +201,23 @@
             "sah": 12.233002662658691
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.03370000049471855,
+            "chooseSplittingPlanesAverage": 0.010300000198185444,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.03370000049471855,
-            "computeCostAverage": 0.026393061503767967,
+            "chooseSplittingPlanesTot": 0.010300000198185444,
+            "computeCostAverage": 0.012268058955669403,
             "computeCostCount": 72,
-            "computeCostTot": 1.90030038356781,
-            "nodesCreationAverage": 0.010916665196418762,
+            "computeCostTot": 0.883300244808197,
+            "nodesCreationAverage": 0.0030916661489754915,
             "nodesCreationCount": 36,
-            "nodesCreationTot": 0.39299994707107544,
-            "shouldStopAverage": 0.0026000000070780516,
+            "nodesCreationTot": 0.11129998415708542,
+            "shouldStopAverage": 0.0012499999720603228,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.005200000014156103,
-            "splitTrianglesAverage": 0.025555558502674103,
+            "shouldStopTot": 0.0024999999441206455,
+            "splitTrianglesAverage": 0.013455556705594063,
             "splitTrianglesCount": 36,
-            "splitTrianglesTot": 0.9200000762939453,
-            "splittingTot": 3.5448999404907227,
-            "total": 3.58870005607605
+            "splitTrianglesTot": 0.48440003395080566,
+            "splittingTot": 1.6641000509262085,
+            "total": 1.6794999837875366
           }
         },
         {
@@ -222,20 +234,20 @@
                 1.6539061069488525
               ]
             },
-            "id": 1924045997584,
-            "leftChild": 1924045998384,
-            "rightChild": 1924045998576,
+            "id": 2786085469776,
+            "leftChild": 2786085470368,
+            "rightChild": 2786085470560,
             "triangles": [
-              1924046002132,
-              1924046002384,
-              1924046003032,
-              1924046003140,
-              1924046003212,
-              1924046003356,
-              1924046004292,
-              1924046004436,
-              1924046004688,
-              1924046004724
+              2786085472468,
+              2786085472720,
+              2786085473368,
+              2786085473476,
+              2786085473548,
+              2786085473692,
+              2786085474628,
+              2786085474772,
+              2786085475024,
+              2786085475060
             ]
           },
           "metrics": {
@@ -245,23 +257,23 @@
             "sah": 4.116806983947754
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.025100000202655792,
+            "chooseSplittingPlanesAverage": 0.0071000000461936,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.025100000202655792,
-            "computeCostAverage": 0.025872228667140007,
+            "chooseSplittingPlanesTot": 0.0071000000461936,
+            "computeCostAverage": 0.012197225354611874,
             "computeCostCount": 72,
-            "computeCostTot": 1.8628004789352417,
-            "nodesCreationAverage": 0.005127777345478535,
+            "computeCostTot": 0.8782002329826355,
+            "nodesCreationAverage": 0.0027805552817881107,
             "nodesCreationCount": 36,
-            "nodesCreationTot": 0.18459998071193695,
-            "shouldStopAverage": 0.0025499998591840267,
+            "nodesCreationTot": 0.10009998828172684,
+            "shouldStopAverage": 0.0012499999720603228,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.0050999997183680534,
-            "splitTrianglesAverage": 0.01684444397687912,
+            "shouldStopTot": 0.0024999999441206455,
+            "splitTrianglesAverage": 0.00948611181229353,
             "splitTrianglesCount": 36,
-            "splitTrianglesTot": 0.6064000129699707,
-            "splittingTot": 2.9651999473571777,
-            "total": 3.0004000663757324
+            "splitTrianglesTot": 0.34150001406669617,
+            "splittingTot": 1.4981000423431396,
+            "total": 1.5099999904632568
           }
         },
         {
@@ -278,16 +290,16 @@
                 4.236485958099365
               ]
             },
-            "id": 1924045998384,
-            "leftChild": 1924045998976,
-            "rightChild": 1924045999168,
+            "id": 2786085470368,
+            "leftChild": 2786085470960,
+            "rightChild": 2786085471152,
             "triangles": [
-              1924046002384,
-              1924046003032,
-              1924046003140,
-              1924046003212,
-              1924046004436,
-              1924046004724
+              2786085472720,
+              2786085473368,
+              2786085473476,
+              2786085473548,
+              2786085474772,
+              2786085475060
             ]
           },
           "metrics": {
@@ -297,23 +309,23 @@
             "sah": 0.7329235076904297
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.02669999934732914,
+            "chooseSplittingPlanesAverage": 0.005400000140070915,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.02669999934732914,
-            "computeCostAverage": 0.021969446912407875,
+            "chooseSplittingPlanesTot": 0.005400000140070915,
+            "computeCostAverage": 0.012047222815454006,
             "computeCostCount": 36,
-            "computeCostTot": 0.7909001111984253,
-            "nodesCreationAverage": 0.004738888703286648,
+            "computeCostTot": 0.4337000250816345,
+            "nodesCreationAverage": 0.0026555554941296577,
             "nodesCreationCount": 18,
-            "nodesCreationTot": 0.08529999852180481,
-            "shouldStopAverage": 0.0022499999031424522,
+            "nodesCreationTot": 0.04780000075697899,
+            "shouldStopAverage": 0.0011500000255182385,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.0044999998062849045,
-            "splitTrianglesAverage": 0.014172222465276718,
+            "shouldStopTot": 0.002300000051036477,
+            "splitTrianglesAverage": 0.007794443983584642,
             "splitTrianglesCount": 18,
-            "splitTrianglesTot": 0.2551000118255615,
-            "splittingTot": 1.2829999923706055,
-            "total": 1.319100022315979
+            "splitTrianglesTot": 0.140299990773201,
+            "splittingTot": 0.7095000147819519,
+            "total": 0.7196999788284302
           }
         },
         {
@@ -330,12 +342,12 @@
                 4.249735355377197
               ]
             },
-            "id": 1924045998976,
+            "id": 2786085470960,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046003140,
-              1924046003212
+              2786085473476,
+              2786085473548
             ]
           },
           "metrics": {
@@ -378,14 +390,14 @@
                 4.236485958099365
               ]
             },
-            "id": 1924045999168,
-            "leftChild": 1924045999568,
-            "rightChild": 1924045999760,
+            "id": 2786085471152,
+            "leftChild": 2786085471552,
+            "rightChild": 2786085471744,
             "triangles": [
-              1924046002384,
-              1924046003032,
-              1924046004436,
-              1924046004724
+              2786085472720,
+              2786085473368,
+              2786085474772,
+              2786085475060
             ]
           },
           "metrics": {
@@ -395,23 +407,23 @@
             "sah": 0.25133711099624634
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.025299999862909317,
+            "chooseSplittingPlanesAverage": 0.008299999870359898,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.025299999862909317,
-            "computeCostAverage": 0.022011110559105873,
+            "chooseSplittingPlanesTot": 0.008299999870359898,
+            "computeCostAverage": 0.01207222230732441,
             "computeCostCount": 36,
-            "computeCostTot": 0.7924000024795532,
-            "nodesCreationAverage": 0.004616666119545698,
+            "computeCostTot": 0.43459999561309814,
+            "nodesCreationAverage": 0.0025500000920146704,
             "nodesCreationCount": 18,
-            "nodesCreationTot": 0.08309999108314514,
-            "shouldStopAverage": 0.0022499999031424522,
+            "nodesCreationTot": 0.045900002121925354,
+            "shouldStopAverage": 0.0010999999940395355,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.0044999998062849045,
-            "splitTrianglesAverage": 0.011122222989797592,
+            "shouldStopTot": 0.002199999988079071,
+            "splitTrianglesAverage": 0.006188888102769852,
             "splitTrianglesCount": 18,
-            "splitTrianglesTot": 0.20020002126693726,
-            "splittingTot": 1.2244999408721924,
-            "total": 1.2589999437332153
+            "splitTrianglesTot": 0.11139998584985733,
+            "splittingTot": 0.6791999936103821,
+            "total": 0.6920999884605408
           }
         },
         {
@@ -428,11 +440,11 @@
                 5.588860034942627
               ]
             },
-            "id": 1924045999568,
+            "id": 2786085471552,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046004436
+              2786085474772
             ]
           },
           "metrics": {
@@ -475,13 +487,13 @@
                 4.236485958099365
               ]
             },
-            "id": 1924045999760,
+            "id": 2786085471744,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046002384,
-              1924046003032,
-              1924046004724
+              2786085472720,
+              2786085473368,
+              2786085475060
             ]
           },
           "metrics": {
@@ -524,14 +536,14 @@
                 1.6539061069488525
               ]
             },
-            "id": 1924045998576,
-            "leftChild": 1924045999360,
-            "rightChild": 1924045999952,
+            "id": 2786085470560,
+            "leftChild": 2786085471344,
+            "rightChild": 2786085471936,
             "triangles": [
-              1924046002132,
-              1924046003356,
-              1924046004292,
-              1924046004688
+              2786085472468,
+              2786085473692,
+              2786085474628,
+              2786085475024
             ]
           },
           "metrics": {
@@ -541,23 +553,23 @@
             "sah": 0.9702962636947632
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.011599999852478504,
+            "chooseSplittingPlanesAverage": 0.004399999976158142,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.011599999852478504,
-            "computeCostAverage": 0.02216111123561859,
+            "chooseSplittingPlanesTot": 0.004399999976158142,
+            "computeCostAverage": 0.012063887901604176,
             "computeCostCount": 36,
-            "computeCostTot": 0.7978000044822693,
-            "nodesCreationAverage": 0.004694444127380848,
+            "computeCostTot": 0.4342999756336212,
+            "nodesCreationAverage": 0.0026222222950309515,
             "nodesCreationCount": 18,
-            "nodesCreationTot": 0.08449999243021011,
-            "shouldStopAverage": 0.0022499999031424522,
+            "nodesCreationTot": 0.047200001776218414,
+            "shouldStopAverage": 0.0011500000255182385,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.0044999998062849045,
-            "splitTrianglesAverage": 0.011172221973538399,
+            "shouldStopTot": 0.002300000051036477,
+            "splitTrianglesAverage": 0.00621666619554162,
             "splitTrianglesCount": 18,
-            "splitTrianglesTot": 0.20109999179840088,
-            "splittingTot": 1.2331000566482544,
-            "total": 1.2539000511169434
+            "splitTrianglesTot": 0.11189999431371689,
+            "splittingTot": 0.6805999875068665,
+            "total": 0.6897000074386597
           }
         },
         {
@@ -574,11 +586,11 @@
                 3.7038919925689697
               ]
             },
-            "id": 1924045999360,
+            "id": 2786085471344,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046003356
+              2786085473692
             ]
           },
           "metrics": {
@@ -621,13 +633,13 @@
                 1.6539061069488525
               ]
             },
-            "id": 1924045999952,
-            "leftChild": 1924046000352,
-            "rightChild": 1924046000544,
+            "id": 2786085471936,
+            "leftChild": 2786085527872,
+            "rightChild": 2786085528064,
             "triangles": [
-              1924046002132,
-              1924046004292,
-              1924046004688
+              2786085472468,
+              2786085474628,
+              2786085475024
             ]
           },
           "metrics": {
@@ -637,23 +649,23 @@
             "sah": 0.596686601638794
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.01119999960064888,
+            "chooseSplittingPlanesAverage": 0.004600000102072954,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.01119999960064888,
-            "computeCostAverage": 0.022047221660614014,
+            "chooseSplittingPlanesTot": 0.004600000102072954,
+            "computeCostAverage": 0.012044443748891354,
             "computeCostCount": 36,
-            "computeCostTot": 0.7936999797821045,
-            "nodesCreationAverage": 0.004505555145442486,
+            "computeCostTot": 0.43359997868537903,
+            "nodesCreationAverage": 0.0024833332281559706,
             "nodesCreationCount": 18,
-            "nodesCreationTot": 0.0810999944806099,
-            "shouldStopAverage": 0.0022499999031424522,
+            "nodesCreationTot": 0.04469999670982361,
+            "shouldStopAverage": 0.0010999999940395355,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.0044999998062849045,
-            "splitTrianglesAverage": 0.00965555477887392,
+            "shouldStopTot": 0.002199999988079071,
+            "splitTrianglesAverage": 0.005466666538268328,
             "splitTrianglesCount": 18,
-            "splitTrianglesTot": 0.17379999160766602,
-            "splittingTot": 1.1958999633789063,
-            "total": 1.2158000469207764
+            "splitTrianglesTot": 0.09839999675750732,
+            "splittingTot": 0.6624000072479248,
+            "total": 0.6718000173568726
           }
         },
         {
@@ -670,12 +682,12 @@
                 6.733591079711914
               ]
             },
-            "id": 1924046000352,
+            "id": 2786085527872,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046002132,
-              1924046004688
+              2786085472468,
+              2786085475024
             ]
           },
           "metrics": {
@@ -718,11 +730,11 @@
                 1.6539061069488525
               ]
             },
-            "id": 1924046000544,
+            "id": 2786085528064,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046004292
+              2786085474628
             ]
           },
           "metrics": {
@@ -765,21 +777,21 @@
                 1.3104248046875
               ]
             },
-            "id": 1924045997776,
-            "leftChild": 1924045998768,
-            "rightChild": 1924046041328,
+            "id": 2786085469968,
+            "leftChild": 2786085470752,
+            "rightChild": 2786085527664,
             "triangles": [
-              1924046002276,
-              1924046002708,
-              1924046002744,
-              1924046003320,
-              1924046003680,
-              1924046003716,
-              1924046003860,
-              1924046004328,
-              1924046004976,
-              1924046005012,
-              1924046005048
+              2786085472612,
+              2786085473044,
+              2786085473080,
+              2786085473656,
+              2786085474016,
+              2786085474052,
+              2786085474196,
+              2786085474664,
+              2786085475312,
+              2786085475348,
+              2786085475384
             ]
           },
           "metrics": {
@@ -789,23 +801,23 @@
             "sah": 3.2054755687713623
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.010400000028312206,
+            "chooseSplittingPlanesAverage": 0.004399999976158142,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.010400000028312206,
-            "computeCostAverage": 0.021962501108646393,
+            "chooseSplittingPlanesTot": 0.004399999976158142,
+            "computeCostAverage": 0.012058337219059467,
             "computeCostCount": 72,
-            "computeCostTot": 1.581300139427185,
-            "nodesCreationAverage": 0.0050666662864387035,
+            "computeCostTot": 0.8682003021240234,
+            "nodesCreationAverage": 0.002786111319437623,
             "nodesCreationCount": 36,
-            "nodesCreationTot": 0.18239998817443848,
-            "shouldStopAverage": 0.0024500000290572643,
+            "nodesCreationTot": 0.10030000656843185,
+            "shouldStopAverage": 0.0011500000255182385,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.004900000058114529,
-            "splitTrianglesAverage": 0.017838886007666588,
+            "shouldStopTot": 0.002300000051036477,
+            "splitTrianglesAverage": 0.00990555714815855,
             "splitTrianglesCount": 36,
-            "splitTrianglesTot": 0.6421998739242554,
-            "splittingTot": 2.7147998809814453,
-            "total": 2.749500036239624
+            "splitTrianglesTot": 0.3566000461578369,
+            "splittingTot": 1.503600001335144,
+            "total": 1.5126999616622925
           }
         },
         {
@@ -822,16 +834,16 @@
                 1.3104248046875
               ]
             },
-            "id": 1924045998768,
-            "leftChild": 1924046042096,
-            "rightChild": 1924046044208,
+            "id": 2786085470752,
+            "leftChild": 2786085531232,
+            "rightChild": 2786085528928,
             "triangles": [
-              1924046003680,
-              1924046003716,
-              1924046003860,
-              1924046004976,
-              1924046005012,
-              1924046005048
+              2786085474016,
+              2786085474052,
+              2786085474196,
+              2786085475312,
+              2786085475348,
+              2786085475384
             ]
           },
           "metrics": {
@@ -841,23 +853,23 @@
             "sah": 1.1134899854660034
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.011500000022351742,
+            "chooseSplittingPlanesAverage": 0.004600000102072954,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.011500000022351742,
-            "computeCostAverage": 0.02207222208380699,
+            "chooseSplittingPlanesTot": 0.004600000102072954,
+            "computeCostAverage": 0.012947222217917442,
             "computeCostCount": 36,
-            "computeCostTot": 0.7946000099182129,
-            "nodesCreationAverage": 0.004666666034609079,
+            "computeCostTot": 0.4661000072956085,
+            "nodesCreationAverage": 0.003066666889935732,
             "nodesCreationCount": 18,
-            "nodesCreationTot": 0.08399999141693115,
-            "shouldStopAverage": 0.002400000113993883,
+            "nodesCreationTot": 0.0552000030875206,
+            "shouldStopAverage": 0.001500000013038516,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.004800000227987766,
-            "splitTrianglesAverage": 0.013250000774860382,
+            "shouldStopTot": 0.003000000026077032,
+            "splitTrianglesAverage": 0.007788889110088348,
             "splitTrianglesCount": 18,
-            "splitTrianglesTot": 0.23850001394748688,
-            "splittingTot": 1.2697999477386475,
-            "total": 1.2900999784469604
+            "splitTrianglesTot": 0.14020000398159027,
+            "splittingTot": 0.755299985408783,
+            "total": 0.7667999863624573
           }
         },
         {
@@ -874,13 +886,13 @@
                 1.3104248046875
               ]
             },
-            "id": 1924046042096,
-            "leftChild": 1924046042288,
-            "rightChild": 1924046042480,
+            "id": 2786085531232,
+            "leftChild": 2786085529696,
+            "rightChild": 2786085528736,
             "triangles": [
-              1924046003716,
-              1924046004976,
-              1924046005012
+              2786085474052,
+              2786085475312,
+              2786085475348
             ]
           },
           "metrics": {
@@ -890,23 +902,23 @@
             "sah": 0.24535968899726868
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.013000000268220901,
+            "chooseSplittingPlanesAverage": 0.010599999688565731,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.013000000268220901,
-            "computeCostAverage": 0.022094441577792168,
+            "chooseSplittingPlanesTot": 0.010599999688565731,
+            "computeCostAverage": 0.013041665777564049,
             "computeCostCount": 36,
-            "computeCostTot": 0.7953999042510986,
-            "nodesCreationAverage": 0.004427777603268623,
+            "computeCostTot": 0.46949997544288635,
+            "nodesCreationAverage": 0.002511111320927739,
             "nodesCreationCount": 18,
-            "nodesCreationTot": 0.07969999313354492,
-            "shouldStopAverage": 0.0022499999031424522,
+            "nodesCreationTot": 0.045200005173683167,
+            "shouldStopAverage": 0.0012000000569969416,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.0044999998062849045,
-            "splitTrianglesAverage": 0.009705555625259876,
+            "shouldStopTot": 0.002400000113993883,
+            "splitTrianglesAverage": 0.005627778358757496,
             "splitTrianglesCount": 18,
-            "splitTrianglesTot": 0.17470000684261322,
-            "splittingTot": 1.1979999542236328,
-            "total": 1.2197999954223633
+            "splitTrianglesTot": 0.10130000859498978,
+            "splittingTot": 0.7044000029563904,
+            "total": 0.7208999991416931
           }
         },
         {
@@ -923,11 +935,11 @@
                 4.361096382141113
               ]
             },
-            "id": 1924046042288,
+            "id": 2786085529696,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046004976
+              2786085475312
             ]
           },
           "metrics": {
@@ -970,12 +982,12 @@
                 1.3104248046875
               ]
             },
-            "id": 1924046042480,
+            "id": 2786085528736,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046003716,
-              1924046005012
+              2786085474052,
+              2786085475348
             ]
           },
           "metrics": {
@@ -1018,13 +1030,13 @@
                 3.780390977859497
               ]
             },
-            "id": 1924046044208,
-            "leftChild": 1924046044400,
-            "rightChild": 1924046041712,
+            "id": 2786085528928,
+            "leftChild": 2786085528544,
+            "rightChild": 2786085529120,
             "triangles": [
-              1924046003680,
-              1924046003860,
-              1924046005048
+              2786085474016,
+              2786085474196,
+              2786085475384
             ]
           },
           "metrics": {
@@ -1034,23 +1046,23 @@
             "sah": 0.339998722076416
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.010400000028312206,
+            "chooseSplittingPlanesAverage": 0.005400000140070915,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.010400000028312206,
-            "computeCostAverage": 0.022986114025115967,
+            "chooseSplittingPlanesTot": 0.005400000140070915,
+            "computeCostAverage": 0.01299444492906332,
             "computeCostCount": 36,
-            "computeCostTot": 0.8275001049041748,
-            "nodesCreationAverage": 0.00770555529743433,
+            "computeCostTot": 0.4678000211715698,
+            "nodesCreationAverage": 0.0023722227197140455,
             "nodesCreationCount": 18,
-            "nodesCreationTot": 0.1386999934911728,
-            "shouldStopAverage": 0.0024500000290572643,
+            "nodesCreationTot": 0.04270000755786896,
+            "shouldStopAverage": 0.0010999999940395355,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.004900000058114529,
-            "splitTrianglesAverage": 0.010411109775304794,
+            "shouldStopTot": 0.002199999988079071,
+            "splitTrianglesAverage": 0.005383333191275597,
             "splitTrianglesCount": 18,
-            "splitTrianglesTot": 0.1873999834060669,
-            "splittingTot": 1.3214000463485718,
-            "total": 1.3411999940872192
+            "splitTrianglesTot": 0.09690000116825104,
+            "splittingTot": 0.6906999945640564,
+            "total": 0.7006000280380249
           }
         },
         {
@@ -1067,12 +1079,12 @@
                 4.442352294921875
               ]
             },
-            "id": 1924046044400,
+            "id": 2786085528544,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046003680,
-              1924046003860
+              2786085474016,
+              2786085474196
             ]
           },
           "metrics": {
@@ -1115,11 +1127,11 @@
                 3.780390977859497
               ]
             },
-            "id": 1924046041712,
+            "id": 2786085529120,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046005048
+              2786085475384
             ]
           },
           "metrics": {
@@ -1162,15 +1174,15 @@
                 2.1911544799804688
               ]
             },
-            "id": 1924046041328,
-            "leftChild": 1924046044592,
-            "rightChild": 1924046042672,
+            "id": 2786085527664,
+            "leftChild": 2786085529312,
+            "rightChild": 2786085529504,
             "triangles": [
-              1924046002276,
-              1924046002708,
-              1924046002744,
-              1924046003320,
-              1924046004328
+              2786085472612,
+              2786085473044,
+              2786085473080,
+              2786085473656,
+              2786085474664
             ]
           },
           "metrics": {
@@ -1180,23 +1192,23 @@
             "sah": 0.8749586343765259
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.0215000007301569,
+            "chooseSplittingPlanesAverage": 0.0044999998062849045,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.0215000007301569,
-            "computeCostAverage": 0.02370000071823597,
+            "chooseSplittingPlanesTot": 0.0044999998062849045,
+            "computeCostAverage": 0.012852777726948261,
             "computeCostCount": 36,
-            "computeCostTot": 0.8532000184059143,
-            "nodesCreationAverage": 0.005455555394291878,
+            "computeCostTot": 0.4627000093460083,
+            "nodesCreationAverage": 0.0025944446679204702,
             "nodesCreationCount": 18,
-            "nodesCreationTot": 0.0982000008225441,
-            "shouldStopAverage": 0.0024999999441206455,
+            "nodesCreationTot": 0.04670000448822975,
+            "shouldStopAverage": 0.0010999999940395355,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.004999999888241291,
-            "splitTrianglesAverage": 0.01690555363893509,
+            "shouldStopTot": 0.002199999988079071,
+            "splitTrianglesAverage": 0.0068777771666646,
             "splitTrianglesCount": 18,
-            "splitTrianglesTot": 0.3042999804019928,
-            "splittingTot": 1.4462000131607056,
-            "total": 1.4773999452590942
+            "splitTrianglesTot": 0.12379998713731766,
+            "splittingTot": 0.7211999893188477,
+            "total": 0.7300999760627747
           }
         },
         {
@@ -1213,12 +1225,12 @@
                 5.282318592071533
               ]
             },
-            "id": 1924046044592,
+            "id": 2786085529312,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046002276,
-              1924046004328
+              2786085472612,
+              2786085474664
             ]
           },
           "metrics": {
@@ -1261,13 +1273,13 @@
                 2.1911544799804688
               ]
             },
-            "id": 1924046042672,
+            "id": 2786085529504,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046002708,
-              1924046002744,
-              1924046003320
+              2786085473044,
+              2786085473080,
+              2786085473656
             ]
           },
           "metrics": {
@@ -1310,35 +1322,35 @@
                 1.4223685264587402
               ]
             },
-            "id": 1924046032640,
-            "leftChild": 1924046043632,
-            "rightChild": 1924046043824,
+            "id": 2786085468352,
+            "leftChild": 2786085532000,
+            "rightChild": 2786085532192,
             "triangles": [
-              1924046002168,
-              1924046002204,
-              1924046002492,
-              1924046002780,
-              1924046002816,
-              1924046002852,
-              1924046003176,
-              1924046003428,
-              1924046003464,
-              1924046003536,
-              1924046003644,
-              1924046003788,
-              1924046003824,
-              1924046003896,
-              1924046004040,
-              1924046004148,
-              1924046004184,
-              1924046004256,
-              1924046004364,
-              1924046004544,
-              1924046004940,
-              1924046005084,
-              1924046005192,
-              1924046005228,
-              1924046005408
+              2786085472504,
+              2786085472540,
+              2786085472828,
+              2786085473116,
+              2786085473152,
+              2786085473188,
+              2786085473512,
+              2786085473764,
+              2786085473800,
+              2786085473872,
+              2786085473980,
+              2786085474124,
+              2786085474160,
+              2786085474232,
+              2786085474376,
+              2786085474484,
+              2786085474520,
+              2786085474592,
+              2786085474700,
+              2786085474880,
+              2786085475276,
+              2786085475420,
+              2786085475528,
+              2786085475564,
+              2786085475744
             ]
           },
           "metrics": {
@@ -1348,23 +1360,23 @@
             "sah": 15.13863468170166
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.02459999918937683,
+            "chooseSplittingPlanesAverage": 0.00430000014603138,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.02459999918937683,
-            "computeCostAverage": 0.024940280243754387,
+            "chooseSplittingPlanesTot": 0.00430000014603138,
+            "computeCostAverage": 0.012279168702661991,
             "computeCostCount": 72,
-            "computeCostTot": 1.795700192451477,
-            "nodesCreationAverage": 0.006861111149191856,
+            "computeCostTot": 0.8841001391410828,
+            "nodesCreationAverage": 0.0032333338167518377,
             "nodesCreationCount": 36,
-            "nodesCreationTot": 0.24699999392032623,
-            "shouldStopAverage": 0.0027000000700354576,
+            "nodesCreationTot": 0.11640001833438873,
+            "shouldStopAverage": 0.0012000000569969416,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.005400000140070915,
-            "splitTrianglesAverage": 0.030152780935168266,
+            "shouldStopTot": 0.002400000113993883,
+            "splitTrianglesAverage": 0.014813888818025589,
             "splitTrianglesCount": 36,
-            "splitTrianglesTot": 1.0855001211166382,
-            "splittingTot": 3.5378000736236572,
-            "total": 3.5717999935150146
+            "splitTrianglesTot": 0.53329998254776,
+            "splittingTot": 1.7151000499725342,
+            "total": 1.7239999771118164
           }
         },
         {
@@ -1381,20 +1393,20 @@
                 1.5759663581848145
               ]
             },
-            "id": 1924046043632,
-            "leftChild": 1924046041520,
-            "rightChild": 1924046041904,
+            "id": 2786085532000,
+            "leftChild": 2786085530656,
+            "rightChild": 2786085529888,
             "triangles": [
-              1924046002168,
-              1924046002492,
-              1924046003644,
-              1924046004148,
-              1924046004184,
-              1924046004364,
-              1924046004544,
-              1924046005084,
-              1924046005192,
-              1924046005408
+              2786085472504,
+              2786085472828,
+              2786085473980,
+              2786085474484,
+              2786085474520,
+              2786085474700,
+              2786085474880,
+              2786085475420,
+              2786085475528,
+              2786085475744
             ]
           },
           "metrics": {
@@ -1404,23 +1416,23 @@
             "sah": 4.174185276031494
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.02449999935925007,
+            "chooseSplittingPlanesAverage": 0.004800000227987766,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.02449999935925007,
-            "computeCostAverage": 0.02234027162194252,
+            "chooseSplittingPlanesTot": 0.004800000227987766,
+            "computeCostAverage": 0.012377782724797726,
             "computeCostCount": 72,
-            "computeCostTot": 1.608499526977539,
-            "nodesCreationAverage": 0.0051750000566244125,
+            "computeCostTot": 0.8912003636360168,
+            "nodesCreationAverage": 0.0028972222935408354,
             "nodesCreationCount": 36,
-            "nodesCreationTot": 0.18629999458789825,
-            "shouldStopAverage": 0.002300000051036477,
+            "nodesCreationTot": 0.10429999977350235,
+            "shouldStopAverage": 0.0011500000255182385,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.004600000102072954,
-            "splitTrianglesAverage": 0.017586112022399902,
+            "shouldStopTot": 0.002300000051036477,
+            "splitTrianglesAverage": 0.009736110456287861,
             "splitTrianglesCount": 36,
-            "splitTrianglesTot": 0.6331000328063965,
-            "splittingTot": 2.7358999252319336,
-            "total": 2.770699977874756
+            "splitTrianglesTot": 0.3504999876022339,
+            "splittingTot": 1.5200999975204468,
+            "total": 1.5293999910354614
           }
         },
         {
@@ -1437,15 +1449,15 @@
                 1.5759663581848145
               ]
             },
-            "id": 1924046041520,
-            "leftChild": 1924046043056,
-            "rightChild": 1924046044016,
+            "id": 2786085530656,
+            "leftChild": 2786085530080,
+            "rightChild": 2786085530272,
             "triangles": [
-              1924046004148,
-              1924046004184,
-              1924046005084,
-              1924046005192,
-              1924046005408
+              2786085474484,
+              2786085474520,
+              2786085475420,
+              2786085475528,
+              2786085475744
             ]
           },
           "metrics": {
@@ -1455,23 +1467,23 @@
             "sah": 1.263174295425415
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.012000000104308128,
+            "chooseSplittingPlanesAverage": 0.004900000058114529,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.012000000104308128,
-            "computeCostAverage": 0.02234721928834915,
+            "chooseSplittingPlanesTot": 0.004900000058114529,
+            "computeCostAverage": 0.01212222408503294,
             "computeCostCount": 36,
-            "computeCostTot": 0.8044999241828918,
-            "nodesCreationAverage": 0.004905555862933397,
+            "computeCostTot": 0.43640005588531494,
+            "nodesCreationAverage": 0.0026666666381061077,
             "nodesCreationCount": 18,
-            "nodesCreationTot": 0.08830000460147858,
-            "shouldStopAverage": 0.0022999998182058334,
+            "nodesCreationTot": 0.04800000041723251,
+            "shouldStopAverage": 0.0012000000569969416,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.004599999636411667,
-            "splitTrianglesAverage": 0.012650001794099808,
+            "shouldStopTot": 0.002400000113993883,
+            "splitTrianglesAverage": 0.007166666444391012,
             "splitTrianglesCount": 18,
-            "splitTrianglesTot": 0.22770003974437714,
-            "splittingTot": 1.2776999473571777,
-            "total": 1.29830002784729
+            "splitTrianglesTot": 0.1289999932050705,
+            "splittingTot": 0.7039999961853027,
+            "total": 0.7134000062942505
           }
         },
         {
@@ -1488,13 +1500,13 @@
                 3.696094036102295
               ]
             },
-            "id": 1924046043056,
-            "leftChild": 1924046044784,
-            "rightChild": 1924046043248,
+            "id": 2786085530080,
+            "leftChild": 2786085530464,
+            "rightChild": 2786085530848,
             "triangles": [
-              1924046004184,
-              1924046005084,
-              1924046005192
+              2786085474520,
+              2786085475420,
+              2786085475528
             ]
           },
           "metrics": {
@@ -1504,23 +1516,23 @@
             "sah": 0.33791816234588623
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.011300000362098217,
+            "chooseSplittingPlanesAverage": 0.004699999932199717,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.011300000362098217,
-            "computeCostAverage": 0.02460833080112934,
+            "chooseSplittingPlanesTot": 0.004699999932199717,
+            "computeCostAverage": 0.012402776628732681,
             "computeCostCount": 36,
-            "computeCostTot": 0.8858999013900757,
-            "nodesCreationAverage": 0.004761110991239548,
+            "computeCostTot": 0.44649994373321533,
+            "nodesCreationAverage": 0.002505555748939514,
             "nodesCreationCount": 18,
-            "nodesCreationTot": 0.08569999784231186,
-            "shouldStopAverage": 0.0022499999031424522,
+            "nodesCreationTot": 0.045100003480911255,
+            "shouldStopAverage": 0.0012000000569969416,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.0044999998062849045,
-            "splitTrianglesAverage": 0.01032777689397335,
+            "shouldStopTot": 0.002400000113993883,
+            "splitTrianglesAverage": 0.005561111029237509,
             "splitTrianglesCount": 18,
-            "splitTrianglesTot": 0.1858999878168106,
-            "splittingTot": 1.3135000467300415,
-            "total": 1.333400011062622
+            "splitTrianglesTot": 0.10009999573230743,
+            "splittingTot": 0.6797000169754028,
+            "total": 0.6887999773025513
           }
         },
         {
@@ -1537,12 +1549,12 @@
                 3.696094036102295
               ]
             },
-            "id": 1924046044784,
+            "id": 2786085530464,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046004184,
-              1924046005192
+              2786085474520,
+              2786085475528
             ]
           },
           "metrics": {
@@ -1585,11 +1597,11 @@
                 4.048302173614502
               ]
             },
-            "id": 1924046043248,
+            "id": 2786085530848,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046005084
+              2786085475420
             ]
           },
           "metrics": {
@@ -1632,12 +1644,12 @@
                 1.5759663581848145
               ]
             },
-            "id": 1924046044016,
-            "leftChild": 1924046043440,
-            "rightChild": 1924046041136,
+            "id": 2786085530272,
+            "leftChild": 2786085531424,
+            "rightChild": 2786085531040,
             "triangles": [
-              1924046004148,
-              1924046005408
+              2786085474484,
+              2786085475744
             ]
           },
           "metrics": {
@@ -1647,23 +1659,23 @@
             "sah": 0.2293035387992859
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.011500000022351742,
+            "chooseSplittingPlanesAverage": 0.004699999932199717,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.011500000022351742,
-            "computeCostAverage": 0.022474998608231544,
+            "chooseSplittingPlanesTot": 0.004699999932199717,
+            "computeCostAverage": 0.012083332985639572,
             "computeCostCount": 36,
-            "computeCostTot": 0.8090999722480774,
-            "nodesCreationAverage": 0.004750000312924385,
+            "computeCostTot": 0.4350000023841858,
+            "nodesCreationAverage": 0.0025888888631016016,
             "nodesCreationCount": 18,
-            "nodesCreationTot": 0.08550000190734863,
-            "shouldStopAverage": 0.0022499999031424522,
+            "nodesCreationTot": 0.04659999907016754,
+            "shouldStopAverage": 0.0011500000255182385,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.0044999998062849045,
-            "splitTrianglesAverage": 0.009100000374019146,
+            "shouldStopTot": 0.002300000051036477,
+            "splitTrianglesAverage": 0.004838889464735985,
             "splitTrianglesCount": 18,
-            "splitTrianglesTot": 0.16380000114440918,
-            "splittingTot": 1.2105000019073486,
-            "total": 1.2308000326156616
+            "splitTrianglesTot": 0.08710000663995743,
+            "splittingTot": 0.6554999947547913,
+            "total": 0.6644999980926514
           }
         },
         {
@@ -1680,11 +1692,11 @@
                 4.417807579040527
               ]
             },
-            "id": 1924046043440,
+            "id": 2786085531424,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046005408
+              2786085475744
             ]
           },
           "metrics": {
@@ -1727,11 +1739,11 @@
                 1.5759663581848145
               ]
             },
-            "id": 1924046041136,
+            "id": 2786085531040,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046004148
+              2786085474484
             ]
           },
           "metrics": {
@@ -1774,15 +1786,15 @@
                 4.662410736083984
               ]
             },
-            "id": 1924046041904,
-            "leftChild": 1924046070960,
-            "rightChild": 1924046070000,
+            "id": 2786085529888,
+            "leftChild": 2786085531616,
+            "rightChild": 2786085549088,
             "triangles": [
-              1924046002168,
-              1924046002492,
-              1924046003644,
-              1924046004364,
-              1924046004544
+              2786085472504,
+              2786085472828,
+              2786085473980,
+              2786085474700,
+              2786085474880
             ]
           },
           "metrics": {
@@ -1792,23 +1804,23 @@
             "sah": 0.5508341789245605
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.010499999858438969,
+            "chooseSplittingPlanesAverage": 0.004399999976158142,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.010499999858438969,
-            "computeCostAverage": 0.02241666428744793,
+            "chooseSplittingPlanesTot": 0.004399999976158142,
+            "computeCostAverage": 0.012052778154611588,
             "computeCostCount": 36,
-            "computeCostTot": 0.806999921798706,
-            "nodesCreationAverage": 0.004683332983404398,
+            "computeCostTot": 0.43390002846717834,
+            "nodesCreationAverage": 0.0025333338417112827,
             "nodesCreationCount": 18,
-            "nodesCreationTot": 0.08429999649524689,
-            "shouldStopAverage": 0.002400000113993883,
+            "nodesCreationTot": 0.045600008219480515,
+            "shouldStopAverage": 0.0011500000255182385,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.004800000227987766,
-            "splitTrianglesAverage": 0.012311111204326153,
+            "shouldStopTot": 0.002300000051036477,
+            "splitTrianglesAverage": 0.006872222758829594,
             "splitTrianglesCount": 18,
-            "splitTrianglesTot": 0.2215999960899353,
-            "splittingTot": 1.2635999917984009,
-            "total": 1.2967000007629395
+            "splitTrianglesTot": 0.12370000779628754,
+            "splittingTot": 0.6891999840736389,
+            "total": 0.703000009059906
           }
         },
         {
@@ -1825,13 +1837,13 @@
                 5.272043228149414
               ]
             },
-            "id": 1924046070960,
-            "leftChild": 1924046065968,
-            "rightChild": 1924046072688,
+            "id": 2786085531616,
+            "leftChild": 2786085549280,
+            "rightChild": 2786085546208,
             "triangles": [
-              1924046002168,
-              1924046002492,
-              1924046004364
+              2786085472504,
+              2786085472828,
+              2786085474700
             ]
           },
           "metrics": {
@@ -1841,23 +1853,23 @@
             "sah": 0.12599582970142365
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.011300000362098217,
+            "chooseSplittingPlanesAverage": 0.004600000102072954,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.011300000362098217,
-            "computeCostAverage": 0.02294166013598442,
+            "chooseSplittingPlanesTot": 0.004600000102072954,
+            "computeCostAverage": 0.012136110104620457,
             "computeCostCount": 72,
-            "computeCostTot": 1.6517995595932007,
-            "nodesCreationAverage": 0.004569444805383682,
+            "computeCostTot": 0.8737999200820923,
+            "nodesCreationAverage": 0.0024333340115845203,
             "nodesCreationCount": 36,
-            "nodesCreationTot": 0.16450001299381256,
-            "shouldStopAverage": 0.0025499998591840267,
+            "nodesCreationTot": 0.08760002255439758,
+            "shouldStopAverage": 0.0011500000255182385,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.0050999997183680534,
-            "splitTrianglesAverage": 0.010005555115640163,
+            "shouldStopTot": 0.002300000051036477,
+            "splitTrianglesAverage": 0.005522223189473152,
             "splitTrianglesCount": 36,
-            "splitTrianglesTot": 0.3601999878883362,
-            "splittingTot": 2.4746999740600586,
-            "total": 2.4955999851226807
+            "splitTrianglesTot": 0.19880004227161407,
+            "splittingTot": 1.3309999704360962,
+            "total": 1.3401999473571777
           }
         },
         {
@@ -1874,11 +1886,11 @@
                 6.373537540435791
               ]
             },
-            "id": 1924046065968,
+            "id": 2786085549280,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046002168
+              2786085472504
             ]
           },
           "metrics": {
@@ -1921,12 +1933,12 @@
                 5.272043228149414
               ]
             },
-            "id": 1924046072688,
+            "id": 2786085546208,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046002492,
-              1924046004364
+              2786085472828,
+              2786085474700
             ]
           },
           "metrics": {
@@ -1969,12 +1981,12 @@
                 4.662410736083984
               ]
             },
-            "id": 1924046070000,
+            "id": 2786085549088,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046003644,
-              1924046004544
+              2786085473980,
+              2786085474880
             ]
           },
           "metrics": {
@@ -2017,25 +2029,25 @@
                 1.4223685264587402
               ]
             },
-            "id": 1924046043824,
-            "leftChild": 1924046073456,
-            "rightChild": 1924046068464,
+            "id": 2786085532192,
+            "leftChild": 2786085548320,
+            "rightChild": 2786085543520,
             "triangles": [
-              1924046002204,
-              1924046002780,
-              1924046002816,
-              1924046002852,
-              1924046003176,
-              1924046003428,
-              1924046003464,
-              1924046003536,
-              1924046003788,
-              1924046003824,
-              1924046003896,
-              1924046004040,
-              1924046004256,
-              1924046004940,
-              1924046005228
+              2786085472540,
+              2786085473116,
+              2786085473152,
+              2786085473188,
+              2786085473512,
+              2786085473764,
+              2786085473800,
+              2786085473872,
+              2786085474124,
+              2786085474160,
+              2786085474232,
+              2786085474376,
+              2786085474592,
+              2786085475276,
+              2786085475564
             ]
           },
           "metrics": {
@@ -2045,23 +2057,23 @@
             "sah": 4.6139912605285645
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.018799999728798866,
+            "chooseSplittingPlanesAverage": 0.004399999976158142,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.018799999728798866,
-            "computeCostAverage": 0.02246944047510624,
+            "chooseSplittingPlanesTot": 0.004399999976158142,
+            "computeCostAverage": 0.012183330953121185,
             "computeCostCount": 72,
-            "computeCostTot": 1.6177997589111328,
-            "nodesCreationAverage": 0.00547777907922864,
+            "computeCostTot": 0.8771998286247253,
+            "nodesCreationAverage": 0.0029277773573994637,
             "nodesCreationCount": 36,
-            "nodesCreationTot": 0.19720004498958588,
-            "shouldStopAverage": 0.002300000051036477,
+            "nodesCreationTot": 0.10539998114109039,
+            "shouldStopAverage": 0.0012000000569969416,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.004600000102072954,
-            "splitTrianglesAverage": 0.02143055945634842,
+            "shouldStopTot": 0.002400000113993883,
+            "splitTrianglesAverage": 0.011652778834104538,
             "splitTrianglesCount": 36,
-            "splitTrianglesTot": 0.7715001106262207,
-            "splittingTot": 2.9052999019622803,
-            "total": 2.9333999156951904
+            "splitTrianglesTot": 0.4195000231266022,
+            "splittingTot": 1.5823999643325806,
+            "total": 1.5911999940872192
           }
         },
         {
@@ -2078,17 +2090,17 @@
                 1.4223685264587402
               ]
             },
-            "id": 1924046073456,
-            "leftChild": 1924046068080,
-            "rightChild": 1924046066352,
+            "id": 2786085548320,
+            "leftChild": 2786085546976,
+            "rightChild": 2786085546592,
             "triangles": [
-              1924046002204,
-              1924046002780,
-              1924046003536,
-              1924046003824,
-              1924046004040,
-              1924046004256,
-              1924046005228
+              2786085472540,
+              2786085473116,
+              2786085473872,
+              2786085474160,
+              2786085474376,
+              2786085474592,
+              2786085475564
             ]
           },
           "metrics": {
@@ -2098,23 +2110,23 @@
             "sah": 1.399817705154419
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.014999999664723873,
+            "chooseSplittingPlanesAverage": 0.004600000102072954,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.014999999664723873,
-            "computeCostAverage": 0.022336110472679138,
+            "chooseSplittingPlanesTot": 0.004600000102072954,
+            "computeCostAverage": 0.012191667221486568,
             "computeCostCount": 36,
-            "computeCostTot": 0.804099977016449,
-            "nodesCreationAverage": 0.005061110481619835,
+            "computeCostTot": 0.43890002369880676,
+            "nodesCreationAverage": 0.0026611110661178827,
             "nodesCreationCount": 18,
-            "nodesCreationTot": 0.09109999239444733,
-            "shouldStopAverage": 0.002300000051036477,
+            "nodesCreationTot": 0.0478999987244606,
+            "shouldStopAverage": 0.0011500000255182385,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.004600000102072954,
-            "splitTrianglesAverage": 0.014777779579162598,
+            "shouldStopTot": 0.002300000051036477,
+            "splitTrianglesAverage": 0.008205556310713291,
             "splitTrianglesCount": 18,
-            "splitTrianglesTot": 0.26600003242492676,
-            "splittingTot": 1.3193000555038452,
-            "total": 1.3430999517440796
+            "splitTrianglesTot": 0.1477000117301941,
+            "splittingTot": 0.7250999808311462,
+            "total": 0.7342000007629395
           }
         },
         {
@@ -2131,14 +2143,14 @@
                 1.7360851764678955
               ]
             },
-            "id": 1924046068080,
-            "leftChild": 1924046070192,
-            "rightChild": 1924046071536,
+            "id": 2786085546976,
+            "leftChild": 2786085545248,
+            "rightChild": 2786085544480,
             "triangles": [
-              1924046002780,
-              1924046004040,
-              1924046004256,
-              1924046005228
+              2786085473116,
+              2786085474376,
+              2786085474592,
+              2786085475564
             ]
           },
           "metrics": {
@@ -2148,23 +2160,23 @@
             "sah": 0.36966440081596375
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.010900000110268593,
+            "chooseSplittingPlanesAverage": 0.004699999932199717,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.010900000110268593,
-            "computeCostAverage": 0.022455552592873573,
+            "chooseSplittingPlanesTot": 0.004699999932199717,
+            "computeCostAverage": 0.012230557389557362,
             "computeCostCount": 36,
-            "computeCostTot": 0.8083999156951904,
-            "nodesCreationAverage": 0.004672222305089235,
+            "computeCostTot": 0.4403000771999359,
+            "nodesCreationAverage": 0.002583333756774664,
             "nodesCreationCount": 18,
-            "nodesCreationTot": 0.08410000056028366,
-            "shouldStopAverage": 0.0022499999031424522,
+            "nodesCreationTot": 0.046500008553266525,
+            "shouldStopAverage": 0.0011500000255182385,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.0044999998062849045,
-            "splitTrianglesAverage": 0.01128888688981533,
+            "shouldStopTot": 0.002300000051036477,
+            "splitTrianglesAverage": 0.006394444033503532,
             "splitTrianglesCount": 18,
-            "splitTrianglesTot": 0.20319996774196625,
-            "splittingTot": 1.2477999925613403,
-            "total": 1.267300009727478
+            "splitTrianglesTot": 0.11509999632835388,
+            "splittingTot": 0.6904000043869019,
+            "total": 0.6995000243186951
           }
         },
         {
@@ -2181,11 +2193,11 @@
                 6.152237892150879
               ]
             },
-            "id": 1924046070192,
+            "id": 2786085545248,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046004040
+              2786085474376
             ]
           },
           "metrics": {
@@ -2228,13 +2240,13 @@
                 1.7360851764678955
               ]
             },
-            "id": 1924046071536,
+            "id": 2786085544480,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046002780,
-              1924046004256,
-              1924046005228
+              2786085473116,
+              2786085474592,
+              2786085475564
             ]
           },
           "metrics": {
@@ -2277,13 +2289,13 @@
                 1.4223685264587402
               ]
             },
-            "id": 1924046066352,
-            "leftChild": 1924046067696,
-            "rightChild": 1924046072112,
+            "id": 2786085546592,
+            "leftChild": 2786085547168,
+            "rightChild": 2786085545824,
             "triangles": [
-              1924046002204,
-              1924046003536,
-              1924046003824
+              2786085472540,
+              2786085473872,
+              2786085474160
             ]
           },
           "metrics": {
@@ -2293,23 +2305,23 @@
             "sah": 0.39378756284713745
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.010499999858438969,
+            "chooseSplittingPlanesAverage": 0.004399999976158142,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.010499999858438969,
-            "computeCostAverage": 0.02239166386425495,
+            "chooseSplittingPlanesTot": 0.004399999976158142,
+            "computeCostAverage": 0.0121749984100461,
             "computeCostCount": 36,
-            "computeCostTot": 0.8060998916625977,
-            "nodesCreationAverage": 0.004566666204482317,
+            "computeCostTot": 0.4382999539375305,
+            "nodesCreationAverage": 0.002494444604963064,
             "nodesCreationCount": 18,
-            "nodesCreationTot": 0.08219999074935913,
-            "shouldStopAverage": 0.0022499999031424522,
+            "nodesCreationTot": 0.04490000382065773,
+            "shouldStopAverage": 0.0011500000255182385,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.0044999998062849045,
-            "splitTrianglesAverage": 0.010166666470468044,
+            "shouldStopTot": 0.002300000051036477,
+            "splitTrianglesAverage": 0.005488888826221228,
             "splitTrianglesCount": 18,
-            "splitTrianglesTot": 0.18299999833106995,
-            "splittingTot": 1.226099967956543,
-            "total": 1.245300054550171
+            "splitTrianglesTot": 0.09879999607801437,
+            "splittingTot": 0.6693000197410583,
+            "total": 0.6779999732971191
           }
         },
         {
@@ -2326,12 +2338,12 @@
                 1.4223685264587402
               ]
             },
-            "id": 1924046067696,
+            "id": 2786085547168,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046002204,
-              1924046003536
+              2786085472540,
+              2786085473872
             ]
           },
           "metrics": {
@@ -2374,11 +2386,11 @@
                 2.4514498710632324
               ]
             },
-            "id": 1924046072112,
+            "id": 2786085545824,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046003824
+              2786085474160
             ]
           },
           "metrics": {
@@ -2421,18 +2433,18 @@
                 2.7547624111175537
               ]
             },
-            "id": 1924046068464,
-            "leftChild": 1924046070384,
-            "rightChild": 1924046072880,
+            "id": 2786085543520,
+            "leftChild": 2786085548512,
+            "rightChild": 2786085548704,
             "triangles": [
-              1924046002816,
-              1924046002852,
-              1924046003176,
-              1924046003428,
-              1924046003464,
-              1924046003788,
-              1924046003896,
-              1924046004940
+              2786085473152,
+              2786085473188,
+              2786085473512,
+              2786085473764,
+              2786085473800,
+              2786085474124,
+              2786085474232,
+              2786085475276
             ]
           },
           "metrics": {
@@ -2442,23 +2454,23 @@
             "sah": 1.553267002105713
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.010900000110268593,
+            "chooseSplittingPlanesAverage": 0.00430000014603138,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.010900000110268593,
-            "computeCostAverage": 0.022349992766976357,
+            "chooseSplittingPlanesTot": 0.00430000014603138,
+            "computeCostAverage": 0.012022220529615879,
             "computeCostCount": 36,
-            "computeCostTot": 0.8045997619628906,
-            "nodesCreationAverage": 0.005038888659328222,
+            "computeCostTot": 0.43279993534088135,
+            "nodesCreationAverage": 0.0027277779299765825,
             "nodesCreationCount": 18,
-            "nodesCreationTot": 0.09069999307394028,
-            "shouldStopAverage": 0.0023499999660998583,
+            "nodesCreationTot": 0.04910000413656235,
+            "shouldStopAverage": 0.0011500000255182385,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.004699999932199717,
-            "splitTrianglesAverage": 0.015694444999098778,
+            "shouldStopTot": 0.002300000051036477,
+            "splitTrianglesAverage": 0.008505555801093578,
             "splitTrianglesCount": 18,
-            "splitTrianglesTot": 0.2824999988079071,
-            "splittingTot": 1.3345999717712402,
-            "total": 1.354200005531311
+            "splitTrianglesTot": 0.15309999883174896,
+            "splittingTot": 0.7232999801635742,
+            "total": 0.7319999933242798
           }
         },
         {
@@ -2475,12 +2487,12 @@
                 2.7547624111175537
               ]
             },
-            "id": 1924046070384,
+            "id": 2786085548512,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046002852,
-              1924046003896
+              2786085473188,
+              2786085474232
             ]
           },
           "metrics": {
@@ -2523,16 +2535,16 @@
                 4.236435413360596
               ]
             },
-            "id": 1924046072880,
-            "leftChild": 1924046071152,
-            "rightChild": 1924046072304,
+            "id": 2786085548704,
+            "leftChild": 2786085546784,
+            "rightChild": 2786085544672,
             "triangles": [
-              1924046002816,
-              1924046003176,
-              1924046003428,
-              1924046003464,
-              1924046003788,
-              1924046004940
+              2786085473152,
+              2786085473512,
+              2786085473764,
+              2786085473800,
+              2786085474124,
+              2786085475276
             ]
           },
           "metrics": {
@@ -2542,23 +2554,23 @@
             "sah": 0.6557510495185852
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.010900000110268593,
+            "chooseSplittingPlanesAverage": 0.0044999998062849045,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.010900000110268593,
-            "computeCostAverage": 0.022227777168154716,
+            "chooseSplittingPlanesTot": 0.0044999998062849045,
+            "computeCostAverage": 0.012286112643778324,
             "computeCostCount": 36,
-            "computeCostTot": 0.8001999855041504,
-            "nodesCreationAverage": 0.004944445099681616,
+            "computeCostTot": 0.44230005145072937,
+            "nodesCreationAverage": 0.0027000003028661013,
             "nodesCreationCount": 18,
-            "nodesCreationTot": 0.08900000900030136,
-            "shouldStopAverage": 0.002300000051036477,
+            "nodesCreationTot": 0.048600006848573685,
+            "shouldStopAverage": 0.0011500000255182385,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.004600000102072954,
-            "splitTrianglesAverage": 0.01400555670261383,
+            "shouldStopTot": 0.002300000051036477,
+            "splitTrianglesAverage": 0.007694443222135305,
             "splitTrianglesCount": 18,
-            "splitTrianglesTot": 0.25210002064704895,
-            "splittingTot": 1.2964999675750732,
-            "total": 1.316100001335144
+            "splitTrianglesTot": 0.13849997520446777,
+            "splittingTot": 0.718500018119812,
+            "total": 0.727400004863739
           }
         },
         {
@@ -2575,12 +2587,12 @@
                 5.995912075042725
               ]
             },
-            "id": 1924046071152,
+            "id": 2786085546784,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046003176,
-              1924046003464
+              2786085473512,
+              2786085473800
             ]
           },
           "metrics": {
@@ -2623,14 +2635,14 @@
                 4.236435413360596
               ]
             },
-            "id": 1924046072304,
-            "leftChild": 1924046070768,
-            "rightChild": 1924046073648,
+            "id": 2786085544672,
+            "leftChild": 2786085548896,
+            "rightChild": 2786085541792,
             "triangles": [
-              1924046002816,
-              1924046003428,
-              1924046003788,
-              1924046004940
+              2786085473152,
+              2786085473764,
+              2786085474124,
+              2786085475276
             ]
           },
           "metrics": {
@@ -2640,23 +2652,23 @@
             "sah": 0.37935975193977356
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.022099999710917473,
+            "chooseSplittingPlanesAverage": 0.005200000014156103,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.022099999710917473,
-            "computeCostAverage": 0.022366665303707123,
+            "chooseSplittingPlanesTot": 0.005200000014156103,
+            "computeCostAverage": 0.012533333152532578,
             "computeCostCount": 36,
-            "computeCostTot": 0.805199921131134,
-            "nodesCreationAverage": 0.004855555947870016,
+            "computeCostTot": 0.4511999785900116,
+            "nodesCreationAverage": 0.0025944444350898266,
             "nodesCreationCount": 18,
-            "nodesCreationTot": 0.08740000426769257,
-            "shouldStopAverage": 0.0022999998182058334,
+            "nodesCreationTot": 0.04670000076293945,
+            "shouldStopAverage": 0.0011500000255182385,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.004599999636411667,
-            "splitTrianglesAverage": 0.011488889344036579,
+            "shouldStopTot": 0.002300000051036477,
+            "splitTrianglesAverage": 0.0063777766190469265,
             "splitTrianglesCount": 18,
-            "splitTrianglesTot": 0.20680001378059387,
-            "splittingTot": 1.2556999921798706,
-            "total": 1.2864999771118164
+            "splitTrianglesTot": 0.11479997634887695,
+            "splittingTot": 0.7035999894142151,
+            "total": 0.7132999897003174
           }
         },
         {
@@ -2673,13 +2685,13 @@
                 4.236435413360596
               ]
             },
-            "id": 1924046070768,
+            "id": 2786085548896,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046002816,
-              1924046003428,
-              1924046003788
+              2786085473152,
+              2786085473764,
+              2786085474124
             ]
           },
           "metrics": {
@@ -2722,11 +2734,11 @@
                 6.916741847991943
               ]
             },
-            "id": 1924046073648,
+            "id": 2786085541792,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046004940
+              2786085475276
             ]
           },
           "metrics": {
@@ -2757,855 +2769,43 @@
         }
       ],
       "totalTiming": {
-        "chooseSplittingPlanesAverage": 0.01739230565726757,
+        "chooseSplittingPlanesAverage": 0.0063269236125051975,
         "chooseSplittingPlanesCount": 26,
-        "chooseSplittingPlanesTot": 0.4521999657154083,
-        "computeCostAverage": 0.023310374468564987,
+        "chooseSplittingPlanesTot": 0.16450001299381256,
+        "computeCostAverage": 0.012291423045098782,
         "computeCostCount": 1224,
-        "computeCostTot": 28.531898498535156,
-        "fullTotal": 60.51850128173828,
-        "nodesCreationAverage": 0.005577287171036005,
+        "computeCostTot": 15.04470157623291,
+        "fullTotal": 31.111900329589844,
+        "nodesCreationAverage": 0.002795587992295623,
         "nodesCreationCount": 612,
-        "nodesCreationTot": 3.413299798965454,
-        "shouldStopAverage": 0.002438461873680353,
+        "nodesCreationTot": 1.710899829864502,
+        "shouldStopAverage": 0.0013057695468887687,
         "shouldStopCount": 52,
-        "shouldStopTot": 0.12680001556873322,
-        "splitTrianglesAverage": 0.016713563352823257,
+        "shouldStopTot": 0.06790001690387726,
+        "splitTrianglesAverage": 0.009045097976922989,
         "splitTrianglesCount": 612,
-        "splitTrianglesTot": 10.228700637817383,
-        "splittingTot": 47.60919952392578,
-        "total": 48.333900451660156
+        "splitTrianglesTot": 5.535600185394287,
+        "splittingTot": 25.32369613647461,
+        "total": 25.619197845458984
       },
-      "triangles": [
-        {
-          "id": 1924046003140,
-          "v1": [
-            -2.6178908348083496,
-            -4.555820465087891,
-            4.249735355377197
-          ],
-          "v2": [
-            -1.887711524963379,
-            -5.409574031829834,
-            4.570399284362793
-          ],
-          "v3": [
-            -3.243133544921875,
-            -4.511247158050537,
-            5.057493686676025
-          ]
-        },
-        {
-          "id": 1924046003212,
-          "v1": [
-            -1.6671569347381592,
-            -4.9108734130859375,
-            6.0437116622924805
-          ],
-          "v2": [
-            -1.3208624124526978,
-            -5.799954891204834,
-            5.358870983123779
-          ],
-          "v3": [
-            -1.4569504261016846,
-            -5.272425651550293,
-            6.824746131896973
-          ]
-        },
-        {
-          "id": 1924046004436,
-          "v1": [
-            -1.5593481063842773,
-            -4.525360584259033,
-            5.588860034942627
-          ],
-          "v2": [
-            -0.7528858780860901,
-            -3.7625036239624023,
-            6.214771270751953
-          ],
-          "v3": [
-            -0.6388928890228271,
-            -4.912259101867676,
-            6.445394039154053
-          ]
-        },
-        {
-          "id": 1924046002384,
-          "v1": [
-            0.513249397277832,
-            -4.299185276031494,
-            5.7798004150390625
-          ],
-          "v2": [
-            0.9987790584564209,
-            -4.915273189544678,
-            5.708423614501953
-          ],
-          "v3": [
-            -0.026024997234344482,
-            -4.282690048217773,
-            5.196937084197998
-          ]
-        },
-        {
-          "id": 1924046003032,
-          "v1": [
-            0.31668105721473694,
-            -3.6980528831481934,
-            6.491671562194824
-          ],
-          "v2": [
-            -0.34765735268592834,
-            -3.855903387069702,
-            6.861047267913818
-          ],
-          "v3": [
-            -0.13551828265190125,
-            -4.678053379058838,
-            5.931404113769531
-          ]
-        },
-        {
-          "id": 1924046004724,
-          "v1": [
-            0.2697458863258362,
-            -4.05057954788208,
-            4.851630687713623
-          ],
-          "v2": [
-            1.0897128582000732,
-            -4.693246841430664,
-            4.236485958099365
-          ],
-          "v3": [
-            -0.32763969898223877,
-            -4.806271553039551,
-            5.110973358154297
-          ]
-        },
-        {
-          "id": 1924046003356,
-          "v1": [
-            -1.9612157344818115,
-            -1.8624461889266968,
-            3.811692953109741
-          ],
-          "v2": [
-            -1.616546630859375,
-            -1.3046016693115234,
-            3.8370163440704346
-          ],
-          "v3": [
-            -1.730685830116272,
-            -2.7711238861083984,
-            3.7038919925689697
-          ]
-        },
-        {
-          "id": 1924046002132,
-          "v1": [
-            -0.3076147437095642,
-            -4.038277626037598,
-            9.226961135864258
-          ],
-          "v2": [
-            -1.068633794784546,
-            -3.9886789321899414,
-            8.394207000732422
-          ],
-          "v3": [
-            0.526107907295227,
-            -3.217381000518799,
-            8.824821472167969
-          ]
-        },
-        {
-          "id": 1924046004688,
-          "v1": [
-            -0.7662644386291504,
-            -3.2299063205718994,
-            7.60991096496582
-          ],
-          "v2": [
-            -0.5710685849189758,
-            -3.678738594055176,
-            6.733591079711914
-          ],
-          "v3": [
-            -0.35649582743644714,
-            -3.5135180950164795,
-            8.056385040283203
-          ]
-        },
-        {
-          "id": 1924046004292,
-          "v1": [
-            0.24275903403759003,
-            -1.197447419166565,
-            2.28871750831604
-          ],
-          "v2": [
-            0.9299720525741577,
-            -1.2975146770477295,
-            3.2416794300079346
-          ],
-          "v3": [
-            -0.6423465013504028,
-            -1.8712685108184814,
-            1.6539061069488525
-          ]
-        },
-        {
-          "id": 1924046004976,
-          "v1": [
-            1.0878278017044067,
-            -4.319322109222412,
-            5.092789173126221
-          ],
-          "v2": [
-            1.1605960130691528,
-            -3.533520221710205,
-            5.971451759338379
-          ],
-          "v3": [
-            0.5240281820297241,
-            -4.195658206939697,
-            4.361096382141113
-          ]
-        },
-        {
-          "id": 1924046003716,
-          "v1": [
-            1.0881308317184448,
-            -3.937887191772461,
-            4.24547815322876
-          ],
-          "v2": [
-            1.6405601501464844,
-            -3.1575546264648438,
-            4.266676902770996
-          ],
-          "v3": [
-            1.5195467472076416,
-            -4.782329559326172,
-            4.476086616516113
-          ]
-        },
-        {
-          "id": 1924046005012,
-          "v1": [
-            2.0881729125976563,
-            -3.4678659439086914,
-            2.0203723907470703
-          ],
-          "v2": [
-            1.1161799430847168,
-            -4.032643795013428,
-            2.830063819885254
-          ],
-          "v3": [
-            1.214715838432312,
-            -3.883267879486084,
-            1.3104248046875
-          ]
-        },
-        {
-          "id": 1924046003680,
-          "v1": [
-            1.709320068359375,
-            -4.137434482574463,
-            9.931604385375977
-          ],
-          "v2": [
-            2.2683205604553223,
-            -3.148705005645752,
-            10.238984107971191
-          ],
-          "v3": [
-            0.7841759324073792,
-            -3.6992557048797607,
-            10.307836532592773
-          ]
-        },
-        {
-          "id": 1924046003860,
-          "v1": [
-            1.5005358457565308,
-            -3.5605714321136475,
-            4.446385860443115
-          ],
-          "v2": [
-            2.27437686920166,
-            -2.7868876457214355,
-            4.476819038391113
-          ],
-          "v3": [
-            1.0347108840942383,
-            -2.799884557723999,
-            4.442352294921875
-          ]
-        },
-        {
-          "id": 1924046005048,
-          "v1": [
-            1.5154513120651245,
-            -3.5629332065582275,
-            4.487741470336914
-          ],
-          "v2": [
-            2.4250144958496094,
-            -2.7279233932495117,
-            5.184835910797119
-          ],
-          "v3": [
-            1.5659948587417603,
-            -4.369385242462158,
-            3.780390977859497
-          ]
-        },
-        {
-          "id": 1924046002276,
-          "v1": [
-            1.4774940013885498,
-            -1.4606090784072876,
-            8.105864524841309
-          ],
-          "v2": [
-            1.1905574798583984,
-            -0.9550323486328125,
-            8.868548393249512
-          ],
-          "v3": [
-            0.5008323788642883,
-            -1.4643909931182861,
-            7.253448486328125
-          ]
-        },
-        {
-          "id": 1924046004328,
-          "v1": [
-            0.4129257798194885,
-            -2.2730112075805664,
-            5.946146011352539
-          ],
-          "v2": [
-            0.8808117508888245,
-            -2.9035003185272217,
-            6.787540435791016
-          ],
-          "v3": [
-            0.7330517172813416,
-            -1.8928604125976563,
-            5.282318592071533
-          ]
-        },
-        {
-          "id": 1924046002708,
-          "v1": [
-            1.2329211235046387,
-            -1.7548249959945679,
-            7.824093341827393
-          ],
-          "v2": [
-            1.278394341468811,
-            -1.2812020778656006,
-            7.154905319213867
-          ],
-          "v3": [
-            1.6070377826690674,
-            -1.9012032747268677,
-            8.281208038330078
-          ]
-        },
-        {
-          "id": 1924046002744,
-          "v1": [
-            2.563354015350342,
-            -1.023887276649475,
-            9.40160083770752
-          ],
-          "v2": [
-            1.970374584197998,
-            -2.0078818798065186,
-            10.254302024841309
-          ],
-          "v3": [
-            2.152377128601074,
-            -1.6899840831756592,
-            8.449804306030273
-          ]
-        },
-        {
-          "id": 1924046003320,
-          "v1": [
-            1.2511159181594849,
-            -1.7854816913604736,
-            2.3785457611083984
-          ],
-          "v2": [
-            1.697845458984375,
-            -1.2669776678085327,
-            2.1911544799804688
-          ],
-          "v3": [
-            1.6597859859466553,
-            -1.6147632598876953,
-            3.3176746368408203
-          ]
-        },
-        {
-          "id": 1924046004184,
-          "v1": [
-            -1.4449172019958496,
-            -1.0320088863372803,
-            8.90329360961914
-          ],
-          "v2": [
-            -0.5804028511047363,
-            -1.1304911375045776,
-            9.853276252746582
-          ],
-          "v3": [
-            -1.0490429401397705,
-            -0.5247879028320313,
-            9.058842658996582
-          ]
-        },
-        {
-          "id": 1924046005192,
-          "v1": [
-            -2.442917823791504,
-            -0.6744767427444458,
-            4.353220462799072
-          ],
-          "v2": [
-            -2.359774589538574,
-            -0.15320628881454468,
-            5.166804313659668
-          ],
-          "v3": [
-            -1.8995757102966309,
-            -0.5447415113449097,
-            3.696094036102295
-          ]
-        },
-        {
-          "id": 1924046005084,
-          "v1": [
-            -0.8489652276039124,
-            0.24872168898582458,
-            4.256295680999756
-          ],
-          "v2": [
-            -1.324528455734253,
-            0.16267794370651245,
-            4.048302173614502
-          ],
-          "v3": [
-            -0.3890502452850342,
-            -0.7392632961273193,
-            4.483735084533691
-          ]
-        },
-        {
-          "id": 1924046005408,
-          "v1": [
-            -1.9497381448745728,
-            -0.08282280713319778,
-            5.292376518249512
-          ],
-          "v2": [
-            -2.3140077590942383,
-            -0.10625816881656647,
-            4.417807579040527
-          ],
-          "v3": [
-            -2.723145008087158,
-            0.8148509860038757,
-            5.79614782333374
-          ]
-        },
-        {
-          "id": 1924046004148,
-          "v1": [
-            -0.37079915404319763,
-            1.35517156124115,
-            2.296703815460205
-          ],
-          "v2": [
-            -0.8642506003379822,
-            2.0955967903137207,
-            1.5759663581848145
-          ],
-          "v3": [
-            -1.3346571922302246,
-            1.7345994710922241,
-            3.0388593673706055
-          ]
-        },
-        {
-          "id": 1924046002168,
-          "v1": [
-            0.8438912630081177,
-            0.6591202616691589,
-            6.911506652832031
-          ],
-          "v2": [
-            1.756962537765503,
-            0.1810782253742218,
-            6.373537540435791
-          ],
-          "v3": [
-            0.9107882380485535,
-            1.558996558189392,
-            6.897625923156738
-          ]
-        },
-        {
-          "id": 1924046002492,
-          "v1": [
-            2.1739161014556885,
-            1.1294809579849243,
-            5.415278434753418
-          ],
-          "v2": [
-            2.677661895751953,
-            0.9851062297821045,
-            5.272043228149414
-          ],
-          "v3": [
-            1.897724986076355,
-            0.4361579418182373,
-            6.289659023284912
-          ]
-        },
-        {
-          "id": 1924046004364,
-          "v1": [
-            1.8575358390808105,
-            1.0180436372756958,
-            7.239689350128174
-          ],
-          "v2": [
-            1.8929239511489868,
-            0.1570127010345459,
-            7.187363624572754
-          ],
-          "v3": [
-            1.8270233869552612,
-            1.2538405656814575,
-            6.441132068634033
-          ]
-        },
-        {
-          "id": 1924046003644,
-          "v1": [
-            0.8395978808403015,
-            0.7352097630500793,
-            4.888139724731445
-          ],
-          "v2": [
-            1.7569977045059204,
-            1.7090954780578613,
-            4.662410736083984
-          ],
-          "v3": [
-            1.5119578838348389,
-            1.699494481086731,
-            5.058845520019531
-          ]
-        },
-        {
-          "id": 1924046004544,
-          "v1": [
-            0.6855421662330627,
-            1.0644177198410034,
-            9.202183723449707
-          ],
-          "v2": [
-            1.472174882888794,
-            1.2651773691177368,
-            9.770233154296875
-          ],
-          "v3": [
-            1.2622153759002686,
-            2.025935173034668,
-            9.575309753417969
-          ]
-        },
-        {
-          "id": 1924046004040,
-          "v1": [
-            -1.9578917026519775,
-            2.6412394046783447,
-            7.01537561416626
-          ],
-          "v2": [
-            -1.535701036453247,
-            2.028160572052002,
-            6.152237892150879
-          ],
-          "v3": [
-            -1.1985797882080078,
-            2.2809371948242188,
-            7.224335670471191
-          ]
-        },
-        {
-          "id": 1924046002780,
-          "v1": [
-            -0.479983925819397,
-            3.0833873748779297,
-            4.947014808654785
-          ],
-          "v2": [
-            -0.26156994700431824,
-            2.153082847595215,
-            4.656169414520264
-          ],
-          "v3": [
-            -1.322943925857544,
-            3.4697577953338623,
-            3.972440242767334
-          ]
-        },
-        {
-          "id": 1924046004256,
-          "v1": [
-            -0.7723426818847656,
-            3.0561132431030273,
-            6.384984493255615
-          ],
-          "v2": [
-            -1.277289628982544,
-            2.0776567459106445,
-            5.878825664520264
-          ],
-          "v3": [
-            -1.2726032733917236,
-            3.287639856338501,
-            5.908851623535156
-          ]
-        },
-        {
-          "id": 1924046005228,
-          "v1": [
-            -0.7433463335037231,
-            2.4919750690460205,
-            2.263686418533325
-          ],
-          "v2": [
-            -0.7791510820388794,
-            2.535426616668701,
-            2.338712453842163
-          ],
-          "v3": [
-            -1.4169931411743164,
-            2.768130302429199,
-            1.7360851764678955
-          ]
-        },
-        {
-          "id": 1924046002204,
-          "v1": [
-            0.4060050845146179,
-            2.654850959777832,
-            2.3627657890319824
-          ],
-          "v2": [
-            -0.3140626549720764,
-            3.2396581172943115,
-            1.4223685264587402
-          ],
-          "v3": [
-            1.1722559928894043,
-            2.7364273071289063,
-            2.258726119995117
-          ]
-        },
-        {
-          "id": 1924046003536,
-          "v1": [
-            0.029965326189994812,
-            2.875810146331787,
-            9.228815078735352
-          ],
-          "v2": [
-            -0.530986487865448,
-            3.35207200050354,
-            8.744421005249023
-          ],
-          "v3": [
-            0.1583828181028366,
-            2.140669345855713,
-            8.972990036010742
-          ]
-        },
-        {
-          "id": 1924046003824,
-          "v1": [
-            0.016362296417355537,
-            2.7231533527374268,
-            2.9942402839660645
-          ],
-          "v2": [
-            0.8583980202674866,
-            1.8128265142440796,
-            2.4514498710632324
-          ],
-          "v3": [
-            0.7013350129127502,
-            2.334296703338623,
-            2.962883472442627
-          ]
-        },
-        {
-          "id": 1924046002852,
-          "v1": [
-            -1.4541531801223755,
-            3.9628024101257324,
-            3.931913137435913
-          ],
-          "v2": [
-            -2.4063849449157715,
-            4.894256114959717,
-            3.79184889793396
-          ],
-          "v3": [
-            -1.7615761756896973,
-            4.116937637329102,
-            3.1849653720855713
-          ]
-        },
-        {
-          "id": 1924046003896,
-          "v1": [
-            -1.6656073331832886,
-            3.9469661712646484,
-            3.6358642578125
-          ],
-          "v2": [
-            -1.026397943496704,
-            4.6246418952941895,
-            3.6814563274383545
-          ],
-          "v3": [
-            -2.341731548309326,
-            4.8449201583862305,
-            2.7547624111175537
-          ]
-        },
-        {
-          "id": 1924046003176,
-          "v1": [
-            -0.24847263097763062,
-            3.4702227115631104,
-            8.710235595703125
-          ],
-          "v2": [
-            -0.9699125289916992,
-            3.5508317947387695,
-            8.64440631866455
-          ],
-          "v3": [
-            -0.81110680103302,
-            3.351879358291626,
-            8.670791625976563
-          ]
-        },
-        {
-          "id": 1924046003464,
-          "v1": [
-            -0.12425626814365387,
-            3.4141006469726563,
-            6.444220066070557
-          ],
-          "v2": [
-            -0.5844936966896057,
-            3.3875861167907715,
-            5.995912075042725
-          ],
-          "v3": [
-            -0.6734753251075745,
-            3.707608461380005,
-            7.286487102508545
-          ]
-        },
-        {
-          "id": 1924046002816,
-          "v1": [
-            -0.40454718470573425,
-            4.61317253112793,
-            4.6734819412231445
-          ],
-          "v2": [
-            -0.46038034558296204,
-            3.8239550590515137,
-            4.679633617401123
-          ],
-          "v3": [
-            0.36683252453804016,
-            4.68192720413208,
-            4.236435413360596
-          ]
-        },
-        {
-          "id": 1924046003428,
-          "v1": [
-            -0.4184912145137787,
-            3.8730804920196533,
-            6.271474838256836
-          ],
-          "v2": [
-            -0.26393231749534607,
-            4.7080769538879395,
-            5.899767875671387
-          ],
-          "v3": [
-            0.03378567099571228,
-            4.483551979064941,
-            6.231600761413574
-          ]
-        },
-        {
-          "id": 1924046003788,
-          "v1": [
-            -0.10300390422344208,
-            3.893747568130493,
-            8.996082305908203
-          ],
-          "v2": [
-            0.5925760269165039,
-            4.189195156097412,
-            9.16723918914795
-          ],
-          "v3": [
-            -0.5398383140563965,
-            4.877055644989014,
-            9.595404624938965
-          ]
-        },
-        {
-          "id": 1924046004940,
-          "v1": [
-            0.874647319316864,
-            3.595517635345459,
-            6.916741847991943
-          ],
-          "v2": [
-            0.9394846558570862,
-            4.2684149742126465,
-            7.404864311218262
-          ],
-          "v3": [
-            0.530381977558136,
-            3.084902048110962,
-            7.225833892822266
-          ]
-        }
-      ]
+      "triangles": {
+        "id": 2786085475276,
+        "v1": [
+          0.874647319316864,
+          3.595517635345459,
+          6.916741847991943
+        ],
+        "v2": [
+          0.9394846558570862,
+          4.2684149742126465,
+          7.404864311218262
+        ],
+        "v3": [
+          0.530381977558136,
+          3.084902048110962,
+          7.225833892822266
+        ]
+      }
     },
     {
       "globalInfo": {
@@ -3617,6 +2817,18 @@
       },
       "influenceArea": {
         "bvhRegion": {
+          "aabb": {
+            "max": [
+              10.0,
+              2.0,
+              9.0
+            ],
+            "min": [
+              -5.0,
+              0.0,
+              -1.0
+            ]
+          },
           "obb": {
             "center": [
               2.5,
@@ -3670,32 +2882,32 @@
                 1.136528491973877
               ]
             },
-            "id": 1924046012504,
-            "leftChild": 1924046073072,
-            "rightChild": 1924046067888,
+            "id": 2786085482848,
+            "leftChild": 2786085544864,
+            "rightChild": 2786085541408,
             "triangles": [
-              1924046002024,
-              1924046002168,
-              1924046002348,
-              1924046002420,
-              1924046002492,
-              1924046002924,
-              1924046003284,
-              1924046003572,
-              1924046003644,
-              1924046003752,
-              1924046003824,
-              1924046003932,
-              1924046004076,
-              1924046004112,
-              1924046004148,
-              1924046004364,
-              1924046004904,
-              1924046005084,
-              1924046005336,
-              1924046005372,
-              1924046005408,
-              1924046005444
+              2786085472360,
+              2786085472504,
+              2786085472684,
+              2786085472756,
+              2786085472828,
+              2786085473260,
+              2786085473620,
+              2786085473908,
+              2786085473980,
+              2786085474088,
+              2786085474160,
+              2786085474268,
+              2786085474412,
+              2786085474448,
+              2786085474484,
+              2786085474700,
+              2786085475240,
+              2786085475420,
+              2786085475672,
+              2786085475708,
+              2786085475744,
+              2786085475780
             ]
           },
           "metrics": {
@@ -3705,23 +2917,23 @@
             "sah": 22.0
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.01119999960064888,
+            "chooseSplittingPlanesAverage": 0.004900000058114529,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.01119999960064888,
-            "computeCostAverage": 0.022358331829309464,
+            "chooseSplittingPlanesTot": 0.004900000058114529,
+            "computeCostAverage": 0.012355552986264229,
             "computeCostCount": 72,
-            "computeCostTot": 1.609799861907959,
-            "nodesCreationAverage": 0.00575833348557353,
+            "computeCostTot": 0.8895998001098633,
+            "nodesCreationAverage": 0.0036305557005107403,
             "nodesCreationCount": 36,
-            "nodesCreationTot": 0.20730000734329224,
-            "shouldStopAverage": 0.0023499999660998583,
+            "nodesCreationTot": 0.1307000070810318,
+            "shouldStopAverage": 0.0012000000569969416,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.004699999932199717,
-            "splitTrianglesAverage": 0.024947218596935272,
+            "shouldStopTot": 0.002400000113993883,
+            "splitTrianglesAverage": 0.014019446447491646,
             "splitTrianglesCount": 36,
-            "splitTrianglesTot": 0.8980998992919922,
-            "splittingTot": 3.039299964904785,
-            "total": 3.059499979019165
+            "splitTrianglesTot": 0.5047000646591187,
+            "splittingTot": 1.7130999565124512,
+            "total": 1.7226999998092651
           }
         },
         {
@@ -3738,19 +2950,19 @@
                 1.136528491973877
               ]
             },
-            "id": 1924046073072,
-            "leftChild": 1924046068272,
-            "rightChild": 1924046071344,
+            "id": 2786085544864,
+            "leftChild": 2786085541984,
+            "rightChild": 2786085542368,
             "triangles": [
-              1924046002348,
-              1924046002420,
-              1924046002924,
-              1924046003284,
-              1924046003824,
-              1924046004076,
-              1924046004148,
-              1924046005084,
-              1924046005372
+              2786085472684,
+              2786085472756,
+              2786085473260,
+              2786085473620,
+              2786085474160,
+              2786085474412,
+              2786085474484,
+              2786085475420,
+              2786085475708
             ]
           },
           "metrics": {
@@ -3760,23 +2972,23 @@
             "sah": 4.543442249298096
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.010900000110268593,
+            "chooseSplittingPlanesAverage": 0.005900000222027302,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.010900000110268593,
-            "computeCostAverage": 0.023384718224406242,
+            "chooseSplittingPlanesTot": 0.005900000222027302,
+            "computeCostAverage": 0.012218053452670574,
             "computeCostCount": 72,
-            "computeCostTot": 1.6836997270584106,
-            "nodesCreationAverage": 0.005324999801814556,
+            "computeCostTot": 0.8796998262405396,
+            "nodesCreationAverage": 0.0028027778025716543,
             "nodesCreationCount": 36,
-            "nodesCreationTot": 0.19169999659061432,
-            "shouldStopAverage": 0.0026500001549720764,
+            "nodesCreationTot": 0.10090000182390213,
+            "shouldStopAverage": 0.0012000000569969416,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.005300000309944153,
-            "splitTrianglesAverage": 0.018030555918812752,
+            "shouldStopTot": 0.002400000113993883,
+            "splitTrianglesAverage": 0.009105553850531578,
             "splitTrianglesCount": 36,
-            "splitTrianglesTot": 0.6491000056266785,
-            "splittingTot": 2.8441998958587646,
-            "total": 2.864799976348877
+            "splitTrianglesTot": 0.3277999460697174,
+            "splittingTot": 1.4866000413894653,
+            "total": 1.4972000122070313
           }
         },
         {
@@ -3793,15 +3005,15 @@
                 1.136528491973877
               ]
             },
-            "id": 1924046068272,
-            "leftChild": 1924046069040,
-            "rightChild": 1924046068848,
+            "id": 2786085541984,
+            "leftChild": 2786085545056,
+            "rightChild": 2786085545440,
             "triangles": [
-              1924046002348,
-              1924046002924,
-              1924046003824,
-              1924046004148,
-              1924046005372
+              2786085472684,
+              2786085473260,
+              2786085474160,
+              2786085474484,
+              2786085475708
             ]
           },
           "metrics": {
@@ -3811,23 +3023,23 @@
             "sah": 1.4466285705566406
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.026100000366568565,
+            "chooseSplittingPlanesAverage": 0.004699999932199717,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.026100000366568565,
-            "computeCostAverage": 0.022049997001886368,
+            "chooseSplittingPlanesTot": 0.004699999932199717,
+            "computeCostAverage": 0.01233055628836155,
             "computeCostCount": 36,
-            "computeCostTot": 0.793799877166748,
-            "nodesCreationAverage": 0.00486111082136631,
+            "computeCostTot": 0.4439000189304352,
+            "nodesCreationAverage": 0.0026555557269603014,
             "nodesCreationCount": 18,
-            "nodesCreationTot": 0.08749999850988388,
-            "shouldStopAverage": 0.0022999998182058334,
+            "nodesCreationTot": 0.04780000448226929,
+            "shouldStopAverage": 0.0011500000255182385,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.004599999636411667,
-            "splitTrianglesAverage": 0.012394445948302746,
+            "shouldStopTot": 0.002300000051036477,
+            "splitTrianglesAverage": 0.0069222222082316875,
             "splitTrianglesCount": 18,
-            "splitTrianglesTot": 0.22310002148151398,
-            "splittingTot": 1.2555999755859375,
-            "total": 1.2910000085830688
+            "splitTrianglesTot": 0.12460000067949295,
+            "splittingTot": 0.704200029373169,
+            "total": 0.7134000062942505
           }
         },
         {
@@ -3844,12 +3056,12 @@
                 2.07206392288208
               ]
             },
-            "id": 1924046069040,
+            "id": 2786085545056,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046002348,
-              1924046002924
+              2786085472684,
+              2786085473260
             ]
           },
           "metrics": {
@@ -3892,13 +3104,13 @@
                 1.136528491973877
               ]
             },
-            "id": 1924046068848,
-            "leftChild": 1924046065776,
-            "rightChild": 1924046073264,
+            "id": 2786085545440,
+            "leftChild": 2786085544288,
+            "rightChild": 2786085542560,
             "triangles": [
-              1924046003824,
-              1924046004148,
-              1924046005372
+              2786085474160,
+              2786085474484,
+              2786085475708
             ]
           },
           "metrics": {
@@ -3908,23 +3120,23 @@
             "sah": 0.4819762408733368
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.011500000022351742,
+            "chooseSplittingPlanesAverage": 0.004800000227987766,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.011500000022351742,
-            "computeCostAverage": 0.027275001630187035,
+            "chooseSplittingPlanesTot": 0.004800000227987766,
+            "computeCostAverage": 0.012319443747401237,
             "computeCostCount": 36,
-            "computeCostTot": 0.9819000363349915,
-            "nodesCreationAverage": 0.005588889122009277,
+            "computeCostTot": 0.44349998235702515,
+            "nodesCreationAverage": 0.002594444900751114,
             "nodesCreationCount": 18,
-            "nodesCreationTot": 0.10060000419616699,
-            "shouldStopAverage": 0.004449999891221523,
+            "nodesCreationTot": 0.04670000821352005,
+            "shouldStopAverage": 0.0013000000035390258,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.008899999782443047,
-            "splitTrianglesAverage": 0.012349999509751797,
+            "shouldStopTot": 0.0026000000070780516,
+            "splitTrianglesAverage": 0.005594444461166859,
             "splitTrianglesCount": 18,
-            "splitTrianglesTot": 0.2222999930381775,
-            "splittingTot": 1.489799976348877,
-            "total": 1.5135999917984009
+            "splitTrianglesTot": 0.1006999984383583,
+            "splittingTot": 0.6782000064849854,
+            "total": 0.6875
           }
         },
         {
@@ -3941,11 +3153,11 @@
                 1.136528491973877
               ]
             },
-            "id": 1924046065776,
+            "id": 2786085544288,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046005372
+              2786085475708
             ]
           },
           "metrics": {
@@ -3988,12 +3200,12 @@
                 1.5759663581848145
               ]
             },
-            "id": 1924046073264,
-            "leftChild": 1924046066160,
-            "rightChild": 1924046071920,
+            "id": 2786085542560,
+            "leftChild": 2786085545632,
+            "rightChild": 2786085546400,
             "triangles": [
-              1924046003824,
-              1924046004148
+              2786085474160,
+              2786085474484
             ]
           },
           "metrics": {
@@ -4003,23 +3215,23 @@
             "sah": 0.09440823644399643
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.028999999165534973,
+            "chooseSplittingPlanesAverage": 0.005900000222027302,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.028999999165534973,
-            "computeCostAverage": 0.03340833634138107,
+            "chooseSplittingPlanesTot": 0.005900000222027302,
+            "computeCostAverage": 0.01321110874414444,
             "computeCostCount": 36,
-            "computeCostTot": 1.202700138092041,
-            "nodesCreationAverage": 0.009233333170413971,
+            "computeCostTot": 0.47559991478919983,
+            "nodesCreationAverage": 0.0025166666600853205,
             "nodesCreationCount": 18,
-            "nodesCreationTot": 0.16619999706745148,
-            "shouldStopAverage": 0.0024999999441206455,
+            "nodesCreationTot": 0.04529999941587448,
+            "shouldStopAverage": 0.0011500000255182385,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.004999999888241291,
-            "splitTrianglesAverage": 0.010083334520459175,
+            "shouldStopTot": 0.002300000051036477,
+            "splitTrianglesAverage": 0.0050666662864387035,
             "splitTrianglesCount": 18,
-            "splitTrianglesTot": 0.18150001764297485,
-            "splittingTot": 1.757200002670288,
-            "total": 1.8004000186920166
+            "splitTrianglesTot": 0.09119999408721924,
+            "splittingTot": 0.7001000046730042,
+            "total": 0.7113999724388123
           }
         },
         {
@@ -4036,11 +3248,11 @@
                 1.5759663581848145
               ]
             },
-            "id": 1924046066160,
+            "id": 2786085545632,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046004148
+              2786085474484
             ]
           },
           "metrics": {
@@ -4083,11 +3295,11 @@
                 2.4514498710632324
               ]
             },
-            "id": 1924046071920,
+            "id": 2786085546400,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046003824
+              2786085474160
             ]
           },
           "metrics": {
@@ -4130,14 +3342,14 @@
                 2.679719924926758
               ]
             },
-            "id": 1924046071344,
-            "leftChild": 1924046069616,
-            "rightChild": 1924046071728,
+            "id": 2786085542368,
+            "leftChild": 2786085547360,
+            "rightChild": 2786085547552,
             "triangles": [
-              1924046002420,
-              1924046003284,
-              1924046004076,
-              1924046005084
+              2786085472756,
+              2786085473620,
+              2786085474412,
+              2786085475420
             ]
           },
           "metrics": {
@@ -4147,23 +3359,23 @@
             "sah": 1.2789454460144043
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.023099999874830246,
+            "chooseSplittingPlanesAverage": 0.004600000102072954,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.023099999874830246,
-            "computeCostAverage": 0.021977776661515236,
+            "chooseSplittingPlanesTot": 0.004600000102072954,
+            "computeCostAverage": 0.01228611171245575,
             "computeCostCount": 36,
-            "computeCostTot": 0.7911999821662903,
-            "nodesCreationAverage": 0.004744443576782942,
+            "computeCostTot": 0.442300021648407,
+            "nodesCreationAverage": 0.002633333671838045,
             "nodesCreationCount": 18,
-            "nodesCreationTot": 0.08539998531341553,
-            "shouldStopAverage": 0.0022499999031424522,
+            "nodesCreationTot": 0.04740000516176224,
+            "shouldStopAverage": 0.0012000000569969416,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.0044999998062849045,
-            "splitTrianglesAverage": 0.011183332651853561,
+            "shouldStopTot": 0.002400000113993883,
+            "splitTrianglesAverage": 0.006377777084708214,
             "splitTrianglesCount": 18,
-            "splitTrianglesTot": 0.2012999951839447,
-            "splittingTot": 1.229599952697754,
-            "total": 1.2619999647140503
+            "splitTrianglesTot": 0.11479998379945755,
+            "splittingTot": 0.6937000155448914,
+            "total": 0.7027000188827515
           }
         },
         {
@@ -4180,13 +3392,13 @@
                 2.679719924926758
               ]
             },
-            "id": 1924046069616,
-            "leftChild": 1924046066544,
-            "rightChild": 1924046069424,
+            "id": 2786085547360,
+            "leftChild": 2786085547744,
+            "rightChild": 2786085542752,
             "triangles": [
-              1924046002420,
-              1924046004076,
-              1924046005084
+              2786085472756,
+              2786085474412,
+              2786085475420
             ]
           },
           "metrics": {
@@ -4196,23 +3408,23 @@
             "sah": 0.5260453224182129
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.013500000350177288,
+            "chooseSplittingPlanesAverage": 0.004800000227987766,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.013500000350177288,
-            "computeCostAverage": 0.021916666999459267,
+            "chooseSplittingPlanesTot": 0.004800000227987766,
+            "computeCostAverage": 0.012250000610947609,
             "computeCostCount": 36,
-            "computeCostTot": 0.7890000343322754,
-            "nodesCreationAverage": 0.004522222094237804,
+            "computeCostTot": 0.4410000145435333,
+            "nodesCreationAverage": 0.002566667040809989,
             "nodesCreationCount": 18,
-            "nodesCreationTot": 0.08139999955892563,
-            "shouldStopAverage": 0.0022499999031424522,
+            "nodesCreationTot": 0.04620000720024109,
+            "shouldStopAverage": 0.0011500000255182385,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.0044999998062849045,
-            "splitTrianglesAverage": 0.01005555596202612,
+            "shouldStopTot": 0.002300000051036477,
+            "splitTrianglesAverage": 0.0058888886123895645,
             "splitTrianglesCount": 18,
-            "splitTrianglesTot": 0.1810000091791153,
-            "splittingTot": 1.2001999616622925,
-            "total": 1.222100019454956
+            "splitTrianglesTot": 0.10599999129772186,
+            "splittingTot": 0.6812999844551086,
+            "total": 0.6905999779701233
           }
         },
         {
@@ -4229,12 +3441,12 @@
                 2.679719924926758
               ]
             },
-            "id": 1924046066544,
-            "leftChild": 1924046072496,
-            "rightChild": 1924046068656,
+            "id": 2786085547744,
+            "leftChild": 2786085543712,
+            "rightChild": 2786085546016,
             "triangles": [
-              1924046002420,
-              1924046004076
+              2786085472756,
+              2786085474412
             ]
           },
           "metrics": {
@@ -4244,23 +3456,23 @@
             "sah": 0.2958945631980896
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.011099999770522118,
+            "chooseSplittingPlanesAverage": 0.004600000102072954,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.011099999770522118,
-            "computeCostAverage": 0.02194722183048725,
+            "chooseSplittingPlanesTot": 0.004600000102072954,
+            "computeCostAverage": 0.01198333315551281,
             "computeCostCount": 36,
-            "computeCostTot": 0.7900999784469604,
-            "nodesCreationAverage": 0.00423333328217268,
+            "computeCostTot": 0.43140000104904175,
+            "nodesCreationAverage": 0.0023444448597729206,
             "nodesCreationCount": 18,
-            "nodesCreationTot": 0.07620000094175339,
-            "shouldStopAverage": 0.00215000007301569,
+            "nodesCreationTot": 0.042200006544589996,
+            "shouldStopAverage": 0.0010999999940395355,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.00430000014603138,
-            "splitTrianglesAverage": 0.00839999970048666,
+            "shouldStopTot": 0.002199999988079071,
+            "splitTrianglesAverage": 0.004588888958096504,
             "splitTrianglesCount": 18,
-            "splitTrianglesTot": 0.15119999647140503,
-            "splittingTot": 1.1621999740600586,
-            "total": 1.1820000410079956
+            "splitTrianglesTot": 0.08260000497102737,
+            "splittingTot": 0.6399999856948853,
+            "total": 0.6491000056266785
           }
         },
         {
@@ -4277,11 +3489,11 @@
                 2.8417437076568604
               ]
             },
-            "id": 1924046072496,
+            "id": 2786085543712,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046002420
+              2786085472756
             ]
           },
           "metrics": {
@@ -4324,11 +3536,11 @@
                 2.679719924926758
               ]
             },
-            "id": 1924046068656,
+            "id": 2786085546016,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046004076
+              2786085474412
             ]
           },
           "metrics": {
@@ -4371,11 +3583,11 @@
                 4.048302173614502
               ]
             },
-            "id": 1924046069424,
+            "id": 2786085542752,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046005084
+              2786085475420
             ]
           },
           "metrics": {
@@ -4418,11 +3630,11 @@
                 3.8831653594970703
               ]
             },
-            "id": 1924046071728,
+            "id": 2786085547552,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046003284
+              2786085473620
             ]
           },
           "metrics": {
@@ -4465,23 +3677,23 @@
                 4.417807579040527
               ]
             },
-            "id": 1924046067888,
-            "leftChild": 1924046070576,
-            "rightChild": 1924046066736,
+            "id": 2786085541408,
+            "leftChild": 2786085543136,
+            "rightChild": 2786085547936,
             "triangles": [
-              1924046002024,
-              1924046002168,
-              1924046002492,
-              1924046003572,
-              1924046003644,
-              1924046003752,
-              1924046003932,
-              1924046004112,
-              1924046004364,
-              1924046004904,
-              1924046005336,
-              1924046005408,
-              1924046005444
+              2786085472360,
+              2786085472504,
+              2786085472828,
+              2786085473908,
+              2786085473980,
+              2786085474088,
+              2786085474268,
+              2786085474448,
+              2786085474700,
+              2786085475240,
+              2786085475672,
+              2786085475744,
+              2786085475780
             ]
           },
           "metrics": {
@@ -4491,23 +3703,23 @@
             "sah": 8.102864265441895
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.010400000028312206,
+            "chooseSplittingPlanesAverage": 0.00430000014603138,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.010400000028312206,
-            "computeCostAverage": 0.022116664797067642,
+            "chooseSplittingPlanesTot": 0.00430000014603138,
+            "computeCostAverage": 0.012187504209578037,
             "computeCostCount": 72,
-            "computeCostTot": 1.5923998355865479,
-            "nodesCreationAverage": 0.005283334292471409,
+            "computeCostTot": 0.8775002956390381,
+            "nodesCreationAverage": 0.0029138887766748667,
             "nodesCreationCount": 36,
-            "nodesCreationTot": 0.19020003080368042,
-            "shouldStopAverage": 0.002350000198930502,
+            "nodesCreationTot": 0.10489999502897263,
+            "shouldStopAverage": 0.0011500000255182385,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.004700000397861004,
-            "splitTrianglesAverage": 0.019174998626112938,
+            "shouldStopTot": 0.002300000051036477,
+            "splitTrianglesAverage": 0.01063888892531395,
             "splitTrianglesCount": 36,
-            "splitTrianglesTot": 0.690299928188324,
-            "splittingTot": 2.7832000255584717,
-            "total": 2.802299976348877
+            "splitTrianglesTot": 0.3830000162124634,
+            "splittingTot": 1.5448999404907227,
+            "total": 1.5536999702453613
           }
         },
         {
@@ -4524,20 +3736,20 @@
                 4.417807579040527
               ]
             },
-            "id": 1924046070576,
-            "leftChild": 1924046066928,
-            "rightChild": 1924046067120,
+            "id": 2786085543136,
+            "leftChild": 2786085548128,
+            "rightChild": 2786085541600,
             "triangles": [
-              1924046002168,
-              1924046002492,
-              1924046003644,
-              1924046003752,
-              1924046003932,
-              1924046004112,
-              1924046004364,
-              1924046004904,
-              1924046005336,
-              1924046005408
+              2786085472504,
+              2786085472828,
+              2786085473980,
+              2786085474088,
+              2786085474268,
+              2786085474448,
+              2786085474700,
+              2786085475240,
+              2786085475672,
+              2786085475744
             ]
           },
           "metrics": {
@@ -4547,23 +3759,23 @@
             "sah": 3.7691636085510254
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.010999999940395355,
+            "chooseSplittingPlanesAverage": 0.004800000227987766,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.010999999940395355,
-            "computeCostAverage": 0.022127781063318253,
+            "chooseSplittingPlanesTot": 0.004800000227987766,
+            "computeCostAverage": 0.01205972395837307,
             "computeCostCount": 72,
-            "computeCostTot": 1.5932002067565918,
-            "nodesCreationAverage": 0.005016666371375322,
+            "computeCostTot": 0.8683001399040222,
+            "nodesCreationAverage": 0.0027583336923271418,
             "nodesCreationCount": 36,
-            "nodesCreationTot": 0.18059998750686646,
-            "shouldStopAverage": 0.0022999998182058334,
+            "nodesCreationTot": 0.09930001199245453,
+            "shouldStopAverage": 0.0011500000255182385,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.004599999636411667,
-            "splitTrianglesAverage": 0.016975002363324165,
+            "shouldStopTot": 0.002300000051036477,
+            "splitTrianglesAverage": 0.009475000202655792,
             "splitTrianglesCount": 36,
-            "splitTrianglesTot": 0.6111000776290894,
-            "splittingTot": 2.6828999519348145,
-            "total": 2.704400062561035
+            "splitTrianglesTot": 0.3411000072956085,
+            "splittingTot": 1.4811999797821045,
+            "total": 1.490399956703186
           }
         },
         {
@@ -4580,14 +3792,14 @@
                 4.417807579040527
               ]
             },
-            "id": 1924046066928,
-            "leftChild": 1924046067312,
-            "rightChild": 1924046067504,
+            "id": 2786085548128,
+            "leftChild": 2786085542176,
+            "rightChild": 2786085542944,
             "triangles": [
-              1924046003644,
-              1924046003932,
-              1924046004112,
-              1924046005408
+              2786085473980,
+              2786085474268,
+              2786085474448,
+              2786085475744
             ]
           },
           "metrics": {
@@ -4597,23 +3809,23 @@
             "sah": 0.6297820806503296
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.01080000028014183,
+            "chooseSplittingPlanesAverage": 0.004600000102072954,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.01080000028014183,
-            "computeCostAverage": 0.023349998518824577,
+            "chooseSplittingPlanesTot": 0.004600000102072954,
+            "computeCostAverage": 0.012038890272378922,
             "computeCostCount": 36,
-            "computeCostTot": 0.8405999541282654,
-            "nodesCreationAverage": 0.005166666582226753,
+            "computeCostTot": 0.43340003490448,
+            "nodesCreationAverage": 0.0025388887152075768,
             "nodesCreationCount": 18,
-            "nodesCreationTot": 0.09299999475479126,
-            "shouldStopAverage": 0.0024500000290572643,
+            "nodesCreationTot": 0.04569999501109123,
+            "shouldStopAverage": 0.0010999999940395355,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.004900000058114529,
-            "splitTrianglesAverage": 0.011388887651264668,
+            "shouldStopTot": 0.002199999988079071,
+            "splitTrianglesAverage": 0.006088888738304377,
             "splitTrianglesCount": 18,
-            "splitTrianglesTot": 0.20499998331069946,
-            "splittingTot": 1.2918000221252441,
-            "total": 1.3118000030517578
+            "splitTrianglesTot": 0.1096000000834465,
+            "splittingTot": 0.6743000149726868,
+            "total": 0.6833000183105469
           }
         },
         {
@@ -4630,12 +3842,12 @@
                 4.417807579040527
               ]
             },
-            "id": 1924046067312,
+            "id": 2786085542176,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046003932,
-              1924046005408
+              2786085474268,
+              2786085475744
             ]
           },
           "metrics": {
@@ -4678,12 +3890,12 @@
                 4.662410736083984
               ]
             },
-            "id": 1924046067504,
+            "id": 2786085542944,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046003644,
-              1924046004112
+              2786085473980,
+              2786085474448
             ]
           },
           "metrics": {
@@ -4726,16 +3938,16 @@
                 5.089166641235352
               ]
             },
-            "id": 1924046067120,
-            "leftChild": 1924046069232,
-            "rightChild": 1924046069808,
+            "id": 2786085541600,
+            "leftChild": 2786085543328,
+            "rightChild": 2786085543904,
             "triangles": [
-              1924046002168,
-              1924046002492,
-              1924046003752,
-              1924046004364,
-              1924046004904,
-              1924046005336
+              2786085472504,
+              2786085472828,
+              2786085474088,
+              2786085474700,
+              2786085475240,
+              2786085475672
             ]
           },
           "metrics": {
@@ -4745,23 +3957,23 @@
             "sah": 1.8538997173309326
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.016200000420212746,
+            "chooseSplittingPlanesAverage": 0.00430000014603138,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.016200000420212746,
-            "computeCostAverage": 0.022455554455518723,
+            "chooseSplittingPlanesTot": 0.00430000014603138,
+            "computeCostAverage": 0.012094443663954735,
             "computeCostCount": 36,
-            "computeCostTot": 0.8083999752998352,
-            "nodesCreationAverage": 0.004811111371964216,
+            "computeCostTot": 0.43539997935295105,
+            "nodesCreationAverage": 0.0026611112989485264,
             "nodesCreationCount": 18,
-            "nodesCreationTot": 0.08660000562667847,
-            "shouldStopAverage": 0.002300000051036477,
+            "nodesCreationTot": 0.0479000024497509,
+            "shouldStopAverage": 0.0011500000255182385,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.004600000102072954,
-            "splitTrianglesAverage": 0.013683331198990345,
+            "shouldStopTot": 0.002300000051036477,
+            "splitTrianglesAverage": 0.007316666189581156,
             "splitTrianglesCount": 18,
-            "splitTrianglesTot": 0.24629996716976166,
-            "splittingTot": 1.2978999614715576,
-            "total": 1.3234000205993652
+            "splitTrianglesTot": 0.13169999420642853,
+            "splittingTot": 0.7020000219345093,
+            "total": 0.7107999920845032
           }
         },
         {
@@ -4778,14 +3990,14 @@
                 5.272043228149414
               ]
             },
-            "id": 1924046069232,
-            "leftChild": 1924046074368,
-            "rightChild": 1924046075328,
+            "id": 2786085543328,
+            "leftChild": 2786085544096,
+            "rightChild": 2786085561296,
             "triangles": [
-              1924046002168,
-              1924046002492,
-              1924046004364,
-              1924046004904
+              2786085472504,
+              2786085472828,
+              2786085474700,
+              2786085475240
             ]
           },
           "metrics": {
@@ -4795,23 +4007,23 @@
             "sah": 0.594734787940979
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.011500000022351742,
+            "chooseSplittingPlanesAverage": 0.0044999998062849045,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.011500000022351742,
-            "computeCostAverage": 0.02231944166123867,
+            "chooseSplittingPlanesTot": 0.0044999998062849045,
+            "computeCostAverage": 0.011991668492555618,
             "computeCostCount": 36,
-            "computeCostTot": 0.8034998774528503,
-            "nodesCreationAverage": 0.004444444086402655,
+            "computeCostTot": 0.43170008063316345,
+            "nodesCreationAverage": 0.0023333337157964706,
             "nodesCreationCount": 18,
-            "nodesCreationTot": 0.07999999076128006,
-            "shouldStopAverage": 0.0023499999660998583,
+            "nodesCreationTot": 0.04200000688433647,
+            "shouldStopAverage": 0.0011500000255182385,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.004699999932199717,
-            "splitTrianglesAverage": 0.01120555680245161,
+            "shouldStopTot": 0.002300000051036477,
+            "splitTrianglesAverage": 0.005994444712996483,
             "splitTrianglesCount": 18,
-            "splitTrianglesTot": 0.20170001685619354,
-            "splittingTot": 1.232300043106079,
-            "total": 1.2632999420166016
+            "splitTrianglesTot": 0.10790000855922699,
+            "splittingTot": 0.6654000282287598,
+            "total": 0.6827999949455261
           }
         },
         {
@@ -4828,13 +4040,13 @@
                 5.272043228149414
               ]
             },
-            "id": 1924046074368,
-            "leftChild": 1924046079744,
-            "rightChild": 1924046078208,
+            "id": 2786085544096,
+            "leftChild": 2786085561488,
+            "rightChild": 2786085562832,
             "triangles": [
-              1924046002168,
-              1924046002492,
-              1924046004364
+              2786085472504,
+              2786085472828,
+              2786085474700
             ]
           },
           "metrics": {
@@ -4844,23 +4056,23 @@
             "sah": 0.15417474508285522
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.01140000019222498,
+            "chooseSplittingPlanesAverage": 0.004699999932199717,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.01140000019222498,
-            "computeCostAverage": 0.02267500013113022,
+            "chooseSplittingPlanesTot": 0.004699999932199717,
+            "computeCostAverage": 0.012125001288950443,
             "computeCostCount": 72,
-            "computeCostTot": 1.632599949836731,
-            "nodesCreationAverage": 0.0046000005677342415,
+            "computeCostTot": 0.8730000853538513,
+            "nodesCreationAverage": 0.002477778121829033,
             "nodesCreationCount": 36,
-            "nodesCreationTot": 0.1656000167131424,
-            "shouldStopAverage": 0.0022499999031424522,
+            "nodesCreationTot": 0.08920001238584518,
+            "shouldStopAverage": 0.0011500000255182385,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.0044999998062849045,
-            "splitTrianglesAverage": 0.010074999183416367,
+            "shouldStopTot": 0.002300000051036477,
+            "splitTrianglesAverage": 0.005461112596094608,
             "splitTrianglesCount": 36,
-            "splitTrianglesTot": 0.3626999855041504,
-            "splittingTot": 2.463200092315674,
-            "total": 2.4851999282836914
+            "splitTrianglesTot": 0.1966000497341156,
+            "splittingTot": 1.3279999494552612,
+            "total": 1.3371000289916992
           }
         },
         {
@@ -4877,11 +4089,11 @@
                 5.272043228149414
               ]
             },
-            "id": 1924046079744,
+            "id": 2786085561488,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046002492
+              2786085472828
             ]
           },
           "metrics": {
@@ -4924,12 +4136,12 @@
                 6.373537540435791
               ]
             },
-            "id": 1924046078208,
+            "id": 2786085562832,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046002168,
-              1924046004364
+              2786085472504,
+              2786085474700
             ]
           },
           "metrics": {
@@ -4972,11 +4184,11 @@
                 6.3221259117126465
               ]
             },
-            "id": 1924046075328,
+            "id": 2786085561296,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046004904
+              2786085475240
             ]
           },
           "metrics": {
@@ -5019,12 +4231,12 @@
                 5.089166641235352
               ]
             },
-            "id": 1924046069808,
-            "leftChild": 1924046080896,
-            "rightChild": 1924046078400,
+            "id": 2786085543904,
+            "leftChild": 2786085563984,
+            "rightChild": 2786085558800,
             "triangles": [
-              1924046003752,
-              1924046005336
+              2786085474088,
+              2786085475672
             ]
           },
           "metrics": {
@@ -5034,23 +4246,23 @@
             "sah": 0.3984713852405548
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.013000000268220901,
+            "chooseSplittingPlanesAverage": 0.005499999970197678,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.013000000268220901,
-            "computeCostAverage": 0.022197222337126732,
+            "chooseSplittingPlanesTot": 0.005499999970197678,
+            "computeCostAverage": 0.012069445103406906,
             "computeCostCount": 36,
-            "computeCostTot": 0.7990999817848206,
-            "nodesCreationAverage": 0.004333332646638155,
+            "computeCostTot": 0.4345000386238098,
+            "nodesCreationAverage": 0.0022944447118788958,
             "nodesCreationCount": 18,
-            "nodesCreationTot": 0.07799998670816422,
-            "shouldStopAverage": 0.0022499999031424522,
+            "nodesCreationTot": 0.041300006210803986,
+            "shouldStopAverage": 0.0010999999940395355,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.0044999998062849045,
-            "splitTrianglesAverage": 0.008472221903502941,
+            "shouldStopTot": 0.002199999988079071,
+            "splitTrianglesAverage": 0.004722222685813904,
             "splitTrianglesCount": 18,
-            "splitTrianglesTot": 0.1524999886751175,
-            "splittingTot": 1.1753000020980835,
-            "total": 1.197100043296814
+            "splitTrianglesTot": 0.08500000834465027,
+            "splittingTot": 0.6434000134468079,
+            "total": 0.6539000272750854
           }
         },
         {
@@ -5067,11 +4279,11 @@
                 5.089166641235352
               ]
             },
-            "id": 1924046080896,
+            "id": 2786085563984,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046005336
+              2786085475672
             ]
           },
           "metrics": {
@@ -5114,11 +4326,11 @@
                 5.969573497772217
               ]
             },
-            "id": 1924046078400,
+            "id": 2786085558800,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046003752
+              2786085474088
             ]
           },
           "metrics": {
@@ -5161,13 +4373,13 @@
                 7.472301483154297
               ]
             },
-            "id": 1924046066736,
-            "leftChild": 1924046080320,
-            "rightChild": 1924046074560,
+            "id": 2786085547936,
+            "leftChild": 2786085561680,
+            "rightChild": 2786085560912,
             "triangles": [
-              1924046002024,
-              1924046003572,
-              1924046005444
+              2786085472360,
+              2786085473908,
+              2786085475780
             ]
           },
           "metrics": {
@@ -5177,23 +4389,23 @@
             "sah": 1.0720428228378296
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.010599999688565731,
+            "chooseSplittingPlanesAverage": 0.0044999998062849045,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.010599999688565731,
-            "computeCostAverage": 0.02223888784646988,
+            "chooseSplittingPlanesTot": 0.0044999998062849045,
+            "computeCostAverage": 0.012224998325109482,
             "computeCostCount": 36,
-            "computeCostTot": 0.800599992275238,
-            "nodesCreationAverage": 0.004955555312335491,
+            "computeCostTot": 0.44009995460510254,
+            "nodesCreationAverage": 0.002727777697145939,
             "nodesCreationCount": 18,
-            "nodesCreationTot": 0.08919999748468399,
-            "shouldStopAverage": 0.0022499999031424522,
+            "nodesCreationTot": 0.04909999668598175,
+            "shouldStopAverage": 0.0011500000255182385,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.0044999998062849045,
-            "splitTrianglesAverage": 0.010088888928294182,
+            "shouldStopTot": 0.002300000051036477,
+            "splitTrianglesAverage": 0.005583333317190409,
             "splitTrianglesCount": 18,
-            "splitTrianglesTot": 0.18160000443458557,
-            "splittingTot": 1.2242000102996826,
-            "total": 1.243399977684021
+            "splitTrianglesTot": 0.10050000250339508,
+            "splittingTot": 0.6782000064849854,
+            "total": 0.6872000098228455
           }
         },
         {
@@ -5210,12 +4422,12 @@
                 7.472301483154297
               ]
             },
-            "id": 1924046080320,
-            "leftChild": 1924046079168,
-            "rightChild": 1924046076288,
+            "id": 2786085561680,
+            "leftChild": 2786085562448,
+            "rightChild": 2786085560720,
             "triangles": [
-              1924046003572,
-              1924046005444
+              2786085473908,
+              2786085475780
             ]
           },
           "metrics": {
@@ -5225,23 +4437,23 @@
             "sah": 0.07934696227312088
           },
           "timing": {
-            "chooseSplittingPlanesAverage": 0.01119999960064888,
+            "chooseSplittingPlanesAverage": 0.00570000009611249,
             "chooseSplittingPlanesCount": 1,
-            "chooseSplittingPlanesTot": 0.01119999960064888,
-            "computeCostAverage": 0.02231944352388382,
+            "chooseSplittingPlanesTot": 0.00570000009611249,
+            "computeCostAverage": 0.012280557304620743,
             "computeCostCount": 36,
-            "computeCostTot": 0.8034999370574951,
-            "nodesCreationAverage": 0.004605554975569248,
+            "computeCostTot": 0.44210004806518555,
+            "nodesCreationAverage": 0.00266111153177917,
             "nodesCreationCount": 18,
-            "nodesCreationTot": 0.08289998769760132,
-            "shouldStopAverage": 0.002300000051036477,
+            "nodesCreationTot": 0.0479000061750412,
+            "shouldStopAverage": 0.0011500000255182385,
             "shouldStopCount": 2,
-            "shouldStopTot": 0.004600000102072954,
-            "splitTrianglesAverage": 0.008977776393294334,
+            "shouldStopTot": 0.002300000051036477,
+            "splitTrianglesAverage": 0.00493888882920146,
             "splitTrianglesCount": 18,
-            "splitTrianglesTot": 0.16159997880458832,
-            "splittingTot": 1.1959999799728394,
-            "total": 1.2158000469207764
+            "splitTrianglesTot": 0.08889999985694885,
+            "splittingTot": 0.6675000190734863,
+            "total": 0.6779000163078308
           }
         },
         {
@@ -5258,11 +4470,11 @@
                 7.472301483154297
               ]
             },
-            "id": 1924046079168,
+            "id": 2786085562448,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046003572
+              2786085473908
             ]
           },
           "metrics": {
@@ -5305,11 +4517,11 @@
                 8.26795482635498
               ]
             },
-            "id": 1924046076288,
+            "id": 2786085560720,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046005444
+              2786085475780
             ]
           },
           "metrics": {
@@ -5352,11 +4564,11 @@
                 7.727764129638672
               ]
             },
-            "id": 1924046074560,
+            "id": 2786085560912,
             "leftChild": 0,
             "rightChild": 0,
             "triangles": [
-              1924046002024
+              2786085472360
             ]
           },
           "metrics": {
@@ -5387,428 +4599,48 @@
         }
       ],
       "totalTiming": {
-        "chooseSplittingPlanesAverage": 0.014264705590903759,
+        "chooseSplittingPlanesAverage": 0.004888235125690699,
         "chooseSplittingPlanesCount": 17,
-        "chooseSplittingPlanesTot": 0.24249999225139618,
-        "computeCostAverage": 0.0231263879686594,
+        "chooseSplittingPlanesTot": 0.08309999853372574,
+        "computeCostAverage": 0.012226010672748089,
         "computeCostCount": 792,
-        "computeCostTot": 18.316099166870117,
-        "fullTotal": 30.00749969482422,
-        "nodesCreationAverage": 0.0051575759425759315,
+        "computeCostTot": 9.683000564575195,
+        "fullTotal": 15.987500190734863,
+        "nodesCreationAverage": 0.0027133841067552567,
         "nodesCreationCount": 396,
-        "nodesCreationTot": 2.0424001216888428,
-        "shouldStopAverage": 0.0024529416114091873,
+        "nodesCreationTot": 1.0745000839233398,
+        "shouldStopAverage": 0.0011588236084207892,
         "shouldStopCount": 34,
-        "shouldStopTot": 0.08340001106262207,
-        "splitTrianglesAverage": 0.013940404169261456,
+        "shouldStopTot": 0.03940000385046005,
+        "splitTrianglesAverage": 0.007567424327135086,
         "splitTrianglesCount": 396,
-        "splitTrianglesTot": 5.520400047302246,
-        "splittingTot": 29.32489776611328,
-        "total": 29.74209976196289
+        "splitTrianglesTot": 2.9967000484466553,
+        "splittingTot": 15.682100296020508,
+        "total": 15.851700782775879
       },
-      "triangles": [
-        {
-          "id": 1924046002348,
-          "v1": [
-            -3.4707016944885254,
-            0.7863393425941467,
-            2.07206392288208
-          ],
-          "v2": [
-            -3.052616596221924,
-            0.7276209592819214,
-            2.6012489795684814
-          ],
-          "v3": [
-            -3.535916328430176,
-            0.32434144616127014,
-            2.7354490756988525
-          ]
-        },
-        {
-          "id": 1924046002924,
-          "v1": [
-            -3.087397336959839,
-            0.8883993625640869,
-            2.385094404220581
-          ],
-          "v2": [
-            -4.0556511878967285,
-            -0.012178599834442139,
-            2.183924913406372
-          ],
-          "v3": [
-            -2.933589458465576,
-            1.62343430519104,
-            2.957418918609619
-          ]
-        },
-        {
-          "id": 1924046005372,
-          "v1": [
-            4.82796049118042,
-            1.0830962657928467,
-            2.0094566345214844
-          ],
-          "v2": [
-            4.769969463348389,
-            1.161067008972168,
-            2.1321091651916504
-          ],
-          "v3": [
-            5.672180652618408,
-            1.3848974704742432,
-            1.136528491973877
-          ]
-        },
-        {
-          "id": 1924046004148,
-          "v1": [
-            -0.37079915404319763,
-            1.35517156124115,
-            2.296703815460205
-          ],
-          "v2": [
-            -0.8642506003379822,
-            2.0955967903137207,
-            1.5759663581848145
-          ],
-          "v3": [
-            -1.3346571922302246,
-            1.7345994710922241,
-            3.0388593673706055
-          ]
-        },
-        {
-          "id": 1924046003824,
-          "v1": [
-            0.016362296417355537,
-            2.7231533527374268,
-            2.9942402839660645
-          ],
-          "v2": [
-            0.8583980202674866,
-            1.8128265142440796,
-            2.4514498710632324
-          ],
-          "v3": [
-            0.7013350129127502,
-            2.334296703338623,
-            2.962883472442627
-          ]
-        },
-        {
-          "id": 1924046002420,
-          "v1": [
-            -4.506957530975342,
-            0.1886187493801117,
-            3.3782267570495605
-          ],
-          "v2": [
-            -4.714331150054932,
-            -0.5966506004333496,
-            3.3978474140167236
-          ],
-          "v3": [
-            -5.302687168121338,
-            -0.2339455783367157,
-            2.8417437076568604
-          ]
-        },
-        {
-          "id": 1924046004076,
-          "v1": [
-            4.5521016120910645,
-            -0.8420788645744324,
-            3.5671324729919434
-          ],
-          "v2": [
-            3.8841586112976074,
-            -0.5924646854400635,
-            2.679719924926758
-          ],
-          "v3": [
-            4.209207057952881,
-            0.11874479055404663,
-            4.110327243804932
-          ]
-        },
-        {
-          "id": 1924046005084,
-          "v1": [
-            -0.8489652276039124,
-            0.24872168898582458,
-            4.256295680999756
-          ],
-          "v2": [
-            -1.324528455734253,
-            0.16267794370651245,
-            4.048302173614502
-          ],
-          "v3": [
-            -0.3890502452850342,
-            -0.7392632961273193,
-            4.483735084533691
-          ]
-        },
-        {
-          "id": 1924046003284,
-          "v1": [
-            3.9906399250030518,
-            2.1532957553863525,
-            4.4826226234436035
-          ],
-          "v2": [
-            3.7765204906463623,
-            1.3148632049560547,
-            4.186865329742432
-          ],
-          "v3": [
-            2.992666482925415,
-            2.4025566577911377,
-            3.8831653594970703
-          ]
-        },
-        {
-          "id": 1924046003932,
-          "v1": [
-            3.864994764328003,
-            0.7434422373771667,
-            5.03077507019043
-          ],
-          "v2": [
-            4.146805286407471,
-            -0.0009437799453735352,
-            4.844181060791016
-          ],
-          "v3": [
-            3.577815055847168,
-            0.045754313468933105,
-            5.743721008300781
-          ]
-        },
-        {
-          "id": 1924046005408,
-          "v1": [
-            -1.9497381448745728,
-            -0.08282280713319778,
-            5.292376518249512
-          ],
-          "v2": [
-            -2.3140077590942383,
-            -0.10625816881656647,
-            4.417807579040527
-          ],
-          "v3": [
-            -2.723145008087158,
-            0.8148509860038757,
-            5.79614782333374
-          ]
-        },
-        {
-          "id": 1924046003644,
-          "v1": [
-            0.8395978808403015,
-            0.7352097630500793,
-            4.888139724731445
-          ],
-          "v2": [
-            1.7569977045059204,
-            1.7090954780578613,
-            4.662410736083984
-          ],
-          "v3": [
-            1.5119578838348389,
-            1.699494481086731,
-            5.058845520019531
-          ]
-        },
-        {
-          "id": 1924046004112,
-          "v1": [
-            -2.9066755771636963,
-            0.8528220653533936,
-            5.518304347991943
-          ],
-          "v2": [
-            -2.679567337036133,
-            0.492764949798584,
-            4.7421040534973145
-          ],
-          "v3": [
-            -3.280646324157715,
-            1.8406977653503418,
-            4.849852561950684
-          ]
-        },
-        {
-          "id": 1924046002492,
-          "v1": [
-            2.1739161014556885,
-            1.1294809579849243,
-            5.415278434753418
-          ],
-          "v2": [
-            2.677661895751953,
-            0.9851062297821045,
-            5.272043228149414
-          ],
-          "v3": [
-            1.897724986076355,
-            0.4361579418182373,
-            6.289659023284912
-          ]
-        },
-        {
-          "id": 1924046002168,
-          "v1": [
-            0.8438912630081177,
-            0.6591202616691589,
-            6.911506652832031
-          ],
-          "v2": [
-            1.756962537765503,
-            0.1810782253742218,
-            6.373537540435791
-          ],
-          "v3": [
-            0.9107882380485535,
-            1.558996558189392,
-            6.897625923156738
-          ]
-        },
-        {
-          "id": 1924046004364,
-          "v1": [
-            1.8575358390808105,
-            1.0180436372756958,
-            7.239689350128174
-          ],
-          "v2": [
-            1.8929239511489868,
-            0.1570127010345459,
-            7.187363624572754
-          ],
-          "v3": [
-            1.8270233869552612,
-            1.2538405656814575,
-            6.441132068634033
-          ]
-        },
-        {
-          "id": 1924046004904,
-          "v1": [
-            -3.1988353729248047,
-            1.193341851234436,
-            6.464628219604492
-          ],
-          "v2": [
-            -4.073817253112793,
-            1.0715807676315308,
-            7.1845574378967285
-          ],
-          "v3": [
-            -4.177579402923584,
-            0.36366158723831177,
-            6.3221259117126465
-          ]
-        },
-        {
-          "id": 1924046005336,
-          "v1": [
-            -4.920221328735352,
-            2.1206552982330322,
-            6.06781005859375
-          ],
-          "v2": [
-            -5.539142608642578,
-            2.842838764190674,
-            6.695278644561768
-          ],
-          "v3": [
-            -4.477771759033203,
-            1.2413182258605957,
-            5.089166641235352
-          ]
-        },
-        {
-          "id": 1924046003752,
-          "v1": [
-            3.3780386447906494,
-            1.9600539207458496,
-            6.440474987030029
-          ],
-          "v2": [
-            4.1004180908203125,
-            2.4506969451904297,
-            5.969573497772217
-          ],
-          "v3": [
-            4.37757682800293,
-            2.107517719268799,
-            6.718593120574951
-          ]
-        },
-        {
-          "id": 1924046003572,
-          "v1": [
-            -4.171445369720459,
-            0.05726220831274986,
-            7.555254936218262
-          ],
-          "v2": [
-            -4.2574896812438965,
-            -0.22018834948539734,
-            8.187270164489746
-          ],
-          "v3": [
-            -5.079822540283203,
-            -0.16708220541477203,
-            7.472301483154297
-          ]
-        },
-        {
-          "id": 1924046005444,
-          "v1": [
-            -3.9859347343444824,
-            0.8493775725364685,
-            9.26026725769043
-          ],
-          "v2": [
-            -3.6993465423583984,
-            1.178463101387024,
-            8.710274696350098
-          ],
-          "v3": [
-            -4.823039531707764,
-            0.031353533267974854,
-            8.26795482635498
-          ]
-        },
-        {
-          "id": 1924046002024,
-          "v1": [
-            4.39127779006958,
-            2.7838923931121826,
-            7.727764129638672
-          ],
-          "v2": [
-            4.996792793273926,
-            1.9694939851760864,
-            7.764069080352783
-          ],
-          "v3": [
-            5.121318340301514,
-            3.4421863555908203,
-            8.386970520019531
-          ]
-        }
-      ]
+      "triangles": {
+        "id": 2786085472360,
+        "v1": [
+          4.39127779006958,
+          2.7838923931121826,
+          7.727764129638672
+        ],
+        "v2": [
+          4.996792793273926,
+          1.9694939851760864,
+          7.764069080352783
+        ],
+        "v3": [
+          5.121318340301514,
+          3.4421863555908203,
+          8.386970520019531
+        ]
+      }
     }
   ],
   "triangles": [
     {
-      "id": 1924046001952,
+      "id": 2786085472288,
       "v1": [
         4.971848011016846,
         4.325573444366455,
@@ -5826,7 +4658,7 @@
       ]
     },
     {
-      "id": 1924046001988,
+      "id": 2786085472324,
       "v1": [
         3.463109254837036,
         -1.8672648668289185,
@@ -5844,7 +4676,7 @@
       ]
     },
     {
-      "id": 1924046002024,
+      "id": 2786085472360,
       "v1": [
         4.39127779006958,
         2.7838923931121826,
@@ -5862,7 +4694,7 @@
       ]
     },
     {
-      "id": 1924046002060,
+      "id": 2786085472396,
       "v1": [
         -2.269500255584717,
         -4.407567977905273,
@@ -5880,7 +4712,7 @@
       ]
     },
     {
-      "id": 1924046002096,
+      "id": 2786085472432,
       "v1": [
         2.8331446647644043,
         -0.8746115565299988,
@@ -5898,7 +4730,7 @@
       ]
     },
     {
-      "id": 1924046002132,
+      "id": 2786085472468,
       "v1": [
         -0.3076147437095642,
         -4.038277626037598,
@@ -5916,7 +4748,7 @@
       ]
     },
     {
-      "id": 1924046002168,
+      "id": 2786085472504,
       "v1": [
         0.8438912630081177,
         0.6591202616691589,
@@ -5934,7 +4766,7 @@
       ]
     },
     {
-      "id": 1924046002204,
+      "id": 2786085472540,
       "v1": [
         0.4060050845146179,
         2.654850959777832,
@@ -5952,7 +4784,7 @@
       ]
     },
     {
-      "id": 1924046002240,
+      "id": 2786085472576,
       "v1": [
         3.921358585357666,
         -1.2241564989089966,
@@ -5970,7 +4802,7 @@
       ]
     },
     {
-      "id": 1924046002276,
+      "id": 2786085472612,
       "v1": [
         1.4774940013885498,
         -1.4606090784072876,
@@ -5988,7 +4820,7 @@
       ]
     },
     {
-      "id": 1924046002312,
+      "id": 2786085472648,
       "v1": [
         2.8695147037506104,
         -4.3593268394470215,
@@ -6006,7 +4838,7 @@
       ]
     },
     {
-      "id": 1924046002348,
+      "id": 2786085472684,
       "v1": [
         -3.4707016944885254,
         0.7863393425941467,
@@ -6024,7 +4856,7 @@
       ]
     },
     {
-      "id": 1924046002384,
+      "id": 2786085472720,
       "v1": [
         0.513249397277832,
         -4.299185276031494,
@@ -6042,7 +4874,7 @@
       ]
     },
     {
-      "id": 1924046002420,
+      "id": 2786085472756,
       "v1": [
         -4.506957530975342,
         0.1886187493801117,
@@ -6060,7 +4892,7 @@
       ]
     },
     {
-      "id": 1924046002456,
+      "id": 2786085472792,
       "v1": [
         4.6766791343688965,
         -2.2168116569519043,
@@ -6078,7 +4910,7 @@
       ]
     },
     {
-      "id": 1924046002492,
+      "id": 2786085472828,
       "v1": [
         2.1739161014556885,
         1.1294809579849243,
@@ -6096,7 +4928,7 @@
       ]
     },
     {
-      "id": 1924046002528,
+      "id": 2786085472864,
       "v1": [
         4.164098739624023,
         2.819584608078003,
@@ -6114,7 +4946,7 @@
       ]
     },
     {
-      "id": 1924046002564,
+      "id": 2786085472900,
       "v1": [
         -4.260310173034668,
         -3.478628396987915,
@@ -6132,7 +4964,7 @@
       ]
     },
     {
-      "id": 1924046002600,
+      "id": 2786085472936,
       "v1": [
         4.817566394805908,
         3.9302120208740234,
@@ -6150,7 +4982,7 @@
       ]
     },
     {
-      "id": 1924046002636,
+      "id": 2786085472972,
       "v1": [
         -3.906639337539673,
         -3.539672613143921,
@@ -6168,7 +5000,7 @@
       ]
     },
     {
-      "id": 1924046002672,
+      "id": 2786085473008,
       "v1": [
         -4.257415771484375,
         -4.045807361602783,
@@ -6186,7 +5018,7 @@
       ]
     },
     {
-      "id": 1924046002708,
+      "id": 2786085473044,
       "v1": [
         1.2329211235046387,
         -1.7548249959945679,
@@ -6204,7 +5036,7 @@
       ]
     },
     {
-      "id": 1924046002744,
+      "id": 2786085473080,
       "v1": [
         2.563354015350342,
         -1.023887276649475,
@@ -6222,7 +5054,7 @@
       ]
     },
     {
-      "id": 1924046002780,
+      "id": 2786085473116,
       "v1": [
         -0.479983925819397,
         3.0833873748779297,
@@ -6240,7 +5072,7 @@
       ]
     },
     {
-      "id": 1924046002816,
+      "id": 2786085473152,
       "v1": [
         -0.40454718470573425,
         4.61317253112793,
@@ -6258,7 +5090,7 @@
       ]
     },
     {
-      "id": 1924046002852,
+      "id": 2786085473188,
       "v1": [
         -1.4541531801223755,
         3.9628024101257324,
@@ -6276,7 +5108,7 @@
       ]
     },
     {
-      "id": 1924046002888,
+      "id": 2786085473224,
       "v1": [
         4.500432968139648,
         -1.8638917207717896,
@@ -6294,7 +5126,7 @@
       ]
     },
     {
-      "id": 1924046002924,
+      "id": 2786085473260,
       "v1": [
         -3.087397336959839,
         0.8883993625640869,
@@ -6312,7 +5144,7 @@
       ]
     },
     {
-      "id": 1924046002960,
+      "id": 2786085473296,
       "v1": [
         -2.452972412109375,
         -4.177451133728027,
@@ -6330,7 +5162,7 @@
       ]
     },
     {
-      "id": 1924046002996,
+      "id": 2786085473332,
       "v1": [
         -4.635303020477295,
         2.893998384475708,
@@ -6348,7 +5180,7 @@
       ]
     },
     {
-      "id": 1924046003032,
+      "id": 2786085473368,
       "v1": [
         0.31668105721473694,
         -3.6980528831481934,
@@ -6366,7 +5198,7 @@
       ]
     },
     {
-      "id": 1924046003068,
+      "id": 2786085473404,
       "v1": [
         -4.680438041687012,
         4.348721981048584,
@@ -6384,7 +5216,7 @@
       ]
     },
     {
-      "id": 1924046003104,
+      "id": 2786085473440,
       "v1": [
         -4.164536476135254,
         -4.557277202606201,
@@ -6402,7 +5234,7 @@
       ]
     },
     {
-      "id": 1924046003140,
+      "id": 2786085473476,
       "v1": [
         -2.6178908348083496,
         -4.555820465087891,
@@ -6420,7 +5252,7 @@
       ]
     },
     {
-      "id": 1924046003176,
+      "id": 2786085473512,
       "v1": [
         -0.24847263097763062,
         3.4702227115631104,
@@ -6438,7 +5270,7 @@
       ]
     },
     {
-      "id": 1924046003212,
+      "id": 2786085473548,
       "v1": [
         -1.6671569347381592,
         -4.9108734130859375,
@@ -6456,7 +5288,7 @@
       ]
     },
     {
-      "id": 1924046003248,
+      "id": 2786085473584,
       "v1": [
         2.9037351608276367,
         -2.825007915496826,
@@ -6474,7 +5306,7 @@
       ]
     },
     {
-      "id": 1924046003284,
+      "id": 2786085473620,
       "v1": [
         3.9906399250030518,
         2.1532957553863525,
@@ -6492,7 +5324,7 @@
       ]
     },
     {
-      "id": 1924046003320,
+      "id": 2786085473656,
       "v1": [
         1.2511159181594849,
         -1.7854816913604736,
@@ -6510,7 +5342,7 @@
       ]
     },
     {
-      "id": 1924046003356,
+      "id": 2786085473692,
       "v1": [
         -1.9612157344818115,
         -1.8624461889266968,
@@ -6528,7 +5360,7 @@
       ]
     },
     {
-      "id": 1924046003392,
+      "id": 2786085473728,
       "v1": [
         4.680126667022705,
         -1.4043970108032227,
@@ -6546,7 +5378,7 @@
       ]
     },
     {
-      "id": 1924046003428,
+      "id": 2786085473764,
       "v1": [
         -0.4184912145137787,
         3.8730804920196533,
@@ -6564,7 +5396,7 @@
       ]
     },
     {
-      "id": 1924046003464,
+      "id": 2786085473800,
       "v1": [
         -0.12425626814365387,
         3.4141006469726563,
@@ -6582,7 +5414,7 @@
       ]
     },
     {
-      "id": 1924046003500,
+      "id": 2786085473836,
       "v1": [
         -2.9952523708343506,
         3.7985310554504395,
@@ -6600,7 +5432,7 @@
       ]
     },
     {
-      "id": 1924046003536,
+      "id": 2786085473872,
       "v1": [
         0.029965326189994812,
         2.875810146331787,
@@ -6618,7 +5450,7 @@
       ]
     },
     {
-      "id": 1924046003572,
+      "id": 2786085473908,
       "v1": [
         -4.171445369720459,
         0.05726220831274986,
@@ -6636,7 +5468,7 @@
       ]
     },
     {
-      "id": 1924046003608,
+      "id": 2786085473944,
       "v1": [
         2.357321262359619,
         4.09636926651001,
@@ -6654,7 +5486,7 @@
       ]
     },
     {
-      "id": 1924046003644,
+      "id": 2786085473980,
       "v1": [
         0.8395978808403015,
         0.7352097630500793,
@@ -6672,7 +5504,7 @@
       ]
     },
     {
-      "id": 1924046003680,
+      "id": 2786085474016,
       "v1": [
         1.709320068359375,
         -4.137434482574463,
@@ -6690,7 +5522,7 @@
       ]
     },
     {
-      "id": 1924046003716,
+      "id": 2786085474052,
       "v1": [
         1.0881308317184448,
         -3.937887191772461,
@@ -6708,7 +5540,7 @@
       ]
     },
     {
-      "id": 1924046003752,
+      "id": 2786085474088,
       "v1": [
         3.3780386447906494,
         1.9600539207458496,
@@ -6726,7 +5558,7 @@
       ]
     },
     {
-      "id": 1924046003788,
+      "id": 2786085474124,
       "v1": [
         -0.10300390422344208,
         3.893747568130493,
@@ -6744,7 +5576,7 @@
       ]
     },
     {
-      "id": 1924046003824,
+      "id": 2786085474160,
       "v1": [
         0.016362296417355537,
         2.7231533527374268,
@@ -6762,7 +5594,7 @@
       ]
     },
     {
-      "id": 1924046003860,
+      "id": 2786085474196,
       "v1": [
         1.5005358457565308,
         -3.5605714321136475,
@@ -6780,7 +5612,7 @@
       ]
     },
     {
-      "id": 1924046003896,
+      "id": 2786085474232,
       "v1": [
         -1.6656073331832886,
         3.9469661712646484,
@@ -6798,7 +5630,7 @@
       ]
     },
     {
-      "id": 1924046003932,
+      "id": 2786085474268,
       "v1": [
         3.864994764328003,
         0.7434422373771667,
@@ -6816,7 +5648,7 @@
       ]
     },
     {
-      "id": 1924046003968,
+      "id": 2786085474304,
       "v1": [
         -3.9799234867095947,
         4.531209945678711,
@@ -6834,7 +5666,7 @@
       ]
     },
     {
-      "id": 1924046004004,
+      "id": 2786085474340,
       "v1": [
         -4.483587741851807,
         -3.612853765487671,
@@ -6852,7 +5684,7 @@
       ]
     },
     {
-      "id": 1924046004040,
+      "id": 2786085474376,
       "v1": [
         -1.9578917026519775,
         2.6412394046783447,
@@ -6870,7 +5702,7 @@
       ]
     },
     {
-      "id": 1924046004076,
+      "id": 2786085474412,
       "v1": [
         4.5521016120910645,
         -0.8420788645744324,
@@ -6888,7 +5720,7 @@
       ]
     },
     {
-      "id": 1924046004112,
+      "id": 2786085474448,
       "v1": [
         -2.9066755771636963,
         0.8528220653533936,
@@ -6906,7 +5738,7 @@
       ]
     },
     {
-      "id": 1924046004148,
+      "id": 2786085474484,
       "v1": [
         -0.37079915404319763,
         1.35517156124115,
@@ -6924,7 +5756,7 @@
       ]
     },
     {
-      "id": 1924046004184,
+      "id": 2786085474520,
       "v1": [
         -1.4449172019958496,
         -1.0320088863372803,
@@ -6942,7 +5774,7 @@
       ]
     },
     {
-      "id": 1924046004220,
+      "id": 2786085474556,
       "v1": [
         -3.6539385318756104,
         3.0769903659820557,
@@ -6960,7 +5792,7 @@
       ]
     },
     {
-      "id": 1924046004256,
+      "id": 2786085474592,
       "v1": [
         -0.7723426818847656,
         3.0561132431030273,
@@ -6978,7 +5810,7 @@
       ]
     },
     {
-      "id": 1924046004292,
+      "id": 2786085474628,
       "v1": [
         0.24275903403759003,
         -1.197447419166565,
@@ -6996,7 +5828,7 @@
       ]
     },
     {
-      "id": 1924046004328,
+      "id": 2786085474664,
       "v1": [
         0.4129257798194885,
         -2.2730112075805664,
@@ -7014,7 +5846,7 @@
       ]
     },
     {
-      "id": 1924046004364,
+      "id": 2786085474700,
       "v1": [
         1.8575358390808105,
         1.0180436372756958,
@@ -7032,7 +5864,7 @@
       ]
     },
     {
-      "id": 1924046004400,
+      "id": 2786085474736,
       "v1": [
         -4.7173051834106445,
         -4.320313453674316,
@@ -7050,7 +5882,7 @@
       ]
     },
     {
-      "id": 1924046004436,
+      "id": 2786085474772,
       "v1": [
         -1.5593481063842773,
         -4.525360584259033,
@@ -7068,7 +5900,7 @@
       ]
     },
     {
-      "id": 1924046004472,
+      "id": 2786085474808,
       "v1": [
         -4.550721645355225,
         -1.398673415184021,
@@ -7086,7 +5918,7 @@
       ]
     },
     {
-      "id": 1924046004508,
+      "id": 2786085474844,
       "v1": [
         -3.000349998474121,
         -4.238307952880859,
@@ -7104,7 +5936,7 @@
       ]
     },
     {
-      "id": 1924046004544,
+      "id": 2786085474880,
       "v1": [
         0.6855421662330627,
         1.0644177198410034,
@@ -7122,7 +5954,7 @@
       ]
     },
     {
-      "id": 1924046004580,
+      "id": 2786085474916,
       "v1": [
         4.199472427368164,
         -4.306040287017822,
@@ -7140,7 +5972,7 @@
       ]
     },
     {
-      "id": 1924046004616,
+      "id": 2786085474952,
       "v1": [
         3.1579525470733643,
         -2.3873579502105713,
@@ -7158,7 +5990,7 @@
       ]
     },
     {
-      "id": 1924046004652,
+      "id": 2786085474988,
       "v1": [
         4.777178764343262,
         -0.8439589738845825,
@@ -7176,7 +6008,7 @@
       ]
     },
     {
-      "id": 1924046004688,
+      "id": 2786085475024,
       "v1": [
         -0.7662644386291504,
         -3.2299063205718994,
@@ -7194,7 +6026,7 @@
       ]
     },
     {
-      "id": 1924046004724,
+      "id": 2786085475060,
       "v1": [
         0.2697458863258362,
         -4.05057954788208,
@@ -7212,7 +6044,7 @@
       ]
     },
     {
-      "id": 1924046004760,
+      "id": 2786085475096,
       "v1": [
         4.4995503425598145,
         -4.599046230316162,
@@ -7230,7 +6062,7 @@
       ]
     },
     {
-      "id": 1924046004796,
+      "id": 2786085475132,
       "v1": [
         4.049100875854492,
         -0.9501209855079651,
@@ -7248,7 +6080,7 @@
       ]
     },
     {
-      "id": 1924046004832,
+      "id": 2786085475168,
       "v1": [
         -3.6878609657287598,
         -3.395726203918457,
@@ -7266,7 +6098,7 @@
       ]
     },
     {
-      "id": 1924046004868,
+      "id": 2786085475204,
       "v1": [
         4.18039083480835,
         -4.123404026031494,
@@ -7284,7 +6116,7 @@
       ]
     },
     {
-      "id": 1924046004904,
+      "id": 2786085475240,
       "v1": [
         -3.1988353729248047,
         1.193341851234436,
@@ -7302,7 +6134,7 @@
       ]
     },
     {
-      "id": 1924046004940,
+      "id": 2786085475276,
       "v1": [
         0.874647319316864,
         3.595517635345459,
@@ -7320,7 +6152,7 @@
       ]
     },
     {
-      "id": 1924046004976,
+      "id": 2786085475312,
       "v1": [
         1.0878278017044067,
         -4.319322109222412,
@@ -7338,7 +6170,7 @@
       ]
     },
     {
-      "id": 1924046005012,
+      "id": 2786085475348,
       "v1": [
         2.0881729125976563,
         -3.4678659439086914,
@@ -7356,7 +6188,7 @@
       ]
     },
     {
-      "id": 1924046005048,
+      "id": 2786085475384,
       "v1": [
         1.5154513120651245,
         -3.5629332065582275,
@@ -7374,7 +6206,7 @@
       ]
     },
     {
-      "id": 1924046005084,
+      "id": 2786085475420,
       "v1": [
         -0.8489652276039124,
         0.24872168898582458,
@@ -7392,7 +6224,7 @@
       ]
     },
     {
-      "id": 1924046005120,
+      "id": 2786085475456,
       "v1": [
         -4.6880340576171875,
         -4.372898101806641,
@@ -7410,7 +6242,7 @@
       ]
     },
     {
-      "id": 1924046005156,
+      "id": 2786085475492,
       "v1": [
         4.331486225128174,
         -2.53006649017334,
@@ -7428,7 +6260,7 @@
       ]
     },
     {
-      "id": 1924046005192,
+      "id": 2786085475528,
       "v1": [
         -2.442917823791504,
         -0.6744767427444458,
@@ -7446,7 +6278,7 @@
       ]
     },
     {
-      "id": 1924046005228,
+      "id": 2786085475564,
       "v1": [
         -0.7433463335037231,
         2.4919750690460205,
@@ -7464,7 +6296,7 @@
       ]
     },
     {
-      "id": 1924046005264,
+      "id": 2786085475600,
       "v1": [
         -3.4318981170654297,
         -1.1138356924057007,
@@ -7482,7 +6314,7 @@
       ]
     },
     {
-      "id": 1924046005300,
+      "id": 2786085475636,
       "v1": [
         4.425449371337891,
         -1.6076933145523071,
@@ -7500,7 +6332,7 @@
       ]
     },
     {
-      "id": 1924046005336,
+      "id": 2786085475672,
       "v1": [
         -4.920221328735352,
         2.1206552982330322,
@@ -7518,7 +6350,7 @@
       ]
     },
     {
-      "id": 1924046005372,
+      "id": 2786085475708,
       "v1": [
         4.82796049118042,
         1.0830962657928467,
@@ -7536,7 +6368,7 @@
       ]
     },
     {
-      "id": 1924046005408,
+      "id": 2786085475744,
       "v1": [
         -1.9497381448745728,
         -0.08282280713319778,
@@ -7554,7 +6386,7 @@
       ]
     },
     {
-      "id": 1924046005444,
+      "id": 2786085475780,
       "v1": [
         -3.9859347343444824,
         0.8493775725364685,
@@ -7572,7 +6404,7 @@
       ]
     },
     {
-      "id": 1924046005480,
+      "id": 2786085475816,
       "v1": [
         4.574276924133301,
         -4.352076053619385,
@@ -7590,7 +6422,7 @@
       ]
     },
     {
-      "id": 1924046005516,
+      "id": 2786085475852,
       "v1": [
         4.721036911010742,
         -3.511603593826294,
