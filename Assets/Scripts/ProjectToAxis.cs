@@ -6,12 +6,13 @@ using UnityEngine;
 [ExecuteAlways]
 public class ProjectToAxis : MonoBehaviour
 {
-    [SerializeField] Vector3 axis;
+    [SerializeField] Transform direction;
+    Vector3 Axis { get { return (direction.position - Vector3.zero).normalized; } }
 
     void OnDrawGizmos()
     {
         Gizmos.color = Color.yellow;
-        Gizmos.DrawLine(Vector3.zero, axis * 100);
+        Gizmos.DrawLine(-Axis * 100, Axis * 100);
 
         var originalPoints = getPoints();
         var (points, minIndex, maxIndex) = projectPoints();
@@ -47,10 +48,10 @@ public class ProjectToAxis : MonoBehaviour
 
         for (int i = 0; i < points.Count; i++)
         {
-            float pointDistance = Vector3.Dot(points[i], axis.normalized);
+            float pointDistance = Vector3.Dot(points[i], Axis.normalized);
             if (pointDistance <= min) (min, minIndex) = (pointDistance, i);
             if (pointDistance >= max) (max, maxIndex) = (pointDistance, i);
-            res.Add(axis.normalized * pointDistance);
+            res.Add(Axis.normalized * pointDistance);
         }
 
         return (res, minIndex, maxIndex);
