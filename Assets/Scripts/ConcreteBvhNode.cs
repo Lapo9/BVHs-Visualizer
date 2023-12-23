@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [ExecuteAlways]
-public class ConcreteNode : MonoBehaviour
+public class ConcreteBvhNode : MonoBehaviour
 {
     [SerializeField] int id;
     [SerializeField] int leftChild;
@@ -10,6 +10,8 @@ public class ConcreteNode : MonoBehaviour
     [Header("AABB")]
     [SerializeField] Vector3 max;
     [SerializeField] Vector3 min;
+
+    private (float opaque, float light) transparency = (0.7f, 0.15f);
 
     public ConcreteBvh Bvh
     {
@@ -24,7 +26,7 @@ public class ConcreteNode : MonoBehaviour
         }
     }
 
-    public Node Node { get; private set; }
+    public BvhNode Node { get; private set; }
 
 
     void OnDrawGizmos()
@@ -37,11 +39,11 @@ public class ConcreteNode : MonoBehaviour
         min = Node.core.aabb.Min;
     }
 
-    public static ConcreteNode initialize(Node node, ConcreteNode parent, ConcreteNode prefab)
+    public static ConcreteBvhNode initialize(BvhNode node, ConcreteBvhNode parent, ConcreteBvhNode prefab)
     {
         //create the game object and position it
         var aabb = node.core.aabb;
-        ConcreteNode cube = Instantiate(prefab);
+        ConcreteBvhNode cube = Instantiate(prefab);
         cube.transform.position = (aabb.Max + aabb.Min) / 2.0f;
         cube.transform.localScale = aabb.Max - aabb.Min;
 
@@ -59,5 +61,33 @@ public class ConcreteNode : MonoBehaviour
         cube.Node = node;
         if (parent != null) cube.transform.parent = parent.transform;
         return cube;
+    }
+
+    public void showMode(ConcreteBvh.WhatToShow visibility)
+    {
+        switch(visibility)
+        {
+            case ConcreteBvh.WhatToShow.ALL:
+                var meshRenderer = GetComponent<MeshRenderer>();
+                meshRenderer.sharedMaterial.color = new Color(meshRenderer.sharedMaterial.color.r, meshRenderer.sharedMaterial.color.g, meshRenderer.sharedMaterial.color.b, transparency.light);
+                meshRenderer.enabled = true;
+                break;
+            case ConcreteBvh.WhatToShow.NOTHING:
+                //make node invisible
+                meshRenderer = GetComponent<MeshRenderer>();
+                meshRenderer.enabled = false;
+                break;
+            case ConcreteBvh.WhatToShow.LEAVES:
+                meshRenderer = GetComponent<MeshRenderer>();
+                //if not leaf, hide it
+                if (!Node.isLeaf()) meshRenderer.enabled = false;
+                //make leaves more opaque
+                else
+                {
+                    meshRenderer.enabled = true;
+                    meshRenderer.sharedMaterial.color = new Color(meshRenderer.sharedMaterial.color.r, meshRenderer.sharedMaterial.color.g, meshRenderer.sharedMaterial.color.b, transparency.opaque);
+                }
+                break;
+        }
     }
 }

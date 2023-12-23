@@ -92,7 +92,8 @@ public class Utilities
                 for (int k = -1; k <= 1; k += 2)
                 {
                     Vector3 obbVertex = new Vector3(obb.HalfSize.x * i, obb.HalfSize.y * j, obb.HalfSize.z * k); //point in the reference system of the OBB
-                    Vector3 worldVertex = new Vector3(Vector3.Dot(obbVertex, obb.Right), Vector3.Dot(obbVertex, obb.Up), Vector3.Dot(obbVertex, obb.Forward)) + obb.Center; //point in world space
+                    Matrix4x4 rotation = new Matrix4x4(obb.Right, obb.Up, obb.Forward, new Vector4(0, 0, 0, 1));
+                    Vector3 worldVertex = rotation * new Vector4(obbVertex.x, obbVertex.y, obbVertex.z, 1) + new Vector4(obb.Center.x, obb.Center.y, obb.Center.z); //point in world space
                     points[((i + 1) / 2) * 4 + ((j + 1) / 2) * 2 + ((k + 1) / 2) * 1] = worldVertex;
                 }
         return points;

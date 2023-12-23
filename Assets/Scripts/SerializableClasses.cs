@@ -9,10 +9,21 @@ public struct TopLevel
 {
     public List<BvhData> bvhs;
     public List<Triangle> triangles;
+    public List<OctreeNode> octree;
 
     public Triangle findTriangle(int id)
     {
         return triangles.First(t => t.id == id);
+    }
+
+    public OctreeNode findOctreeNode(int id)
+    {
+        return octree.First(n => n.id == id);
+    }
+
+    public OctreeNode octreeRoot()
+    {
+        return octree[0];
     }
 }
 
@@ -21,16 +32,16 @@ public struct BvhData
 {
     public GlobalInfo globalInfo;
     public List<Triangle> triangles;
-    public List<Node> nodes;
+    public List<BvhNode> nodes;
     public InfluenceArea influenceArea;
 
 
-    public Node findNode(int id)
+    public BvhNode findNode(int id)
     {
         return nodes.First(n => n.core.id == id);
     }
 
-    public Node root()
+    public BvhNode root()
     {
         return nodes[0];
     }
@@ -115,7 +126,7 @@ public struct Triangle
 }
 
 [Serializable]
-public struct Node
+public struct BvhNode
 {
     public Core core;
     public Metrics metrics;
@@ -124,6 +135,16 @@ public struct Node
     {
         return core.leftChild == 0 && core.rightChild == 0;
     }
+}
+
+[Serializable]
+public struct OctreeNode
+{
+    public int id;
+    public Aabb aabb;
+    public List<int> bvhs;
+    public List<int> children;
+    public bool isLeaf;
 }
 
 [Serializable]

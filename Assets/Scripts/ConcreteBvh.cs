@@ -13,7 +13,7 @@ public class ConcreteBvh : MonoBehaviour
         ALL, NOTHING, LEAVES
     }
 
-    [SerializeField] private ConcreteNode concreteNodePrefab;
+    [SerializeField] private ConcreteBvhNode concreteNodePrefab;
 
     [Header("Buttons")]
     [SerializeField] private WhatToShow visibility;
@@ -26,31 +26,9 @@ public class ConcreteBvh : MonoBehaviour
     [SerializeField] private float sah;
 
     public BvhData BvhData { get; private set; }
-    public ConcreteNode Root { get { return transform.Find("Root").GetComponent<ConcreteNode>(); } }
+    public ConcreteBvhNode Root { get { return transform.Find("Root").GetComponent<ConcreteBvhNode>(); } }
+    public WhatToShow Visibility { get; }
     private (float opaque, float light) transparency = (0.7f, 0.15f);
-
-    public WhatToShow Visibility
-    {
-        get { return visibility; }
-        set
-        {
-            visibility = value;
-            switch (value)
-            {
-                case ConcreteBvh.WhatToShow.ALL:
-                    showAllNodes();
-                    break;
-                case ConcreteBvh.WhatToShow.NOTHING:
-                    hideAllNodes();
-                    break;
-                case ConcreteBvh.WhatToShow.LEAVES:
-                    showOnlyLeaves();
-                    break;
-
-            }
-        }
-    }
-
 
     public static ConcreteBvh initialize(BvhData bvhData, ConcreteBvh prefab)
     {
@@ -67,7 +45,7 @@ public class ConcreteBvh : MonoBehaviour
 
     private void OnValidate()
     {
-        if (Root != null) Visibility = visibility;
+        if (Root != null) showMode(visibility);
     }
 
     private void OnDrawGizmos()
@@ -81,9 +59,9 @@ public class ConcreteBvh : MonoBehaviour
         influenceArea.transform.parent = transform;
     }
 
-    private void createNode(int id, ConcreteNode parent = null)
+    private void createNode(int id, ConcreteBvhNode parent = null)
     {
-        ConcreteNode node = ConcreteNode.initialize(BvhData.findNode(id), parent, concreteNodePrefab);
+        ConcreteBvhNode node = ConcreteBvhNode.initialize(BvhData.findNode(id), parent, concreteNodePrefab);
         if (parent == null) node.transform.parent = transform;
 
         //create children
@@ -95,7 +73,7 @@ public class ConcreteBvh : MonoBehaviour
     }
 
     /// <summary>
-    /// Deletes the BVH and the triangles.
+    /// Deletes the BVH.
     /// </summary>
     public void delete()
     {
@@ -106,7 +84,7 @@ public class ConcreteBvh : MonoBehaviour
     /// Finds a node in the BVH with the required id, else throws.
     /// Only the leftmost node is returned.
     /// </summary>
-    public ConcreteNode findConcreteNode(int id)
+    public ConcreteBvhNode findConcreteNode(int id)
     {
         var found = findConcreteNodeRecursive(Root, id);
         if (found != null) return found;
@@ -118,7 +96,7 @@ public class ConcreteBvh : MonoBehaviour
     /// Recursively looks for a node with the required id.
     /// The lookup is performed depth first, left to right.
     /// </summary>
-    private ConcreteNode findConcreteNodeRecursive(ConcreteNode node, int id)
+    private ConcreteBvhNode findConcreteNodeRecursive(ConcreteBvhNode node, int id)
     {
         //is this the node?
         if (node.Node.core.id == id) return node;
@@ -127,11 +105,11 @@ public class ConcreteBvh : MonoBehaviour
         if (node.Node.isLeaf()) return null;
 
         //look for it in the left subtree
-        var foundInLeftChildren = findConcreteNodeRecursive(node.transform.GetChild(0).GetComponent<ConcreteNode>(), id);
+        var foundInLeftChildren = findConcreteNodeRecursive(node.transform.GetChild(0).GetComponent<ConcreteBvhNode>(), id);
         if (foundInLeftChildren != null) return foundInLeftChildren;
 
         //look for it in the right subtree
-        var foundInRightChildren = findConcreteNodeRecursive(node.transform.GetChild(1).GetComponent<ConcreteNode>(), id);
+        var foundInRightChildren = findConcreteNodeRecursive(node.transform.GetChild(1).GetComponent<ConcreteBvhNode>(), id);
         if (foundInRightChildren != null) return foundInRightChildren;
 
         //we found nothing
@@ -150,68 +128,18 @@ public class ConcreteBvh : MonoBehaviour
         sah = BvhData.globalInfo.sahCost;
     }
 
-    /// <summary>
-    /// Hides all the non-leaf nodesMeshes of the BVH.
-    /// </summary>
-    private void showOnlyLeaves(ConcreteNode parent = null)
+    public void showMode(WhatToShow visibility, ConcreteBvhNode parent = null)
     {
         if (parent == null)
         {
-            showOnlyLeaves(Root);
-            return;
-        }
-
-        //set node
-        var meshRenderer = parent.gameObject.GetComponent<MeshRenderer>();
-        //if not leaf, hide it
-        if (!parent.Node.isLeaf()) meshRenderer.enabled = false;
-        //make leaves more opaque
-        else
-        {
-            meshRenderer.enabled = true;
-            meshRenderer.sharedMaterial.color = new Color(meshRenderer.sharedMaterial.color.r, meshRenderer.sharedMaterial.color.g, meshRenderer.sharedMaterial.color.b, transparency.opaque);
-        }
-
-        //recurse on children
-        foreach (Transform c in parent.transform) showOnlyLeaves(c.GetComponent<ConcreteNode>());
-    }
-
-    /// <summary>
-    /// Shows all the nodesMeshes of the BVH.
-    /// </summary>
-    private void showAllNodes(ConcreteNode parent = null)
-    {
-        if (parent == null)
-        {
-            showAllNodes(Root);
-            return;
-        }
-
-        //show node
-        var meshRenderer = parent.gameObject.GetComponent<MeshRenderer>();
-        meshRenderer.sharedMaterial.color = new Color(meshRenderer.sharedMaterial.color.r, meshRenderer.sharedMaterial.color.g, meshRenderer.sharedMaterial.color.b, transparency.light);
-        meshRenderer.enabled = true;
-
-        //recurse on children
-        foreach (Transform c in parent.transform) showAllNodes(c.GetComponent<ConcreteNode>());
-    }
-
-    /// <summary>
-    /// Hides all the nodesMeshes of the BVH.
-    /// </summary>
-    private void hideAllNodes(ConcreteNode parent = null)
-    {
-        if (parent == null)
-        {
-            hideAllNodes(Root);
+            showMode(visibility, Root);
             return;
         }
 
         //make node invisible
-        var meshRenderer = parent.gameObject.GetComponent<MeshRenderer>();
-        meshRenderer.enabled = false;
+        parent.showMode(visibility);
 
         //recurse on children
-        foreach (Transform c in parent.transform) hideAllNodes(c.GetComponent<ConcreteNode>());
+        foreach (Transform c in parent.transform) showMode(visibility, c.GetComponent<ConcreteBvhNode>());
     }
 }

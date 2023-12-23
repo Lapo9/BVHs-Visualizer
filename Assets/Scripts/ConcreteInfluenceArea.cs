@@ -194,12 +194,12 @@ public abstract class ConcreteInfluenceArea : MonoBehaviour
     private IntersectionInfo countIntersections(Ray ray)
     {
         IntersectionInfo info = new IntersectionInfo();
-        Queue<ConcreteNode> nodes = new Queue<ConcreteNode>(); //intersected nodes still to evaluate
+        Queue<ConcreteBvhNode> nodes = new Queue<ConcreteBvhNode>(); //intersected nodes still to evaluate
         nodes.Enqueue(Bvh.Root);
 
         while (nodes.Count > 0)
         {
-            ConcreteNode node = nodes.Dequeue(); //get the node
+            ConcreteBvhNode node = nodes.Dequeue(); //get the node
             BoxCollider nodeBox = node.GetComponent<BoxCollider>(); //get the BoxCollider from the node
             bool collision = nodeBox.Raycast(new UnityEngine.Ray(ray.Origin, ray.Direction), out _, length); //intersect ray with BoxCollider
             if (collision)
@@ -209,8 +209,8 @@ public abstract class ConcreteInfluenceArea : MonoBehaviour
                 {
                     info.Cost += costs.internalNode * 2f;
                     //we must check children
-                    nodes.Enqueue(node.transform.GetChild(0).GetComponent<ConcreteNode>());
-                    nodes.Enqueue(node.transform.GetChild(1).GetComponent<ConcreteNode>());
+                    nodes.Enqueue(node.transform.GetChild(0).GetComponent<ConcreteBvhNode>());
+                    nodes.Enqueue(node.transform.GetChild(1).GetComponent<ConcreteBvhNode>());
                 }
                 else
                 {
