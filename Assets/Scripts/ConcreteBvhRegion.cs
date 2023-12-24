@@ -3,8 +3,6 @@ using UnityEngine;
 
 public abstract class ConcreteBvhRegion : MonoBehaviour
 {
-    [SerializeField] Color color = Color.white;
-
     public BvhRegion BvhRegion { get; protected set; }
 
 
@@ -15,12 +13,18 @@ public abstract class ConcreteBvhRegion : MonoBehaviour
     {
         get
         {
-            ConcreteBvh bvh = transform.parent.GetComponent<ConcreteInfluenceArea>().Bvh;
-            Debug.Assert(bvh != null, "The position in the hierarchy of this ConcreteBvhRegion is wrong. It should be a child of its ConcreteInfluenceArea.");
-            return bvh;
+            return InfluenceArea.Bvh;
         }
     }
-
+    public ConcreteInfluenceArea InfluenceArea
+    {
+        get
+        {
+            ConcreteInfluenceArea influenceArea = transform.parent.GetComponent<ConcreteInfluenceArea>();
+            Debug.Assert(influenceArea != null, "The position in the hierarchy of this ConcreteBvhRegion is wrong. It should be a child of its ConcreteInfluenceArea.");
+            return influenceArea;
+        }
+    }
 
     /// <summary>
     /// Initializes the object.
@@ -53,6 +57,6 @@ public abstract class ConcreteBvhRegion : MonoBehaviour
     void OnDrawGizmos()
     {
         if (Bvh.Visibility == ConcreteBvh.WhatToShow.NOTHING) return; //if the BVH is hidden, don't draw the gizmos
-        drawGizmo(color);
+        drawGizmo(InfluenceArea.color); //the region gizmo must have the same color as its influence area
     }
 }

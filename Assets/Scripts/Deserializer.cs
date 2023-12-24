@@ -71,6 +71,7 @@ public class Deserializer : MonoBehaviour
     void OnDrawGizmos()
     {
         Transform selected = Selection.activeTransform; //object selected in the editor
+        if (lastSelected == selected) return;
 
         //returns true if the selected object is part of a BVH (e.g. ConcreteBvh, ConcreteInfluenceArea, ...)
         Func<Transform, (bool isPart, ConcreteBvh bvh)> partOfBvh = o =>
@@ -317,6 +318,10 @@ public class Deserializer : MonoBehaviour
             if (selectedBvh.BvhData.triangles.Where(t1 => t1.id == t.Triangle.id).Count() == 0)
             {
                 t.GetComponent<MeshRenderer>().enabled = false;
+            }
+            else
+            {
+                t.GetComponent<MeshRenderer>().enabled = true;
             }
         }
     }

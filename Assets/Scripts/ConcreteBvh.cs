@@ -27,7 +27,7 @@ public class ConcreteBvh : MonoBehaviour
 
     public BvhData BvhData { get; private set; }
     public ConcreteBvhNode Root { get { return transform.Find("Root").GetComponent<ConcreteBvhNode>(); } }
-    public WhatToShow Visibility { get; }
+    public WhatToShow Visibility { get { return visibility; } private set { visibility = value; } }
     private (float opaque, float light) transparency = (0.7f, 0.15f);
 
     public static ConcreteBvh initialize(BvhData bvhData, ConcreteBvh prefab)
@@ -130,6 +130,7 @@ public class ConcreteBvh : MonoBehaviour
 
     public void showMode(WhatToShow visibility, ConcreteBvhNode parent = null)
     {
+        Visibility = visibility;
         if (parent == null)
         {
             showMode(visibility, Root);

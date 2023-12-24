@@ -24,7 +24,11 @@ public class ConcreteOctree : MonoBehaviour
         octree.name = prefab.name;
 
         //create the octree to show
-        octree.createNode(topLevel.octreeRoot().id);
+        if (topLevel.octree.Count != 0)
+        {
+            octree.createNode(topLevel.octreeRoot().id);
+            octree.showMode(WhatToShow.LEAVES);
+        }
 
         return octree;
     }
@@ -54,6 +58,7 @@ public class ConcreteOctree : MonoBehaviour
 
     public void showMode(WhatToShow visibility, ConcreteOctreeNode parent = null)
     {
+        this.visibility = visibility;
         if (parent == null)
         {
             showMode(visibility, Root);

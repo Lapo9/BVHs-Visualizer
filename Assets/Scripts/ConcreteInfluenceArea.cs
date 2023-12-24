@@ -61,7 +61,7 @@ public abstract class ConcreteInfluenceArea : MonoBehaviour
     [Range(1, 500)] [SerializeField] protected int raysAmount = 10; //how many rays to cast
     [Range(1f, 100f)] [SerializeField] protected float length = 100f; //length of each ray
     [Range(0, 20)][SerializeField] protected int seed = 0; //randomness
-    [SerializeField] private Color color = Color.white; //color of the rays (and gizmo)
+    [SerializeField] public Color color = Color.white; //color of the rays (and gizmo)
 
     [Header("Buttons")]
     [SerializeField] private bool generateRaysButton = false;
