@@ -37,6 +37,9 @@ public class Utilities
         Gizmos.DrawLine(points[2], points[6]);
     }
 
+    /// <summary>
+    /// Draws the gizmo for an OBB.
+    /// </summary>
     public static void drawObbGizmo(Obb obb, Color color = new Color())
     {
         var points = obbToPoints(obb);
@@ -60,7 +63,19 @@ public class Utilities
     }
 
     /// <summary>
-    /// Given an AABB (min-max form) returns the array of it 8 vertices with this layout:
+    /// Draws the gizmo for a triangle.
+    /// </summary>
+    public static void drawTriangleGizmo(Triangle triangle, Color color = new Color())
+    {
+        if (color != new Color()) Gizmos.color = color;
+        Gizmos.DrawLine(triangle.V1, triangle.V2);
+        Gizmos.DrawLine(triangle.V2, triangle.V3);
+        Gizmos.DrawLine(triangle.V3, triangle.V1);
+
+    }
+
+    /// <summary>
+    /// Given an AABB (min-max form) returns the array of its 8 vertices with this layout:
     ///  2_______________6  
     ///  |\              \ 
     ///  | \______________\7
@@ -83,6 +98,16 @@ public class Utilities
         return points;
     }
 
+    /// <summary>
+    /// Given an OBB returns the array of its 8 vertices with this layout:
+    ///  2_______________6  
+    ///  |\              \ 
+    ///  | \______________\7
+    /// 0| 3|          4. |
+    ///   \ |             |
+    ///    \|_____________|
+    ///     1             5
+    /// </summary>
     public static Vector3[] obbToPoints(Obb obb) 
     {
         Vector3[] points = new Vector3[8];
@@ -97,17 +122,5 @@ public class Utilities
                     points[((i + 1) / 2) * 4 + ((j + 1) / 2) * 2 + ((k + 1) / 2) * 1] = worldVertex;
                 }
         return points;
-    }
-
-    /// <summary>
-    /// Draws the gizmo for a triangle.
-    /// </summary>
-    public static void drawTriangleGizmo(Triangle triangle, Color color = new Color())
-    {
-        if (color != new Color()) Gizmos.color = color;
-        Gizmos.DrawLine(triangle.V1, triangle.V2);
-        Gizmos.DrawLine(triangle.V2, triangle.V3);
-        Gizmos.DrawLine(triangle.V3, triangle.V1);
-
     }
 }

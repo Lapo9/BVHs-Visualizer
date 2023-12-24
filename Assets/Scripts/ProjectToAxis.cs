@@ -1,13 +1,15 @@
-using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
+
+/// <summary>
+/// Projects the points of the AABB of this Unity object to the specified axis.
+/// </summary>
 [ExecuteAlways]
 public class ProjectToAxis : MonoBehaviour
 {
-    [SerializeField] Transform direction;
-    Vector3 Axis { get { return (direction.position - Vector3.zero).normalized; } }
+    [SerializeField] Transform directionPointer; //the axis passes through the origin and this point
+    Vector3 Axis { get { return (directionPointer.position - Vector3.zero).normalized; } }
 
     void OnDrawGizmos()
     {

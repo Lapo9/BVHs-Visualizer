@@ -74,7 +74,7 @@ public abstract class ConcreteInfluenceArea : MonoBehaviour
     [SerializeField] protected float intersectionsCostDisplay;
     [SerializeField] protected float intersectionsCostPerRayDisplay;
 
-    protected (float internalNode, float leafNode) costs = (1f, 1.2f);
+    protected (float internalNode, float leafNode) costs = (1f, 1.2f); //costs of traversing an internal node or a leaf node
     protected Ray[] rays; //where to store the rays
     
     /// <summary>
@@ -143,15 +143,17 @@ public abstract class ConcreteInfluenceArea : MonoBehaviour
             intersectionsCostDisplay = intersectionInfo.Cost;
             intersectionsCostPerRayDisplay = intersectionInfo.CostPerRay;
         }
-        
-        if (Bvh.Visibility == ConcreteBvh.WhatToShow.NOTHING) return; //if the BVH is hidden, don't show the gizmo
 
-        drawGizmo(color); //draw the gizmo for this object
+        //if the BVH is hidden, don't show the gizmo
+        if (Bvh.Visibility != ConcreteBvh.WhatToShow.NOTHING)
+        {
+            drawGizmo(color); //draw the gizmo for this object
 
-        //draw the gizmos for the rays
-        if (rays == null) return;
-        Gizmos.color = color;
-        foreach (Ray r in rays) Gizmos.DrawLine(r.Origin, r.Origin + r.Direction * length);
+            //draw the gizmos for the rays
+            if (rays == null) return;
+            Gizmos.color = color;
+            foreach (Ray r in rays) Gizmos.DrawLine(r.Origin, r.Origin + r.Direction * length);
+        }
     }
 
 

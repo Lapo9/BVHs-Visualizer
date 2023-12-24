@@ -28,7 +28,6 @@ public class ConcreteBvh : MonoBehaviour
     public BvhData BvhData { get; private set; }
     public ConcreteBvhNode Root { get { return transform.Find("Root").GetComponent<ConcreteBvhNode>(); } }
     public WhatToShow Visibility { get { return visibility; } private set { visibility = value; } }
-    private (float opaque, float light) transparency = (0.7f, 0.15f);
 
     public static ConcreteBvh initialize(BvhData bvhData, ConcreteBvh prefab)
     {
@@ -53,12 +52,18 @@ public class ConcreteBvh : MonoBehaviour
         updateGlobalInfo();
     }
 
+    /// <summary>
+    /// Initializes the influence area for this BVH.
+    /// </summary>
     private void createInfluenceArea()
     {
         var influenceArea = ConcreteInfluenceArea.initialize(BvhData.influenceArea);
         influenceArea.transform.parent = transform;
     }
 
+    /// <summary>
+    /// Given the id of the data of a node, creates it in Unity (an object).
+    /// </summary>
     private void createNode(int id, ConcreteBvhNode parent = null)
     {
         ConcreteBvhNode node = ConcreteBvhNode.initialize(BvhData.findNode(id), parent, concreteNodePrefab);
@@ -128,6 +133,9 @@ public class ConcreteBvh : MonoBehaviour
         sah = BvhData.globalInfo.sahCost;
     }
 
+    /// <summary>
+    /// Sets what to show in Unity (i.e. nodes and gizmos) and what to hide.
+    /// </summary>
     public void showMode(WhatToShow visibility, ConcreteBvhNode parent = null)
     {
         Visibility = visibility;
@@ -137,7 +145,7 @@ public class ConcreteBvh : MonoBehaviour
             return;
         }
 
-        //make node invisible
+        //set the node visibility
         parent.showMode(visibility);
 
         //recurse on children

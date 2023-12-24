@@ -1,11 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 
 public class ConcreteObbBvhRegion : ConcreteBvhRegion
 {
-    [SerializeField] Vector3[] vertices; //to show the vertices
+    [SerializeField] Vector3[] vertices; //to show the vertices in the inspector
 
     /// <summary>
     /// Initializes the object.
@@ -27,7 +24,7 @@ public class ConcreteObbBvhRegion : ConcreteBvhRegion
     /// </summary>
     protected override void drawGizmo(Color color)
     {
-        Utilities.drawObbGizmo(BvhRegion.obb, color);
         vertices = Utilities.obbToPoints(BvhRegion.obb); //update vertices in inspector
+        Utilities.drawObbGizmo(BvhRegion.obb, color);
     }
 }

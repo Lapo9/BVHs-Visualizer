@@ -1,8 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
-using UnityEngine.UIElements;
 
 public class ConcreteOctree : MonoBehaviour
 {
@@ -14,7 +11,7 @@ public class ConcreteOctree : MonoBehaviour
     [SerializeField] private ConcreteOctreeNode concreteOctreeNodePrefab;
     [SerializeField] private WhatToShow visibility;
 
-    public TopLevel TopLevel { get; private set; }
+    private TopLevel TopLevel { get; set; }
     public ConcreteOctreeNode Root { get { return transform.Find("Octree Root").GetComponent<ConcreteOctreeNode>(); } }
 
     public static ConcreteOctree initialize(TopLevel topLevel, ConcreteOctree prefab)
@@ -33,6 +30,9 @@ public class ConcreteOctree : MonoBehaviour
         return octree;
     }
 
+    /// <summary>
+    /// Given the id of an octree node, it creates it (and all its children) in Unity.
+    /// </summary>
     private void createNode(int id, ConcreteOctreeNode parent = null)
     {
         ConcreteOctreeNode node = ConcreteOctreeNode.initialize(TopLevel.findOctreeNode(id), parent, concreteOctreeNodePrefab);
@@ -56,6 +56,9 @@ public class ConcreteOctree : MonoBehaviour
         EditorApplication.delayCall += () => { DestroyImmediate(gameObject); };
     }
 
+    /// <summary>
+    /// Sets what to show and what to hide (i.e. objects and gizmos).
+    /// </summary>
     public void showMode(WhatToShow visibility, ConcreteOctreeNode parent = null)
     {
         this.visibility = visibility;

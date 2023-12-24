@@ -1,7 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Makes the object stay on the sphere surface.
+/// </summary>
 [ExecuteAlways]
 public class SphereConstraint : MonoBehaviour
 {

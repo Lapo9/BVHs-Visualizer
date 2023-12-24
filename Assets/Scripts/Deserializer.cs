@@ -4,7 +4,6 @@ using UnityEditor;
 using static Utilities;
 using System.Linq;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using System;
 
 [ExecuteAlways]
@@ -37,7 +36,7 @@ public class Deserializer : MonoBehaviour
         get
         {
             List<ConcreteTriangle> triangles = new List<ConcreteTriangle>();
-            foreach (Transform t in GameObject.Find("Triangles").transform)
+            foreach (Transform t in transform.Find("Triangles").transform)
             {
                 triangles.Add(t.GetComponent<ConcreteTriangle>());
             }
@@ -123,7 +122,8 @@ public class Deserializer : MonoBehaviour
 
     private void createTriangles()
     {
-        var parent = GameObject.Find("Triangles").transform;
+        var parent = new GameObject("Triangles").transform;
+        parent.parent = transform;
         foreach (Triangle t in topLevel.triangles)
         {
             ConcreteTriangle.initialize(t, parent, concreteTrianglePrefab);
@@ -136,11 +136,8 @@ public class Deserializer : MonoBehaviour
     private void delete()
     {
         //delete triangles
-        var triangles = GameObject.Find("Triangles").transform;
-        foreach (Transform t in triangles)
-        {
-            EditorApplication.delayCall += () => { DestroyImmediate(t.gameObject); };
-        }
+        var triangles = transform.Find("Triangles")?.transform;
+        if(triangles != null) EditorApplication.delayCall += () => { DestroyImmediate(triangles.gameObject); };
 
         //delete BVHs
         foreach (var bvh in Bvhs)

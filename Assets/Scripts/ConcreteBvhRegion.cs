@@ -3,7 +3,7 @@ using UnityEngine;
 
 public abstract class ConcreteBvhRegion : MonoBehaviour
 {
-    public BvhRegion BvhRegion { get; protected set; }
+    protected BvhRegion BvhRegion { get; set; }
 
 
     /// <summary>
@@ -56,7 +56,10 @@ public abstract class ConcreteBvhRegion : MonoBehaviour
 
     void OnDrawGizmos()
     {
-        if (Bvh.Visibility == ConcreteBvh.WhatToShow.NOTHING) return; //if the BVH is hidden, don't draw the gizmos
-        drawGizmo(InfluenceArea.color); //the region gizmo must have the same color as its influence area
+        //if the BVH is hidden, don't draw the gizmos
+        if (Bvh.Visibility != ConcreteBvh.WhatToShow.NOTHING)
+        {
+            drawGizmo(InfluenceArea.color); //the region gizmo must have the same color as its influence area
+        }
     }
 }
