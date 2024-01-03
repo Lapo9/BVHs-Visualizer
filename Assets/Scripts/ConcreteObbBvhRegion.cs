@@ -13,8 +13,8 @@ public class ConcreteObbBvhRegion : ConcreteBvhRegion
         var region = gameObject.AddComponent<ConcreteObbBvhRegion>();
 
         //set position
-        region.transform.position = bvhRegion.obb.Center;
-        region.transform.forward = bvhRegion.obb.Forward;
+        region.transform.position = bvhRegion.aabbForObb.obb.Center;
+        region.transform.forward = bvhRegion.aabbForObb.obb.Forward;
 
         return region;
     }
@@ -25,6 +25,6 @@ public class ConcreteObbBvhRegion : ConcreteBvhRegion
     protected override void drawGizmo(Color color)
     {
         vertices = Utilities.obbToPoints(BvhRegion.obb); //update vertices in inspector
-        Utilities.drawObbGizmo(BvhRegion.obb, color);
+        Utilities.drawObbGizmo(BvhRegion.aabbForObb.obb, color);
     }
 }

@@ -37,6 +37,10 @@ public abstract class ConcreteBvhRegion : MonoBehaviour
         {
             region = ConcreteObbBvhRegion.initialize(bvhRegion);
         }
+        else if (bvhRegion.type == "frustum")
+        {
+            region = ConcreteFrustumBvhRegion.initialize(bvhRegion);
+        }
         else
         {
             throw new InvalidDataException(bvhRegion.type + " is not a known type of BVH region");

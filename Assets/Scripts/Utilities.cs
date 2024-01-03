@@ -1,3 +1,6 @@
+using System;
+using System.Collections.Generic;
+using System.Linq.Expressions;
 using UnityEngine;
 
 public class Utilities
@@ -43,6 +46,31 @@ public class Utilities
     public static void drawObbGizmo(Obb obb, Color color = new Color())
     {
         var points = obbToPoints(obb);
+
+        if (color != new Color()) Gizmos.color = color;
+
+        Gizmos.DrawLine(points[0], points[1]);
+        Gizmos.DrawLine(points[1], points[3]);
+        Gizmos.DrawLine(points[3], points[2]);
+        Gizmos.DrawLine(points[2], points[0]);
+
+        Gizmos.DrawLine(points[4], points[5]);
+        Gizmos.DrawLine(points[5], points[7]);
+        Gizmos.DrawLine(points[7], points[6]);
+        Gizmos.DrawLine(points[6], points[4]);
+
+        Gizmos.DrawLine(points[0], points[4]);
+        Gizmos.DrawLine(points[1], points[5]);
+        Gizmos.DrawLine(points[3], points[7]);
+        Gizmos.DrawLine(points[2], points[6]);
+    }
+
+    /// <summary>
+    /// Draws the gizmo for a Frustum.
+    /// </summary>
+    public static void drawFrustumGizmo(Frustum frustum, Color color = new Color())
+    {
+        var points = frustum.Vertices;
 
         if (color != new Color()) Gizmos.color = color;
 
@@ -122,5 +150,38 @@ public class Utilities
                     points[((i + 1) / 2) * 4 + ((j + 1) / 2) * 2 + ((k + 1) / 2) * 1] = worldVertex;
                 }
         return points;
+    }
+
+
+    /// <summary>
+    /// Transforms a list to Vector2. The list must have exactly 2 elements.
+    public static Vector2 listToVector2(List<float> comps)
+    {
+        if (comps.Count != 2) throw new ArgumentOutOfRangeException("Cannot initialize a Vector3 with a list of " + comps.Count + " components.");
+        return new Vector2(comps[0], comps[1]);
+    }
+
+    /// <summary>
+    /// Transforms a list to Vector3. The list must have exactly 3 elements.
+    public static Vector3 listToVector3(List<float> comps)
+    {
+        if (comps.Count != 3) throw new ArgumentOutOfRangeException("Cannot initialize a Vector3 with a list of " + comps.Count + " components.");
+        return new Vector3(comps[0], comps[1], comps[2]);
+    }
+
+    /// <summary>
+    /// Transforms a list to Vector4. The list must have exactly 4 elements.
+    public static Vector4 listToVector4(List<float> comps)
+    {
+        if (comps.Count != 4) throw new ArgumentOutOfRangeException("Cannot initialize a Vector4 with a list of " + comps.Count + " components.");
+        return new Vector4(comps[0], comps[1], comps[2], comps[3]);
+    }
+
+    /// <summary>
+    /// Transforms a list of lists to Matrix4x4. The list must have exactly 4 lists each with 4 elements. The lists will be the columns of the Matrix4x4.
+    public static Matrix4x4 listToMatrix4x4(List<List<float>> comps)
+    {
+        if (comps.Count != 4) throw new ArgumentOutOfRangeException("Cannot initialize a Matrix4x4 with a list of " + comps.Count + " vectors.");
+        return new Matrix4x4(listToVector4(comps[0]), listToVector4(comps[1]), listToVector4(comps[2]), listToVector4(comps[3]));
     }
 }

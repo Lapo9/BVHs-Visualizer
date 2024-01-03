@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
@@ -103,6 +104,10 @@ public abstract class ConcreteInfluenceArea : MonoBehaviour
         {
             area = ConcretePlaneInfluenceArea.initialize(influenceArea);
         }
+        else if (influenceArea.type == "point")
+        {
+            area = ConcretePointInfluenceArea.initialize(influenceArea);
+        }
         else
         {
             throw new InvalidDataException(influenceArea.type + " is not a known type of influence area");
@@ -147,21 +152,12 @@ public abstract class ConcreteInfluenceArea : MonoBehaviour
         //if the BVH is hidden, don't show the gizmo
         if (Bvh.Visibility != ConcreteBvh.WhatToShow.NOTHING)
         {
-            drawGizmo(color); //draw the gizmo for this object
-
             //draw the gizmos for the rays
             if (rays == null) return;
             Gizmos.color = color;
             foreach (Ray r in rays) Gizmos.DrawLine(r.Origin, r.Origin + r.Direction * length);
         }
     }
-
-
-    /// <summary>
-    /// Draws a visual hint for this caster.
-    /// Each type of caster will have a different visual hint.
-    /// </summary>
-    protected abstract void drawGizmo(Color color);
 
     /// <summary>
     /// Generates the rays.

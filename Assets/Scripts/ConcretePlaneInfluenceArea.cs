@@ -8,8 +8,8 @@ public class ConcretePlaneInfluenceArea : ConcreteInfluenceArea
         var area = gameObject.AddComponent<ConcretePlaneInfluenceArea>();
 
         //set position
-        area.transform.position = influenceArea.plane.Point;
-        area.transform.forward = influenceArea.plane.Normal;
+        area.transform.position = influenceArea.planeInfluenceArea.plane.Point;
+        area.transform.forward = influenceArea.planeInfluenceArea.plane.Normal;
 
         //set camera
         var cam = gameObject.AddComponent<Camera>();
@@ -18,33 +18,10 @@ public class ConcretePlaneInfluenceArea : ConcreteInfluenceArea
         cam.targetDisplay = 0;
 
         //create region
-        var region = ConcreteBvhRegion.initialize(influenceArea.bvhRegion);
+        var region = ConcreteBvhRegion.initialize(influenceArea.planeInfluenceArea.bvhRegion);
         region.transform.parent = gameObject.transform;
 
         return area;
-    }
-
-    /// <summary>
-    /// Draws the gizmo for a plane ray caster.
-    /// </summary>
-    protected override void drawGizmo(Color color)
-    {
-        Gizmos.color = color;
-
-        //transform the extents in world space
-        var extent = InfluenceArea.Size;
-        Vector3 topRight = (Vector3)(transform.localToWorldMatrix * new Vector3(extent.x, extent.y)) + transform.position;
-        Vector3 topLeft = (Vector3)(transform.localToWorldMatrix * new Vector3(-extent.x, extent.y)) + transform.position;
-        Vector3 bottomRight = (Vector3)(transform.localToWorldMatrix * new Vector3(extent.x, -extent.y)) + transform.position;
-        Vector3 bottomLeft = (Vector3)(transform.localToWorldMatrix * new Vector3(-extent.x, -extent.y)) + transform.position;
-
-        //draws the rectangle (in world space)
-        Gizmos.DrawLine(topRight, topLeft);
-        Gizmos.DrawLine(topLeft, bottomLeft);
-        Gizmos.DrawLine(bottomLeft, bottomRight);
-        Gizmos.DrawLine(bottomRight, topRight);
-        Gizmos.DrawLine(bottomRight, topLeft);
-        Gizmos.DrawLine(bottomLeft, topRight);
     }
 
     /// <summary>
