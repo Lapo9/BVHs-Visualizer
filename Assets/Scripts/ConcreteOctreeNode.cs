@@ -3,9 +3,9 @@ using Color = UnityEngine.Color;
 
 public class ConcreteOctreeNode : MonoBehaviour
 {
-    [SerializeField] int id;
-    [SerializeField] int[] children;
-    [SerializeField] int[] bvhs;
+    [SerializeField] long id;
+    [SerializeField] long[] children;
+    [SerializeField] long[] bvhs;
     [Header("AABB")]
     [SerializeField] Vector3 max;
     [SerializeField] Vector3 min;

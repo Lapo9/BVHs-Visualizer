@@ -31,13 +31,13 @@ public class ConcretePlaneInfluenceArea : ConcreteInfluenceArea
     {
         Random.InitState(seed); //initialize randomness
         rays = new Ray[raysAmount];
-        var extent = InfluenceArea.Size;
+        var extent = InfluenceArea.planeInfluenceArea.Size;
 
         for (int i = 0; i < raysAmount; i++)
         {
             Vector3 rand = new Vector3(Random.Range(-extent.x, extent.x), Random.Range(-extent.y, extent.y)); //get a random position on the plane in local space
-            Vector3 pos = (Vector3)(transform.localToWorldMatrix * rand) + InfluenceArea.plane.Point; //transform the position of the ray in world space
-            rays[i] = new Ray(pos, InfluenceArea.plane.Normal);
+            Vector3 pos = (Vector3)(transform.localToWorldMatrix * rand) + InfluenceArea.planeInfluenceArea.plane.Point; //transform the position of the ray in world space
+            rays[i] = new Ray(pos, InfluenceArea.planeInfluenceArea.plane.Normal);
         }
 
         intersectionInfo = collectStats();

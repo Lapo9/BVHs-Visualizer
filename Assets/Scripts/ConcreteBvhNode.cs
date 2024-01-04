@@ -3,10 +3,10 @@ using UnityEngine;
 [ExecuteAlways]
 public class ConcreteBvhNode : MonoBehaviour
 {
-    [SerializeField] int id;
-    [SerializeField] int leftChild;
-    [SerializeField] int rightChild;
-    [SerializeField] int[] triangles;
+    [SerializeField] long id;
+    [SerializeField] long leftChild;
+    [SerializeField] long rightChild;
+    [SerializeField] long[] triangles;
     [Header("AABB")]
     [SerializeField] Vector3 max;
     [SerializeField] Vector3 min;

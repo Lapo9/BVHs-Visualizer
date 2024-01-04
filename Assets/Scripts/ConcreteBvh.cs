@@ -64,7 +64,7 @@ public class ConcreteBvh : MonoBehaviour
     /// <summary>
     /// Given the id of the data of a node, creates it in Unity (an object).
     /// </summary>
-    private void createNode(int id, ConcreteBvhNode parent = null)
+    private void createNode(long id, ConcreteBvhNode parent = null)
     {
         ConcreteBvhNode node = ConcreteBvhNode.initialize(BvhData.findNode(id), parent, concreteNodePrefab);
         if (parent == null) node.transform.parent = transform;
@@ -89,7 +89,7 @@ public class ConcreteBvh : MonoBehaviour
     /// Finds a node in the BVH with the required id, else throws.
     /// Only the leftmost node is returned.
     /// </summary>
-    public ConcreteBvhNode findConcreteNode(int id)
+    public ConcreteBvhNode findConcreteNode(long id)
     {
         var found = findConcreteNodeRecursive(Root, id);
         if (found != null) return found;
@@ -101,7 +101,7 @@ public class ConcreteBvh : MonoBehaviour
     /// Recursively looks for a node with the required id.
     /// The lookup is performed depth first, left to right.
     /// </summary>
-    private ConcreteBvhNode findConcreteNodeRecursive(ConcreteBvhNode node, int id)
+    private ConcreteBvhNode findConcreteNodeRecursive(ConcreteBvhNode node, long id)
     {
         //is this the node?
         if (node.Node.core.id == id) return node;

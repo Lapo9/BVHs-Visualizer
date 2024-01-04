@@ -5,6 +5,7 @@ using static Utilities;
 using System.Linq;
 using System.Collections.Generic;
 using System;
+using Newtonsoft.Json;
 
 [ExecuteAlways]
 public class Deserializer : MonoBehaviour
@@ -104,7 +105,7 @@ public class Deserializer : MonoBehaviour
         delete(); //delete old BVH
 
         string json = File.ReadAllText("Assets/Data/" + file);
-        topLevel = JsonUtility.FromJson<TopLevel>(json);
+        topLevel = JsonConvert.DeserializeObject<TopLevel>(json);
         Debug.Log("Deserialized");
 
         //create the BVH to show

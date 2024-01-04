@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ConcreteTriangle : MonoBehaviour
 {
-    [SerializeField] int id;
+    [SerializeField] long id;
     [SerializeField] Vector3 v1;
     [SerializeField] Vector3 v2;
     [SerializeField] Vector3 v3;

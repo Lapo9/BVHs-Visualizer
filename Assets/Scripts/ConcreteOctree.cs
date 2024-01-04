@@ -33,9 +33,9 @@ public class ConcreteOctree : MonoBehaviour
     /// <summary>
     /// Given the id of an octree node, it creates it (and all its children) in Unity.
     /// </summary>
-    private void createNode(int id, ConcreteOctreeNode parent = null)
+    private void createNode(long id, ConcreteOctreeNode parent = null)
     {
-        ConcreteOctreeNode node = ConcreteOctreeNode.initialize(TopLevel.findOctreeNode(id), parent, concreteOctreeNodePrefab);
+        ConcreteOctreeNode node = ConcreteOctreeNode.initialize(TopLevel.findOctreeNode(id), parent, concreteOctreeNodePrefab); //TODO it doescn't find the id
         if (parent == null) node.transform.parent = transform;
 
         //create children

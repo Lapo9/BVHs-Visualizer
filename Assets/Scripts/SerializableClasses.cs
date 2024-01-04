@@ -12,12 +12,12 @@ public struct TopLevel
     public List<Triangle> triangles;
     public List<OctreeNode> octree;
 
-    public Triangle findTriangle(int id)
+    public Triangle findTriangle(long id)
     {
         return triangles.First(t => t.id == id);
     }
 
-    public OctreeNode findOctreeNode(int id)
+    public OctreeNode findOctreeNode(long id)
     {
         return octree.First(n => n.id == id);
     }
@@ -37,7 +37,7 @@ public struct BvhData
     public InfluenceArea influenceArea;
 
 
-    public BvhNode findNode(int id)
+    public BvhNode findNode(long id)
     {
         return nodes.First(n => n.core.id == id);
     }
@@ -153,7 +153,7 @@ public struct GlobalInfo
 [Serializable]
 public struct Triangle
 {
-    public int id;
+    public long id;
     public List<float> v1;
     public List<float> v2;
     public List<float> v3;
@@ -188,10 +188,10 @@ public struct BvhNode
 [Serializable]
 public struct OctreeNode
 {
-    public int id;
+    public long id;
     public Aabb aabb;
-    public List<int> bvhs;
-    public List<int> children;
+    public List<long> bvhs;
+    public List<long> children;
     public bool isLeaf;
 }
 
@@ -199,10 +199,10 @@ public struct OctreeNode
 public struct Core
 {
     public Aabb aabb;
-    public int id;
-    public int leftChild;
-    public int rightChild;
-    public List<int> triangles;
+    public long id;
+    public long leftChild;
+    public long rightChild;
+    public List<long> triangles;
 }
 
 [Serializable]

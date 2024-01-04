@@ -33,7 +33,7 @@ public abstract class ConcreteBvhRegion : MonoBehaviour
     {
         //create the right BVH region based on type
         ConcreteBvhRegion region;
-        if (bvhRegion.type == "obb")
+        if (bvhRegion.type == "aabbForObb")
         {
             region = ConcreteObbBvhRegion.initialize(bvhRegion);
         }
