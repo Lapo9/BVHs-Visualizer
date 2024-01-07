@@ -19,7 +19,7 @@ public class ConcreteOctreeNode : MonoBehaviour
         //update infos to show
         id = Node.id;
         children = Node.children.ToArray();
-        bvhs = Node.bvhs.ToArray();
+        bvhs = Node.bvhs?.ToArray();
         max = Node.aabb.Max;
         min = Node.aabb.Min;
 
@@ -44,7 +44,7 @@ public class ConcreteOctreeNode : MonoBehaviour
         else if (node.isLeaf) cube.name = "Octree Leaf";
 
         //set color (if leaf with at least one BVH, else it is invisible)
-        if (node.isLeaf && node.bvhs.Count != 0)
+        if (node.isLeaf && node.bvhs != null)
         {
             Vector4 color = Vector3.zero;
             foreach (var bvh in node.bvhs)
@@ -82,7 +82,7 @@ public class ConcreteOctreeNode : MonoBehaviour
                 break;
             case ConcreteOctree.WhatToShow.LEAVES:
                 showWireframe = false;
-                GetComponent<MeshRenderer>().enabled = Node.isLeaf && Node.bvhs.Count != 0;
+                GetComponent<MeshRenderer>().enabled = Node.isLeaf && Node.bvhs != null;
                 break;
             case ConcreteOctree.WhatToShow.WIREFRAME:
                 showWireframe = true;
@@ -90,7 +90,7 @@ public class ConcreteOctreeNode : MonoBehaviour
                 break;
             case ConcreteOctree.WhatToShow.WIREFRAME_AND_LEAVES:
                 showWireframe = true;
-                GetComponent<MeshRenderer>().enabled = Node.isLeaf && Node.bvhs.Count != 0;
+                GetComponent<MeshRenderer>().enabled = Node.isLeaf && Node.bvhs != null;
                 break;
         }
     }

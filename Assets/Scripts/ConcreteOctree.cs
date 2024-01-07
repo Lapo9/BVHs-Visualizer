@@ -35,7 +35,7 @@ public class ConcreteOctree : MonoBehaviour
     /// </summary>
     private void createNode(long id, ConcreteOctreeNode parent = null)
     {
-        ConcreteOctreeNode node = ConcreteOctreeNode.initialize(TopLevel.findOctreeNode(id), parent, concreteOctreeNodePrefab); //TODO it doescn't find the id
+        ConcreteOctreeNode node = ConcreteOctreeNode.initialize(TopLevel.findOctreeNode(id), parent, concreteOctreeNodePrefab);
         if (parent == null) node.transform.parent = transform;
 
         //create children

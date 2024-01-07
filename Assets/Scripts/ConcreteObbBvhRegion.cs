@@ -24,7 +24,7 @@ public class ConcreteObbBvhRegion : ConcreteBvhRegion
     /// </summary>
     protected override void drawGizmo(Color color)
     {
-        vertices = Utilities.obbToPoints(BvhRegion.obb); //update vertices in inspector
+        vertices = Utilities.obbToPoints(BvhRegion.aabbForObb.obb); //update vertices in inspector
         Utilities.drawObbGizmo(BvhRegion.aabbForObb.obb, color);
     }
 }
