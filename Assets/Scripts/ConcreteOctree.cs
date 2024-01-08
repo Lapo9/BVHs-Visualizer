@@ -21,7 +21,7 @@ public class ConcreteOctree : MonoBehaviour
         octree.name = prefab.name;
 
         //create the octree to show
-        if (topLevel.octree.Count != 0)
+        if (topLevel.octree.nodes.Count != 0)
         {
             octree.createNode(topLevel.octreeRoot().id);
             octree.showMode(WhatToShow.LEAVES);

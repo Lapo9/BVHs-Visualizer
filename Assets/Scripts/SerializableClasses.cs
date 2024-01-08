@@ -10,7 +10,7 @@ public struct TopLevel
 {
     public List<BvhData> bvhs;
     public List<Triangle> triangles;
-    public List<OctreeNode> octree;
+    public Octree octree;
 
     public Triangle findTriangle(long id)
     {
@@ -19,12 +19,12 @@ public struct TopLevel
 
     public OctreeNode findOctreeNode(long id)
     {
-        return octree.First(n => n.id == id);
+        return octree.nodes.First(n => n.id == id);
     }
 
     public OctreeNode octreeRoot()
     {
-        return octree[0];
+        return octree.nodes[0];
     }
 }
 
@@ -46,6 +46,12 @@ public struct BvhData
     {
         return nodes[0];
     }
+}
+
+[Serializable]
+public struct Octree {
+    public List<OctreeNode> nodes;
+    //TODO there are properties and timing info, but we don't need them in this Unity visualizer most likely
 }
 
 [Serializable]
