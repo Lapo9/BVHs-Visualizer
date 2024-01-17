@@ -138,6 +138,8 @@ public struct Pov
     public List<float> position;
     public List<float> direction;
     public List<float> up;
+    public float fovX;
+    public float fovY;
 
     public Vector3 Position { get { return listToVector3(position); } }
     public Vector3 Direction { get { return listToVector3(direction); } }
@@ -160,13 +162,13 @@ public struct GlobalInfo
 public struct Triangle
 {
     public long id;
+    public List<float> v0;
     public List<float> v1;
     public List<float> v2;
-    public List<float> v3;
 
+    public Vector3 V0 { get { return listToVector3(v0); } }
     public Vector3 V1 { get { return listToVector3(v1); } }
     public Vector3 V2 { get { return listToVector3(v2); } }
-    public Vector3 V3 { get { return listToVector3(v3); } }
 
     public static bool operator==(Triangle a, Triangle b)
     {

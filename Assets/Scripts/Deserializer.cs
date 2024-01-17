@@ -6,6 +6,9 @@ using System.Linq;
 using System.Collections.Generic;
 using System;
 using Newtonsoft.Json;
+using static UnityEngine.Rendering.DebugUI.Table;
+using static UnityEngine.Rendering.VirtualTexturing.Debugging;
+using UnityEditor.Experimental.GraphView;
 
 [ExecuteAlways]
 public class Deserializer : MonoBehaviour
@@ -71,7 +74,6 @@ public class Deserializer : MonoBehaviour
     void OnDrawGizmos()
     {
         Transform selected = Selection.activeTransform; //object selected in the editor
-        if (lastSelected == selected) return;
 
         //returns true if the selected object is part of a BVH (e.g. ConcreteBvh, ConcreteInfluenceArea, ...)
         Func<Transform, (bool isPart, ConcreteBvh bvh)> partOfBvh = o =>
@@ -96,7 +98,6 @@ public class Deserializer : MonoBehaviour
 
         //if the selected object is not a node or a bvh, but the last one was
         else if (partOfBvh(lastSelected).isPart) showRestore();
-
         lastSelected = selected;
     }
 
@@ -104,8 +105,15 @@ public class Deserializer : MonoBehaviour
     {
         delete(); //delete old BVH
 
+
+
+        var settings = new JsonSerializerSettings
+        {
+            NullValueHandling = NullValueHandling.Ignore,
+            MissingMemberHandling = MissingMemberHandling.Ignore
+        };
         string json = File.ReadAllText("Assets/Data/" + file);
-        topLevel = JsonConvert.DeserializeObject<TopLevel>(json);
+        topLevel = JsonConvert.DeserializeObject<TopLevel>(json, settings);
         Debug.Log("Deserialized");
 
         //create the BVH to show
@@ -277,8 +285,8 @@ public class Deserializer : MonoBehaviour
             drawAabbGizmo(rightChild.Node.core.aabb, Color.blue);
 
             //highlight the internal triangles too
-            foreach (int i in leftChild.Node.core.triangles) drawTriangleGizmo(topLevel.findTriangle(i), Color.magenta);
-            foreach (int i in rightChild.Node.core.triangles) drawTriangleGizmo(topLevel.findTriangle(i), Color.cyan);
+            foreach (long i in leftChild.Node.core.triangles) drawTriangleGizmo(topLevel.findTriangle(i), Color.magenta);
+            foreach (long i in rightChild.Node.core.triangles) drawTriangleGizmo(topLevel.findTriangle(i), Color.cyan);
 
             //this way we print info about the selected node and children only once
             if (selected != lastSelected)
@@ -288,6 +296,7 @@ public class Deserializer : MonoBehaviour
                 Debug.Log(logNodeInfo(rightChild.Node, "Right child", "blue"));
             }
         }
+        else foreach (long i in selected.GetComponent<ConcreteBvhNode>().Node.core.triangles) drawTriangleGizmo(topLevel.findTriangle(i), Color.yellow);
 
         drawAabbGizmo(selectedNode.Node.core.aabb, Color.green); //highlight selected node
         ConcreteBvhNode[] selectedAndChildren = selectedNode.Node.isLeaf() ?

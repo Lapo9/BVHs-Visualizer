@@ -96,9 +96,9 @@ public class Utilities
     public static void drawTriangleGizmo(Triangle triangle, Color color = new Color())
     {
         if (color != new Color()) Gizmos.color = color;
+        Gizmos.DrawLine(triangle.V0, triangle.V1);
         Gizmos.DrawLine(triangle.V1, triangle.V2);
-        Gizmos.DrawLine(triangle.V2, triangle.V3);
-        Gizmos.DrawLine(triangle.V3, triangle.V1);
+        Gizmos.DrawLine(triangle.V2, triangle.V0);
 
     }
 

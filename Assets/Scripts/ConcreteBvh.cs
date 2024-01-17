@@ -37,7 +37,7 @@ public class ConcreteBvh : MonoBehaviour
 
         //create the BVH to show
         bvh.createNode(bvhData.root().core.id);
-        bvh.createInfluenceArea();
+        if(bvh.BvhData.influenceArea.type is "plane" or "point") bvh.createInfluenceArea();
 
         return bvh;
     }

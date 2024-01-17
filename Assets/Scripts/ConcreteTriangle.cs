@@ -13,9 +13,9 @@ public class ConcreteTriangle : MonoBehaviour
     void OnDrawGizmos()
     {
         id = Triangle.id;
-        v1 = Triangle.V1;
-        v2 = Triangle.V2;
-        v3 = Triangle.V3;
+        v1 = Triangle.V0;
+        v2 = Triangle.V1;
+        v3 = Triangle.V2;
     }
 
     public static ConcreteTriangle initialize(Triangle triangle, Transform parent, ConcreteTriangle prefab)
@@ -25,7 +25,7 @@ public class ConcreteTriangle : MonoBehaviour
         var mesh = new Mesh();
 
         //create the mesh
-        mesh.vertices = new Vector3[] { triangle.V1, triangle.V2, triangle.V3 };
+        mesh.vertices = new Vector3[] { triangle.V0, triangle.V1, triangle.V2 };
         mesh.triangles = new int[] { 0, 1, 2 };
         concreteTriangle.transform.GetComponent<MeshFilter>().sharedMesh = mesh;
 
