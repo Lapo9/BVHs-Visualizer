@@ -14,7 +14,7 @@ public class ConcretePlaneInfluenceArea : ConcreteInfluenceArea
         //set camera
         var cam = gameObject.AddComponent<Camera>();
         cam.orthographic = true;
-        cam.orthographicSize = 20f;
+        cam.orthographicSize = 2f;
         cam.targetDisplay = 0;
 
         //create region

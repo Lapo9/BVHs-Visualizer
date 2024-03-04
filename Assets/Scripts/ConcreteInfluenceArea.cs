@@ -178,7 +178,7 @@ public abstract class ConcreteInfluenceArea : MonoBehaviour
     /// </summary>
     protected IntersectionInfo collectStats()
     {
-        IntersectionInfo info = new IntersectionInfo();
+        IntersectionInfo info = new IntersectionInfo(0,0,0);
         foreach (var ray in rays)
         {
             info += countIntersections(ray);
